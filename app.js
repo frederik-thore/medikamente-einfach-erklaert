@@ -2403,6 +2403,206 @@ const reviewedDrafts = [
     sideEffects: "Übelkeit, Verstopfung, Schwindel, Müdigkeit, Benommenheit und Schwitzen können auftreten.",
     urgent: "Bei langsamer oder flacher Atmung, extremer Schläfrigkeit, Ohnmacht, nicht weckbarer Person oder einer schweren allergischen Reaktion sofort den Notruf wählen.",
     source: "Gebrauchsinformation: Palexia® retard 25 mg Retardtabletten (abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/pq/palexiaR-retard-25-mg-retardtabletten/", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "methotrexat", name: "Methotrexat", examples: "Referenzpräparat: Metex® Fertigspritze", category: "Rheumamittel",
+    purpose: "Methotrexat wird in niedriger Dosierung einmal wöchentlich bei entzündlich-rheumatischen Erkrankungen und bestimmten Hauterkrankungen eingesetzt.",
+    does: "Es bremst die fehlgeleitete Aktivität des Immunsystems und kann Entzündung, Schmerzen und Gelenkschäden verringern.",
+    doesNot: "Es ist kein Schmerzmittel für den akuten Bedarf und wirkt bei Rheuma erst nach einiger Zeit.",
+    daily: "WICHTIG: Bei Rheuma nur an einem festgelegten Tag EINMAL WÖCHENTLICH anwenden, niemals täglich. Blutbild sowie Leber- und Nierenwerte müssen kontrolliert werden; Folsäure nur nach Plan.",
+    sideEffects: "Übelkeit, Müdigkeit, Entzündungen im Mund, erhöhte Leberwerte und eine höhere Infektanfälligkeit können auftreten.",
+    urgent: "Bei Fieber, Husten oder Atemnot, starken Halsschmerzen, wunden Stellen im Mund, ungewöhnlichen Blutungen, Gelbfärbung oder Schwangerschaftsverdacht sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: Metex® Fertigspritze (abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/m/metexR-25-mgml-injektionsloesung-in-einer-fertigspritze", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "adalimumab", name: "Adalimumab", examples: "Referenzpräparat: Humira® Injektionslösung", category: "Rheumamittel",
+    purpose: "Adalimumab wird bei mehreren entzündlichen Erkrankungen eingesetzt, etwa Rheuma, Psoriasis, chronisch-entzündlichen Darmerkrankungen oder bestimmten Augenentzündungen.",
+    does: "Es blockiert den Entzündungsbotenstoff TNF und kann so Entzündungen und Beschwerden verringern.",
+    doesNot: "Es behandelt keine akute schwere Infektion und ist kein Schmerzmittel für den sofortigen Bedarf.",
+    daily: "Als Spritze nach dem persönlichen Plan anwenden. Vor Beginn und während der Behandlung auf Infektionen achten; Impfungen und andere Medikamente vorher besprechen.",
+    sideEffects: "Reaktionen an der Einstichstelle, Infekte der Atemwege, Kopfschmerzen und Hautausschlag können auftreten.",
+    urgent: "Bei Fieber, anhaltendem Husten, Atemnot, nächtlichem Schwitzen, starken Bauchschmerzen, Lähmungserscheinungen oder einer schweren allergischen Reaktion sofort medizinische Hilfe holen.",
+    source: "EMA: Humira® – Produktinformation (abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/humira", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "etanercept", name: "Etanercept", examples: "Referenzpräparat: Enbrel® Injektionslösung", category: "Rheumamittel",
+    purpose: "Etanercept wird bei entzündlichem Rheuma, Psoriasis und weiteren chronischen Entzündungserkrankungen eingesetzt.",
+    does: "Es blockiert den Entzündungsbotenstoff TNF und kann Schmerzen, Schwellungen und Entzündung verringern.",
+    doesNot: "Es ist kein Schmerzmittel für akute Beschwerden und sollte bei einer schweren Infektion nicht eigenständig weiterverwendet werden.",
+    daily: "Als Spritze nach Plan anwenden. Bei Zeichen einer Infektion vor der nächsten Dosis ärztlich Rücksprache halten; Impfungen vorher abklären.",
+    sideEffects: "Reaktionen an der Einstichstelle, Infekte der Atemwege, Kopfschmerzen und Hautausschlag können auftreten.",
+    urgent: "Bei Fieber, anhaltendem Husten, Atemnot, nächtlichem Schwitzen, starker Schwäche, neuen neurologischen Beschwerden oder schwerer allergischer Reaktion sofort Hilfe holen.",
+    source: "EMA: Enbrel® – Produktinformation (abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/enbrel", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "tocilizumab", name: "Tocilizumab", examples: "Referenzpräparat: RoActemra® Injektionslösung", category: "Rheumamittel",
+    purpose: "Tocilizumab wird bei bestimmten entzündlich-rheumatischen Erkrankungen und weiteren entzündlichen Erkrankungen eingesetzt.",
+    does: "Es blockiert den Entzündungsbotenstoff Interleukin-6 und kann Entzündung und Gelenkbeschwerden verringern.",
+    doesNot: "Es ist kein Schmerzmittel für den akuten Bedarf und kann eine Infektion nicht behandeln.",
+    daily: "Als Spritze oder Infusion nach Plan anwenden. Blutbild, Leberwerte und Blutfette werden kontrolliert; Infekte frühzeitig melden.",
+    sideEffects: "Infekte, Reaktionen an der Einstichstelle, Kopfschmerzen, erhöhte Leberwerte und Veränderungen des Blutbilds können auftreten.",
+    urgent: "Bei Fieber, starken Bauchschmerzen, schwarzem Stuhl, Atemnot, Gelbfärbung, starker Schwäche oder einer schweren allergischen Reaktion sofort Hilfe holen.",
+    source: "EMA: RoActemra® – Produktinformation (abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/roactemra", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "secukinumab", name: "Secukinumab", examples: "Referenzpräparat: Cosentyx® Injektionslösung", category: "Rheumamittel",
+    purpose: "Secukinumab wird bei Psoriasis, Psoriasis-Arthritis und bestimmten entzündlichen Wirbelsäulenerkrankungen eingesetzt.",
+    does: "Es blockiert den Entzündungsbotenstoff Interleukin-17A und kann Haut- und Gelenkentzündungen verringern.",
+    doesNot: "Es ist kein Akutmittel für Schmerzen und behandelt keine Infektion.",
+    daily: "Als Spritze nach Plan anwenden. Infektzeichen vor der nächsten Dosis abklären; Impfungen und bestehende Darmerkrankungen vorher besprechen.",
+    sideEffects: "Infekte der Atemwege, Durchfall, Kopfschmerzen und Reaktionen an der Einstichstelle können auftreten.",
+    urgent: "Bei Fieber, anhaltendem Husten, Atemnot, starken oder blutigen Durchfällen, Schwellung von Gesicht oder Hals oder schwerem Hautausschlag sofort Hilfe holen.",
+    source: "EMA: Cosentyx® – Produktinformation (aktualisiert 10/2025, abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/cosentyx", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "hydroxychloroquin", name: "Hydroxychloroquin", examples: "Referenzpräparat: Quensyl® Filmtabletten", category: "Rheumamittel",
+    purpose: "Hydroxychloroquin wird bei bestimmten rheumatischen Erkrankungen wie Lupus oder rheumatoider Arthritis eingesetzt.",
+    does: "Es beeinflusst das Immunsystem und kann Entzündungen langfristig verringern.",
+    doesNot: "Es ist kein Schmerzmittel mit Sofortwirkung und ersetzt keine Behandlung einer akuten Infektion.",
+    daily: "Regelmäßig wie verordnet einnehmen. Augenuntersuchungen und bei bestimmten Risiken Herz-Kontrollen sind wichtig; nicht selbst höher dosieren.",
+    sideEffects: "Übelkeit, Bauchschmerzen, Kopfschmerzen, Hautausschlag und Sehstörungen können auftreten.",
+    urgent: "Bei Sehverschlechterung, Herzrasen oder Ohnmacht, Muskelschwäche, schweren Unterzuckerungen oder einer starken Hautreaktion sofort Hilfe holen.",
+    source: "Gebrauchsinformation: Quensyl® Filmtabletten (abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/q/quensylR-200-mg-filmtabletten", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "leflunomid", name: "Leflunomid", examples: "Referenzpräparat: Arava® Filmtabletten", category: "Rheumamittel",
+    purpose: "Leflunomid wird bei aktiver rheumatoider Arthritis oder Psoriasis-Arthritis eingesetzt.",
+    does: "Es bremst die Aktivität des Immunsystems und kann Entzündung und Gelenkschäden verringern.",
+    doesNot: "Es ist kein Schmerzmittel für akute Beschwerden und wirkt nicht sofort.",
+    daily: "Nur unter fachärztlicher Kontrolle einnehmen. Blutbild, Leberwerte und Blutdruck müssen kontrolliert werden; Schwangerschaft unbedingt vermeiden und ärztlich besprechen.",
+    sideEffects: "Durchfall, Übelkeit, erhöhte Leberwerte, Blutdruckanstieg, Haarausfall und Infekte können auftreten.",
+    urgent: "Bei Fieber, Husten oder Atemnot, starken Halsschmerzen, ungewöhnlichen Blutungen, Gelbfärbung, schwerem Hautausschlag oder Schwangerschaftsverdacht sofort Hilfe holen.",
+    source: "EMA: Arava® – Produktinformation (abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/arava", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "sulfasalazin", name: "Sulfasalazin", examples: "Referenzpräparat: Azulfidine RA® magensaftresistente Tabletten", category: "Rheumamittel",
+    purpose: "Sulfasalazin wird bei rheumatoider Arthritis und je nach Präparat bei entzündlichen Darmerkrankungen eingesetzt.",
+    does: "Es kann Entzündung im Körper und in den Gelenken langfristig verringern.",
+    doesNot: "Es wirkt nicht sofort gegen Schmerzen und ist kein Antibiotikum für eine Infektion.",
+    daily: "Regelmäßig einnehmen und Blutbild sowie Leberwerte kontrollieren lassen. Ausreichend trinken, sofern medizinisch nichts dagegen spricht.",
+    sideEffects: "Übelkeit, Bauchbeschwerden, Kopfschmerzen, Hautausschlag, erhöhte Leberwerte und Blutbildveränderungen können auftreten.",
+    urgent: "Bei Fieber, Halsschmerzen, wunden Stellen im Mund, ungewöhnlichen Blutungen, Gelbfärbung, schwerem Hautausschlag oder Atemnot sofort Hilfe holen.",
+    source: "Gebrauchsinformation: Azulfidine RA® Tabletten (abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/a/azulfidine-raR-500-mg-magensaftresistente-tabletten", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "febuxostat", name: "Febuxostat", examples: "Referenzpräparat: Adenuric® Filmtabletten", category: "Gichtmittel",
+    purpose: "Febuxostat wird bei dauerhaft erhöhten Harnsäurewerten mit Gicht oder Harnsäureablagerungen eingesetzt.",
+    does: "Es senkt die Bildung von Harnsäure und soll langfristig Gichtanfälle und Ablagerungen verhindern.",
+    doesNot: "Es ist kein Schmerzmittel für einen akuten Gichtanfall. Zu Beginn können Gichtanfälle sogar vorübergehend häufiger werden.",
+    daily: "Regelmäßig einnehmen, auch wenn ein Gichtanfall auftritt – Änderungen nur mit der Praxis besprechen. Leberwerte und Herz-Kreislauf-Risiko beachten.",
+    sideEffects: "Gichtanfälle, Übelkeit, Durchfall, Hautausschlag, erhöhte Leberwerte und Schwellungen können auftreten.",
+    urgent: "Bei Brustschmerz, Atemnot, neuen neurologischen Ausfällen, schwerem Hautausschlag oder Blasenbildung, Gelbfärbung oder Atemnot sofort Hilfe holen.",
+    source: "EMA: Adenuric® – Produktinformation (abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/adenuric", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "risedronat", name: "Risedronat", examples: "Referenzpräparat: Actonel® Filmtabletten", category: "Knochen-Schutz",
+    purpose: "Risedronat wird zur Behandlung oder Vorbeugung von Osteoporose eingesetzt.",
+    does: "Es bremst den Knochenabbau und kann das Risiko bestimmter Knochenbrüche senken.",
+    doesNot: "Es behandelt keinen akuten Knochenbruch und lindert akute Rückenschmerzen nicht direkt.",
+    daily: "Je nach Präparat täglich, wöchentlich oder monatlich einnehmen. Mit Wasser nüchtern und aufrecht einnehmen; danach die vorgegebene Zeit nichts essen und nicht hinlegen.",
+    sideEffects: "Magen-Darm-Beschwerden, Sodbrennen, Knochen-, Muskel- oder Gelenkschmerzen können auftreten.",
+    urgent: "Bei Schluckbeschwerden, Schmerzen hinter dem Brustbein, schwarzem Stuhl, Kieferproblemen oder starken Muskel- und Knochenschmerzen zeitnah medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: Actonel® Filmtabletten (abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/a/actonelR-35-mg-filmtabletten", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "ibandronsaeure", name: "Ibandronsäure", examples: "Referenzpräparat: Bonviva® Filmtabletten", category: "Knochen-Schutz",
+    purpose: "Ibandronsäure wird zur Behandlung von Osteoporose bei Frauen nach den Wechseljahren eingesetzt.",
+    does: "Sie bremst den Knochenabbau und senkt nachweislich das Risiko für Wirbelbrüche.",
+    doesNot: "Sie heilt keinen akuten Knochenbruch und ersetzt Bewegung, ausreichende Kalzium- und Vitamin-D-Versorgung nicht.",
+    daily: "Je nach Präparat monatlich als Tablette oder in größeren Abständen als Spritze anwenden. Tabletten nüchtern mit Wasser und aufrecht einnehmen.",
+    sideEffects: "Magen-Darm-Beschwerden, Sodbrennen, Knochen-, Muskel- oder Gelenkschmerzen können auftreten.",
+    urgent: "Bei Schluckbeschwerden, Schmerzen hinter dem Brustbein, Kieferproblemen oder starken Muskel- und Knochenschmerzen zeitnah medizinische Hilfe holen.",
+    source: "EMA: Bonviva® – Produktinformation (abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/bonviva", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "latanoprost", name: "Latanoprost", examples: "Referenzpräparat: Xalatan® Augentropfen", category: "Augenmittel",
+    purpose: "Latanoprost wird bei erhöhtem Augeninnendruck und Offenwinkelglaukom eingesetzt.",
+    does: "Es verbessert den Abfluss von Kammerwasser aus dem Auge und kann so den Augeninnendruck senken.",
+    doesNot: "Es verbessert eine bereits verlorene Sehfähigkeit nicht und behandelt keine akute Augenverletzung oder plötzliche Sehstörung.",
+    daily: "Einmal täglich wie verordnet ins Auge tropfen. Tropferspitze nicht berühren; Kontaktlinsen- und Anwendungshinweise beachten.",
+    sideEffects: "Augenreizung, Rötung, Wimpernveränderungen und eine langsam zunehmende Braunfärbung der Iris können auftreten.",
+    urgent: "Bei plötzlichem Sehverlust, starken Augenschmerzen, Lichtempfindlichkeit, deutlicher Schwellung oder schwerer allergischer Reaktion sofort Hilfe holen.",
+    source: "Gebrauchsinformation: Xalatan® Augentropfen (abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/x/xalatanR-50-mikrogrammml-augentropfen", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "timolol-augen", name: "Timolol (Augentropfen)", examples: "Referenzpräparat: Tim-Ophtal® Augentropfen", category: "Augenmittel",
+    purpose: "Timolol als Augentropfen wird bei erhöhtem Augeninnendruck und Glaukom eingesetzt.",
+    does: "Es senkt die Bildung von Kammerwasser und kann dadurch den Augeninnendruck senken.",
+    doesNot: "Es stellt verlorenes Sehvermögen nicht wieder her und ist kein Mittel gegen plötzlich starke Augenschmerzen.",
+    daily: "Genau nach Plan tropfen. Nach dem Tropfen den inneren Augenwinkel kurz zudrücken, damit weniger Wirkstoff in den Körper gelangt. Bei Asthma oder Herzproblemen besonders abklären.",
+    sideEffects: "Augenbrennen, trockene Augen, langsamer Puls, niedriger Blutdruck, Müdigkeit und Atembeschwerden können auftreten.",
+    urgent: "Bei Atemnot oder pfeifender Atmung, Ohnmacht, sehr langsamem Puls, Brustschmerz, plötzlichem Sehverlust oder schwerer allergischer Reaktion sofort Hilfe holen.",
+    source: "Gebrauchsinformation: Tim-Ophtal® Augentropfen (abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/t/tim-ophtalR-025-augentropfen", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "dorzolamid-timolol", name: "Dorzolamid / Timolol", examples: "Referenzpräparat: Cosopt® Augentropfen", category: "Augenmittel",
+    purpose: "Die Kombination wird bei erhöhtem Augeninnendruck eingesetzt, wenn ein einzelner Wirkstoff nicht ausreicht.",
+    does: "Sie senkt über zwei Wege die Bildung von Kammerwasser und kann so den Augeninnendruck senken.",
+    doesNot: "Sie stellt verlorenes Sehvermögen nicht wieder her und ist nicht für plötzliche starke Augenschmerzen gedacht.",
+    daily: "Genau nach Plan tropfen und den inneren Augenwinkel kurz zudrücken. Bei Asthma, Herzproblemen oder Sulfonamid-Allergie ärztlich abklären.",
+    sideEffects: "Augenbrennen, bitterer Geschmack, Kopfschmerzen, langsamer Puls, Müdigkeit und Atembeschwerden können auftreten.",
+    urgent: "Bei Atemnot, Ohnmacht, sehr langsamem Puls, Brustschmerz, plötzlichem Sehverlust oder schwerer allergischer Reaktion sofort Hilfe holen.",
+    source: "Gebrauchsinformation: Cosopt® Augentropfen (abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/c/cosoptR-20-mgml5-mgml-augentropfen", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "brimonidin", name: "Brimonidin", examples: "Referenzpräparat: Alphagan® Augentropfen", category: "Augenmittel",
+    purpose: "Brimonidin als Augentropfen wird bei erhöhtem Augeninnendruck und Glaukom eingesetzt.",
+    does: "Es senkt die Bildung von Kammerwasser und verbessert teilweise dessen Abfluss. Dadurch kann der Augeninnendruck sinken.",
+    doesNot: "Es stellt verlorenes Sehvermögen nicht wieder her und ist keine Behandlung für eine akute Augenverletzung.",
+    daily: "Nach Plan tropfen und die Tropferspitze nicht berühren. Nach dem Tropfen den inneren Augenwinkel kurz zudrücken.",
+    sideEffects: "Rote oder juckende Augen, Mundtrockenheit, Müdigkeit, Kopfschmerzen und Schwindel können auftreten.",
+    urgent: "Bei plötzlichem Sehverlust, starken Augenschmerzen, deutlicher Schwellung, Ohnmacht oder einer schweren allergischen Reaktion sofort Hilfe holen.",
+    source: "Gebrauchsinformation: Alphagan® Augentropfen (abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/a/alphaganR-02-augentropfen", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "oxybutynin", name: "Oxybutynin", examples: "Referenzpräparat: Dridase® Tabletten", category: "Urologisches Medikament",
+    purpose: "Oxybutynin wird bei überaktiver Blase und bestimmten Formen von unwillkürlichem Urinverlust eingesetzt.",
+    does: "Es entspannt den Blasenmuskel und kann häufigen oder plötzlich starken Harndrang verringern.",
+    doesNot: "Es behandelt keine Harnwegsinfektion, keinen Harnverhalt und keine Ursache wie eine Prostatavergrößerung.",
+    daily: "Mundtrockenheit, Verstopfung und Benommenheit beachten. Bei älteren Menschen können Verwirrtheit und Sturzrisiko zunehmen; ausreichend trinken, sofern medizinisch nichts dagegen spricht.",
+    sideEffects: "Mundtrockenheit, Verstopfung, Sehstörungen, Benommenheit, Herzklopfen und Verwirrtheit können auftreten.",
+    urgent: "Bei Unfähigkeit zu urinieren, starken Bauchschmerzen, akuter Verwirrtheit, Fieber, plötzlichen Augenschmerzen oder einer schweren allergischen Reaktion sofort Hilfe holen.",
+    source: "Gebrauchsinformation: Dridase® Tabletten (abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/d/dridaseR-5-mg-tabletten", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "fesoterodin", name: "Fesoterodin", examples: "Referenzpräparat: Toviaz® Retardtabletten", category: "Urologisches Medikament",
+    purpose: "Fesoterodin wird bei überaktiver Blase mit häufigem, starkem Harndrang und Dranginkontinenz eingesetzt.",
+    does: "Es entspannt den Blasenmuskel und kann Drang und ungewollten Urinverlust verringern.",
+    doesNot: "Es behandelt keine Harnwegsinfektion und keine andere Ursache für Schmerzen beim Wasserlassen.",
+    daily: "Retardtabletten ganz schlucken. Mundtrockenheit, Verstopfung und Benommenheit beachten; bei älteren Menschen kann das Sturz- und Verwirrtheitsrisiko steigen.",
+    sideEffects: "Mundtrockenheit, Verstopfung, trockene Augen, Sehstörungen, Benommenheit und Probleme beim Wasserlassen können auftreten.",
+    urgent: "Bei Unfähigkeit zu urinieren, starken Bauchschmerzen, akuter Verwirrtheit, plötzlichen Augenschmerzen oder einer schweren allergischen Reaktion sofort Hilfe holen.",
+    source: "EMA: Toviaz® – Produktinformation (abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/toviaz", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "dutasterid", name: "Dutasterid", examples: "Referenzpräparat: Avodart® Weichkapseln", category: "Urologisches Medikament",
+    purpose: "Dutasterid wird bei gutartiger Prostatavergrößerung eingesetzt, um Beschwerden beim Wasserlassen und das Risiko eines Harnverhalts zu verringern.",
+    does: "Es senkt bestimmte männliche Hormone in der Prostata. Dadurch kann die Prostata über Monate kleiner werden.",
+    doesNot: "Es hilft nicht sofort bei Beschwerden und behandelt weder eine Prostataentzündung noch Prostatakrebs.",
+    daily: "Täglich wie verordnet einnehmen. Die Wirkung braucht Monate. Kapseln nicht öffnen; PSA-Werte und Vorsorgeuntersuchungen bleiben wichtig.",
+    sideEffects: "Erektionsstörungen, weniger Lust auf Sex, Ejakulationsstörungen, Brustempfindlichkeit oder Brustvergrößerung können auftreten.",
+    urgent: "Bei Knoten oder Ausfluss an der Brust, Schwellung von Gesicht oder Hals, Atemnot oder einer schweren Hautreaktion sofort Hilfe holen.",
+    source: "EMA: Avodart® – Produktinformation (abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/avodart", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "sildenafil", name: "Sildenafil", examples: "Referenzpräparat: Viagra® Filmtabletten", category: "Urologisches Medikament",
+    purpose: "Sildenafil wird bei erwachsenen Männern zur Behandlung einer Erektionsstörung eingesetzt.",
+    does: "Es verbessert bei sexueller Stimulation die Durchblutung des Penis und kann so eine Erektion ermöglichen.",
+    doesNot: "Es erzeugt keine sexuelle Lust, hilft nicht ohne sexuelle Stimulation und ist kein Mittel gegen Brustschmerz.",
+    daily: "Nur wie verordnet anwenden. Niemals zusammen mit Nitraten gegen Angina pectoris einnehmen; auch Herz-Kreislauf-Erkrankungen und andere Medikamente vorher abklären.",
+    sideEffects: "Kopfschmerzen, Gesichtsrötung, verstopfte Nase, Sodbrennen, Schwindel und Sehstörungen können auftreten.",
+    urgent: "Bei Brustschmerz, Ohnmacht, plötzlichem Sehverlust, Hörverlust oder einer schmerzhaften Erektion über vier Stunden sofort Hilfe holen.",
+    source: "EMA: Viagra® – Produktinformation (abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/viagra", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "tadalafil", name: "Tadalafil", examples: "Referenzpräparat: Cialis® Filmtabletten", category: "Urologisches Medikament",
+    purpose: "Tadalafil wird bei erwachsenen Männern bei Erektionsstörung und je nach Dosierung auch bei Beschwerden einer gutartigen Prostatavergrößerung eingesetzt.",
+    does: "Es entspannt Blutgefäße. Bei sexueller Stimulation kann es eine Erektion erleichtern; bei Prostatabeschwerden kann es den Harnfluss verbessern.",
+    doesNot: "Es erzeugt keine sexuelle Lust, hilft nicht ohne sexuelle Stimulation und ist kein Mittel gegen Brustschmerz.",
+    daily: "Nur wie verordnet anwenden. Niemals zusammen mit Nitraten gegen Angina pectoris einnehmen; Blutdruckmittel, Herzprobleme und andere Medikamente vorher abklären.",
+    sideEffects: "Kopfschmerzen, Gesichtsrötung, Sodbrennen, Rücken- oder Muskelschmerzen, verstopfte Nase und Schwindel können auftreten.",
+    urgent: "Bei Brustschmerz, Ohnmacht, plötzlichem Sehverlust, Hörverlust oder einer schmerzhaften Erektion über vier Stunden sofort Hilfe holen.",
+    source: "EMA: Cialis® – Produktinformation (aktualisiert 01/2026, abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/cialis", reviewStatus: "Quellenbasierter Entwurf"
   }
 ];
 
@@ -2469,7 +2669,9 @@ const commonBrandAliases = {
   venlafaxin: ["Trevilor", "Efexor"], fluoxetin: ["Fluctin"], bupropion: ["Elontril", "Zyban"], quetiapin: ["Seroquel"], olanzapin: ["Zyprexa"], aripiprazol: ["Abilify"], haloperidol: ["Haldol"], promethazin: ["Atosil"], melatonin: ["Circadin"], zopiclon: ["Ximovan"],
   amoxicillin: ["Amoxypen"], cefuroxim: ["Elobact"], doxycyclin: ["Vibramycin"], aciclovir: ["Zovirax"], nitrofurantoin: ["Furadantin", "Nifurantin"], levetiracetam: ["Keppra"], lamotrigin: ["Lamictal"], baclofen: ["Lioresal"], colchicin: ["Colchysat"],
   carbamazepin: ["Tegretal"], valproinsaeure: ["Ergenyl", "Orfiril"], topiramat: ["Topamax"], lacosamid: ["Vimpat"], pramipexol: ["Sifrol"], ropinirol: ["Requip"], "levodopa-benserazid": ["Madopar"], "levodopa-carbidopa": ["Nacom", "Sinemet"], sumatriptan: ["Imigran"], tapentadol: ["Palexia"],
-  prednisolon: ["Decortin"], dexamethason: ["Fortecortin"], donepezil: ["Aricept"], memantin: ["Ebixa", "Axura"], risperidon: ["Risperdal"]
+  prednisolon: ["Decortin"], dexamethason: ["Fortecortin"], donepezil: ["Aricept"], memantin: ["Ebixa", "Axura"], risperidon: ["Risperdal"],
+  methotrexat: ["Metex", "Lantarel"], adalimumab: ["Humira", "Amgevita", "Hyrimoz"], etanercept: ["Enbrel", "Benepali"], tocilizumab: ["RoActemra"], secukinumab: ["Cosentyx"], hydroxychloroquin: ["Quensyl"], leflunomid: ["Arava"], sulfasalazin: ["Azulfidine RA"], febuxostat: ["Adenuric"], risedronat: ["Actonel"], ibandronsaeure: ["Bonviva"],
+  latanoprost: ["Xalatan"], "timolol-augen": ["Tim-Ophtal"], "dorzolamid-timolol": ["Cosopt"], brimonidin: ["Alphagan"], oxybutynin: ["Dridase"], fesoterodin: ["Toviaz"], dutasterid: ["Avodart"], sildenafil: ["Viagra"], tadalafil: ["Cialis"]
 };
 
 const medications = [
