@@ -2794,6 +2794,56 @@ const reviewedDrafts = [
     sideEffects: "Bauchbeschwerden, Kopfschmerzen, Schlaf- und Stimmungsschwankungen sowie bei längerer oder höherer Belastung typische Kortisonwirkungen können auftreten.",
     urgent: "Bei Fieber oder Zeichen einer Infektion, schwarzem Stuhl, starken Bauchschmerzen, Sehstörungen, starker Verwirrtheit oder einer schweren allergischen Reaktion sofort medizinische Hilfe holen.",
     source: "Gebrauchsinformation: Budenofalk® Kapseln (abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/b/budenofalk-3-mg-magensaftresistente-hartkapseln", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "rizatriptan", name: "Rizatriptan", examples: "Referenzpräparat: Rizatriptan PUREN® 10 mg Schmelztabletten", category: "Migränemittel",
+    purpose: "Rizatriptan wird zur Behandlung eines Migräneanfalls mit oder ohne Aura bei Erwachsenen eingesetzt.",
+    does: "Es kann einen bereits begonnenen Migräneanfall lindern. Es wirkt auf bestimmte Botenstoffe und Blutgefäße im Kopf.",
+    doesNot: "Es verhindert Migräneanfälle nicht und ist nicht für andere, neue oder ungewöhnliche Kopfschmerzen gedacht.",
+    daily: "Nur nach dem persönlichen Plan für einen erkannten Migräneanfall anwenden. Nicht eigenständig mit einem anderen Triptan oder Ergotamin-Mittel kombinieren. Bei Herz-Kreislauf-Erkrankungen, Schlaganfall oder unkontrolliertem Bluthochdruck darf es nicht ohne ärztliche Abklärung eingesetzt werden.",
+    sideEffects: "Schwindel, Müdigkeit, Benommenheit, Übelkeit sowie Druck- oder Engegefühl im Hals, Brustkorb oder anderen Körperteilen können auftreten.",
+    urgent: "Bei Brustschmerz, Atemnot, Ohnmacht, Zeichen eines Schlaganfalls, einer schweren allergischen Reaktion oder einem ungewohnt starken Kopfschmerz sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: Rizatriptan PUREN® 10 mg Schmelztabletten (abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/r/rizatriptan-puren-10-mg-schmelztabletten", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "eletriptan", name: "Eletriptan", examples: "Referenzpräparat: RELPAX® Filmtabletten", category: "Migränemittel",
+    purpose: "Eletriptan wird zur Behandlung eines Migräneanfalls mit oder ohne Aura bei Erwachsenen eingesetzt.",
+    does: "Es kann einen bereits begonnenen Migräneanfall lindern. Es gehört zur Gruppe der Triptane.",
+    doesNot: "Es beugt Migräneanfällen nicht vor und ist nicht für andere, neue oder ungewöhnliche Kopfschmerzen gedacht.",
+    daily: "Nur nach dem persönlichen Plan für einen erkannten Migräneanfall anwenden. Innerhalb von 24 Stunden nicht mit einem anderen Triptan oder Ergotamin-Mittel kombinieren. Bei Herz- oder Gefäßerkrankungen, Schlaganfall oder unkontrolliertem Bluthochdruck darf es nicht ohne ärztliche Abklärung eingesetzt werden.",
+    sideEffects: "Schwindel, Müdigkeit, Übelkeit, Herzklopfen sowie Druck- oder Engegefühl im Hals oder Brustkorb können auftreten.",
+    urgent: "Bei Brustschmerz, Atemnot, Ohnmacht, Zeichen eines Schlaganfalls, einer schweren allergischen Reaktion oder einem ungewohnt starken Kopfschmerz sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: RELPAX® 20 mg und 40 mg Filmtabletten (Stand 11/2025, abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/r/relpaxR-20-mg-und-40-mg-filmtabletten?drucken=an", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "propranolol", name: "Propranolol", examples: "Referenzpräparat: Propranolol PUREN® Filmtabletten", category: "Migränevorbeugung",
+    purpose: "Propranolol kann zur Vorbeugung von Migräne eingesetzt werden. Es wird außerdem je nach Situation zum Beispiel bei Bluthochdruck oder bestimmten Herzerkrankungen verwendet.",
+    does: "Als Betablocker kann es die Häufigkeit von Migräneanfällen verringern. Es wird regelmäßig nach ärztlichem Plan eingenommen.",
+    doesNot: "Es behandelt keinen bereits laufenden Migräneanfall und wirkt nicht wie ein Schmerzmittel.",
+    daily: "Puls und Blutdruck können sinken. Nicht plötzlich selbst absetzen. Asthma oder andere Atemwegsprobleme, Diabetes sowie neue Medikamente immer mit Praxis oder Apotheke besprechen.",
+    sideEffects: "Müdigkeit, Schwindel, kalte Hände oder Füße, langsamer Puls, Magen-Darm-Beschwerden und Schlafstörungen können auftreten.",
+    urgent: "Bei Ohnmacht, sehr langsamem oder unregelmäßigem Puls, Atemnot oder pfeifender Atmung, starker Verwirrtheit oder einer schweren allergischen Reaktion sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: Propranolol PUREN® Filmtabletten (abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/pq/propranolol-puren-filmtabletten", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "erenumab", name: "Erenumab", examples: "Referenzpräparat: Aimovig® Fertigpen oder Fertigspritze", category: "Migränevorbeugung",
+    purpose: "Erenumab wird bei Erwachsenen zur Vorbeugung von Migräne eingesetzt, wenn mindestens vier Migränetage pro Monat auftreten.",
+    does: "Es blockiert die Andockstelle eines Migräne-Botenstoffs (CGRP). Dadurch kann es die Zahl der Migränetage verringern.",
+    doesNot: "Es ist kein Mittel für einen bereits laufenden Migräneanfall und ersetzt keine Abklärung neuer oder ungewöhnlicher Kopfschmerzen.",
+    daily: "Die Spritze wird nach einem festen ärztlichen Plan angewendet. Jede Änderung, eine Schwangerschaft oder neue Beschwerden mit dem Behandlungsteam besprechen.",
+    sideEffects: "Reaktionen an der Einstichstelle, Verstopfung, Muskelkrämpfe und Juckreiz können auftreten.",
+    urgent: "Bei Schwellung von Gesicht, Mund oder Hals, Atemnot, starker Hautreaktion oder schwerer beziehungsweise anhaltender Verstopfung sofort medizinische Hilfe holen oder das Behandlungsteam kontaktieren.",
+    source: "EMA: Aimovig® – Produktinformation (aktualisiert 12/2025, abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/aimovig", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "atogepant", name: "Atogepant", examples: "Referenzpräparat: AQUIPTA® Filmtabletten", category: "Migränemittel",
+    purpose: "Atogepant wird bei Erwachsenen zur Behandlung eines Migräneanfalls und zur Vorbeugung von Migräne eingesetzt; für die Vorbeugung gelten mindestens vier Migränetage pro Monat.",
+    does: "Es hemmt Botenstoffe, die an der Entstehung von Migräne beteiligt sind. Je nach ärztlichem Plan wird es zur Akutbehandlung oder zur Vorbeugung eingesetzt.",
+    doesNot: "Es behandelt nicht jede Ursache von Kopfschmerzen. Die Einnahme zur Vorbeugung und zur Akutbehandlung darf nicht selbst kombiniert werden.",
+    daily: "Genau den festgelegten Zweck und Einnahmeplan einhalten. Andere Migränemittel, Leber- oder Nierenerkrankungen sowie neue Medikamente mit Praxis oder Apotheke abgleichen.",
+    sideEffects: "Übelkeit, Verstopfung, Müdigkeit oder Schläfrigkeit, verminderter Appetit und Gewichtsabnahme können auftreten.",
+    urgent: "Bei Schwellung von Gesicht, Mund oder Hals, Atemnot, schwerer Hautreaktion, starker anhaltender Bauchbeschwerde oder deutlicher Gelbfärbung von Haut oder Augen sofort medizinische Hilfe holen.",
+    source: "EMA: AQUIPTA® – Produktinformation (aktualisiert 07/2026, abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/aquipta", reviewStatus: "Quellenbasierter Entwurf"
   }
 ];
 
@@ -2856,6 +2906,7 @@ const commonBrandAliases = {
   desloratadin: ["Aerius", "Aerius Lösung", "Desloratadin Heumann", "Desloratadin Aristo Lösung"], fexofenadin: ["Telfast"], azithromycin: ["Zithromax"], clarithromycin: ["Klacid"], cotrimoxazol: ["Cotrim forte-ratiopharm"], fosfomycin: ["Monuril", "Fosfomycin Aristo"], ciprofloxacin: ["Ciprobay"], valaciclovir: ["Valtrex"], fluconazol: ["Diflucan"], terbinafin: ["Lamisil"], nystatin: ["Nystatin Lederle"], mesalazin: ["Salofalk", "Pentasa"], pankreatin: ["Kreon", "Pangrol"], ursodeoxycholsaeure: ["Ursofalk"],
   dimenhydrinat: ["Vomex", "VomiSaft", "Vomex A"], "xylometazolin-dexpanthenol": ["Septanasal für Kinder", "Otriven Protect"],
   azathioprin: ["Azathioprin HEXAL", "Azafalk"], vedolizumab: ["Entyvio"], ustekinumab: ["Stelara"], infliximab: ["Remicade", "Remsima"], "budesonid-darm": ["Budenofalk", "Entocort"],
+  rizatriptan: ["Maxalt", "Rizatriptan PUREN"], eletriptan: ["Relpax"], propranolol: ["Dociton", "Obsidan", "Propranolol PUREN"], erenumab: ["Aimovig"], atogepant: ["Aquipta"],
   abirateron: ["Zytiga"], apalutamid: ["Erleada"], enzalutamid: ["Xtandi"], darolutamid: ["Nubeqa"], degarelix: ["Firmagon"], relugolix: ["Orgovyx"], denosumab: ["Prolia", "Xgeva"], zoledronsaeure: ["Zometa", "Aclasta"],
   olaparib: ["Lynparza"], talazoparib: ["Talzenna"], docetaxel: ["Taxotere"], cabazitaxel: ["Jevtana"], "radium-223-dichlorid": ["Xofigo"], "lutetium-177-vipivotid-tetraxetan": ["Pluvicto"], pembrolizumab: ["Keytruda"], nivolumab: ["Opdivo"], abemaciclib: ["Verzenios"], palbociclib: ["Ibrance"], ribociclib: ["Kisqali"], goserelin: ["Zoladex"], triptorelin: ["Pamorelin", "Decapeptyl"], bicalutamid: ["Casodex"],
   hydrocortison: ["Plenadren", "Hydrocortison Jenapharm"], methylprednisolon: ["Urbason", "Medrol"], filgrastim: ["Neupogen", "Zarzio"], pegfilgrastim: ["Neulasta", "Ziextenzo"], "epoetin-alfa": ["Eprex"], "darbepoetin-alfa": ["Aranesp"],
