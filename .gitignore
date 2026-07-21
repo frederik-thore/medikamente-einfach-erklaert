@@ -1,0 +1,16 @@
+# Betriebssystem und Editor
+.DS_Store
+.vscode/
+
+# Python-Laufzeitdateien
+__pycache__/
+*.py[cod]
+
+# Lokale Geheimnisse und Konfiguration
+.env
+.env.*
+!.env.example
+
+# Lokale Test- und Protokolldateien
+*.log
+coverage/
