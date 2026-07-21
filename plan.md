@@ -81,7 +81,7 @@ Die verständliche Zusammenfassung wird pro Wirkstoff/Präparat versioniert:
 5. Freigabe mit Datum, Prüferrolle und Quellenstand.
 6. Bei neuer Gebrauchsinformation: erneute Prüfung; bis dahin sichtbarer Hinweis „Überprüfung ausstehend“.
 
-Für die erste lokale Version reichen 10–20 häufig genutzte Medikamente aus dem tatsächlichen Umfeld der Eltern (mit Prüfung). Das reduziert medizinisches Risiko und erlaubt echte Nutzertests, bevor die Abdeckung skaliert wird.
+Für die erste lokale Version reichen 10–20 häufig genutzte Medikamente aus realistischen Alltagssituationen (mit Prüfung). Das reduziert medizinisches Risiko und erlaubt echte Nutzertests, bevor die Abdeckung skaliert wird.
 
 ### Sicherheitsregeln im Interface
 
@@ -163,7 +163,7 @@ Vor öffentlichem Betrieb: Datenschutzinformation, Impressum, Auftragsverarbeitu
 ### Phase 2 – Inhalts-Pilot und Test
 
 - Erste Inhalte medizinisch prüfen und mit Quellen verknüpfen.
-- Verständlichkeit mit Eltern/Angehörigen testen: Finden sie „Wofür?“, „Was nicht?“ und „Wann Hilfe?“ ohne Erklärung?
+- Verständlichkeit mit Personen aus der Zielgruppe testen: Finden sie „Wofür?“, „Was nicht?“ und „Wann Hilfe?“ ohne Erklärung?
 - Missverständnisse, insbesondere „Symptomlinderung vs. Heilung“, gezielt prüfen.
 
 **Ergebnis:** Validiertes Karten-Template und priorisierter Verbesserungsplan.
@@ -183,18 +183,18 @@ Vor öffentlichem Betrieb: Datenschutzinformation, Impressum, Auftragsverarbeitu
 
 ### Schritt 1 – Relevanz-Pilot: die wichtigsten Wirkstoffe zuerst
 
-Ziel: Eine vertrauenswürdige, fachlich geprüfte Sammlung für die häufigsten und risikoreichsten Alltagssituationen. Start mit rund 100–150 Wirkstoffen; zuerst die konkreten Medikamente der Eltern, sobald sie von einer Packung oder einem Rezept abgelesen werden können.
+Ziel: Eine vertrauenswürdige, fachlich geprüfte Sammlung für die häufigsten und risikoreichsten Alltagssituationen. Start mit rund 100–150 Wirkstoffen; zuerst häufige Präparate mit hohem Informations- und Sicherheitsbedarf.
 
 Prioritätsreihenfolge:
 
 1. Herz-Kreislauf und häufige chronische Erkrankungen: Blutdrucksenker, Blutverdünner, Cholesterinsenker, Diabetesmittel und Wassertabletten.
 2. Schmerz, Schlaf, Psyche und Neurologie: Schmerzmittel, Opioide, Schlaf-/Beruhigungsmittel, Antidepressiva und Antiepileptika – besonders wegen Müdigkeit, Stürzen, Verstopfung und Einschränkungen beim Autofahren.
 3. Magen-Darm und Atemwege: Magensäurehemmer, Abführmittel, Mittel gegen Übelkeit sowie häufige Inhalationsmedikamente.
-4. Onkologie und Begleitbehandlung: die tatsächlich verwendeten Wirkstoffe der Eltern sowie häufige Hormontherapien bei Prostatakrebs; nie als pauschale Therapieempfehlung.
+4. Onkologie und Begleitbehandlung: häufige Wirkstoffe und Hormontherapien; nie als pauschale Therapieempfehlung.
 
 Jeder Eintrag erhält eine Quellenverknüpfung, eine fachliche Freigabe und eine einfache „Was tut es nicht?“-Karte. Das ist die Stufe, die anderen Menschen bereits unmittelbar nützt.
 
-**Erfolgskriterium:** Für die häufigsten Suchanfragen und alle Medikamente im familiären Umfeld existiert eine geprüfte, leicht verständliche Karte.
+**Erfolgskriterium:** Für die häufigsten Suchanfragen und die priorisierten Alltagssituationen existiert eine geprüfte, leicht verständliche Karte.
 
 ### Schritt 2 – Breite Grundversorgung: häufige Wirkstoffe und Kombinationen
 
@@ -230,6 +230,73 @@ Für seltene Präparate, Klinikmedikamente, Impfstoffe, Blutprodukte und komplex
 3. **Schritt 3 als dauerhaften Pflegeprozess betreiben.** „Vollständig“ ist bei Zulassungen ein fortlaufender Zustand; jede neue oder geänderte Quelle erzeugt einen nachvollziehbaren Prüfauftrag.
 
 ## Messbare Erfolgskriterien für den MVP
+
+## Bedarfsorientierte Erweiterung: sinnvoll priorisieren
+
+Die App umfasst bereits quellenbasierte Entwurfskarten. Die weitere Abdeckung
+wird nach dem allgemeinen Nutzen, Sicherheitsrisiko und der jeweiligen
+Darreichungsform priorisiert. Eine Karte erklärt einen Wirkstoff oder eine
+sinnvoll abgegrenzte Kombination. Bei Kindern, Inhalatoren, Tropfen,
+Retardpräparaten und Spritzen braucht es zusätzlich eine präparat- und
+altersbezogene Anwendungskarte.
+
+### Ausbaureihenfolge in vier Wellen
+
+#### Welle A – Kinder und akute Versorgung
+
+1. Präparat-Mappings für Macrogol, Paracetamol- und Ibuprofen-Saft/Zäpfchen
+   sowie kindgerechte Nasensprays ergänzen.
+2. Wirkstoffkarten für Fieber/Schmerz, Verstopfung, Allergie und Inhalation
+   priorisieren. Antibiotika klar von Virusinfekten abgrenzen.
+3. Alter, Gewicht, Konzentration und Darreichungsform auf der Packung als
+   Pflichtprüfung markieren; nie individuelle ml-, Tropfen- oder
+   Dosisempfehlungen anzeigen.
+
+#### Welle B – chronische Entzündung und Migräne
+
+1. Form-spezifische Karten für entzündliche Darmerkrankungen ergänzen:
+   Tablette/Granulat, Zäpfchen, Rektalschaum und Einlauf.
+2. Dauertherapie, Schubbehandlung und Kortison klar voneinander abgrenzen.
+3. Akutmittel und Vorbeugung bei Migräne in getrennten Kategorien darstellen.
+4. Warnzeichen wie Blutungen, starke anhaltende Schmerzen, Fieber,
+   Austrocknung oder neue neurologische Ausfälle sichtbar priorisieren.
+
+#### Welle C – spezialisierte Immun- und Lungentherapien
+
+1. Erst eine reine Medikamentenliste erfassen: Handelsname, Wirkstoff,
+   Stärke, Darreichungsform und verordnende Fachrichtung.
+2. Danach nur konkret verwendete Wirkstoffe mit Originalquellen ergänzen.
+3. Für Kortisonkarten ein wiederkehrendes Modul vorsehen: nicht abrupt
+   absetzen, Infektzeichen, Blutzucker, Stimmung, Schlaf und Knochen-Schutz.
+4. Für Atemwegs- und Lungenmittel klare Hinweise zu Atemnot, Husten,
+   Sauerstoff und Notfallversorgung ergänzen.
+
+#### Welle D – Nachsorge, Herz und Mobilität
+
+1. Hormontherapien und ausgewählte onkologische Begleitmedikamente mit
+   verständlichen Thrombose-, Knochen- und Gelenkhinweisen ergänzen.
+2. Herz-Kreislauf-Karten mit einer optionalen Checkliste zu Blutungen,
+   Brustschmerz, Atemnot und Beinschwellung verknüpfen.
+3. Bei Gelenkoperationen und Osteoporose die relevanten Wirkstoffe erklären;
+   keine Diagnose- oder Operationsberatung geben.
+
+### Gemeinsame technische Erweiterungen
+
+1. Auf der Startseite lokale, allgemeine Filter wie „Kind“, „Magen-Darm",
+   „Allergie“, „Herz“ und „Krebstherapie“ anbieten. Keine Diagnose oder
+   Gesundheitsdaten im Browser speichern.
+2. Präparat-Varianten in Suchtreffern sichtbar machen: „Kindervariante",
+   „Retard“, „Spray“, „Zäpfchen“, „Spritze“ oder „Infusion“.
+3. Sicherheitsmodule für Unterzuckerung, Blutung, Infekt, Müdigkeit/Sturz,
+   Kortison und Immunsuppression nur nach präparatspezifischer Prüfung nutzen.
+4. Neue Karten in thematischen Paketen mit Referenzpräparat, Originalquelle,
+   Änderungsdatum und offenem Prüfstatus bereitstellen.
+
+### Entscheidungsregel
+
+Bei komplexen oder seltenen Erkrankungen werden erst die konkrete Diagnose und
+die tatsächlich verwendeten Präparate fachlich geprüft. Das schützt vor einer
+falschen Zuordnung und hält die App sicher.
 
 - Eine Testperson findet ein Medikament und die drei Kernaussagen in unter zwei Minuten.
 - Sie kann nach dem Lesen korrekt sagen, ob das Präparat Symptome lindert, eine Ursache behandelt oder beides.
