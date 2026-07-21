@@ -59,8 +59,6 @@ h2 { font-size: 1.35rem; letter-spacing: -.025em; margin-bottom: .85rem; }
 .preparation-note { color: #536174; font-size: .88rem; }
 .source { color: #536174; font-size: .86rem; margin-top: 1.2rem; }
 .source a { color: #175ea8; }
-footer { border-top: 1px solid #dfe4ea; color: #536174; font-size: .78rem; margin-top: 3rem; padding: 1.2rem .25rem 0; }
-footer p { margin-bottom: 0; }
 
 @media (max-width: 520px) {
   .page-shell { width: min(100% - 1.25rem, 760px); padding-top: 2rem; }
@@ -73,7 +71,7 @@ footer p { margin-bottom: 0; }
   .notice { background: #1b2b3b; color: #c6d7e9; }
   .info-card--warning { background: #1b2b3b; }
   .info-card--urgent { background: #30242a; }
-  .intro, .medication-card p, .detail-meta, .search-status, .source, footer, .eyebrow { color: #b6c1cf; }
+  .intro, .medication-card p, .detail-meta, .search-status, .source, .eyebrow { color: #b6c1cf; }
   .search input { background: #19232e; color: #ecf1f7; }
   .filter-label select { background: #19232e; border-color: #344252; color: #ecf1f7; }
 }
