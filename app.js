@@ -2844,6 +2844,56 @@ const reviewedDrafts = [
     sideEffects: "Übelkeit, Verstopfung, Müdigkeit oder Schläfrigkeit, verminderter Appetit und Gewichtsabnahme können auftreten.",
     urgent: "Bei Schwellung von Gesicht, Mund oder Hals, Atemnot, schwerer Hautreaktion, starker anhaltender Bauchbeschwerde oder deutlicher Gelbfärbung von Haut oder Augen sofort medizinische Hilfe holen.",
     source: "EMA: AQUIPTA® – Produktinformation (aktualisiert 07/2026, abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/aquipta", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "mesalazin-rektal", name: "Mesalazin (Rektalschaum, Zäpfchen oder Einlauf)", examples: "Referenzpräparat: Salofalk® Rektalschaum", category: "Darmerkrankungen",
+    purpose: "Rektale Mesalazin-Präparate werden bei Colitis ulcerosa eingesetzt, wenn die Entzündung den Enddarm oder den unteren Dickdarm betrifft.",
+    does: "Der Wirkstoff wirkt direkt an der Darmschleimhaut und kann dort die Entzündung verringern.",
+    doesNot: "Er behandelt nicht jede Ursache von Durchfall oder Bauchschmerzen. Rektalschaum, Zäpfchen und Einlauf sind nicht gleich und nicht selbst austauschbar.",
+    daily: "Genau die verordnete Darreichungsform und Anwendungstechnik nutzen. Die Behandlung nicht selbst beenden. Regelmäßige Blut- und Urinkontrollen können je nach Präparat vorgesehen sein.",
+    sideEffects: "Bauchbeschwerden, Blähungen, Übelkeit, Kopfschmerzen und örtliche Beschwerden im Enddarm können auftreten. Selten können Nierenprobleme oder schwere Hautreaktionen auftreten.",
+    urgent: "Bei Fieber, Atemnot, starker Hautreaktion, Blut im Urin, Flankenschmerzen, deutlich weniger Urin oder starken anhaltenden Bauchschmerzen sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: Salofalk® 1 g Rektalschaum (Stand 01/2025, abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/s/salofalkR-1-g-rektalschaum?schrift=0.7", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "tofacitinib", name: "Tofacitinib", examples: "Referenzpräparat: Xeljanz® Tabletten", category: "Darmerkrankungen",
+    purpose: "Tofacitinib wird bei Erwachsenen mit mittelschwerer bis schwerer Colitis ulcerosa eingesetzt, wenn andere Behandlungen nicht ausreichend geholfen haben, nicht mehr wirken oder nicht vertragen werden.",
+    does: "Es hemmt Enzyme des Immunsystems (JAK). Dadurch kann es die Entzündung im Darm und Beschwerden verringern.",
+    doesNot: "Es ist keine Selbstbehandlung für Bauchschmerzen oder Durchfall und behandelt keine Infektion.",
+    daily: "Nur nach einem festen Facharztplan einnehmen. Blutbild, Leberwerte und Infektzeichen werden kontrolliert. Impfungen, frühere Thrombosen, Herz-Kreislauf-Erkrankungen und neue Medikamente immer vorher besprechen.",
+    sideEffects: "Infekte, Kopfschmerzen, Durchfall, Übelkeit, erhöhte Blutfette und Veränderungen von Blutbild oder Leberwerten können auftreten.",
+    urgent: "Bei Fieber, Husten oder Atemnot, Gürtelrose-ähnlichem Ausschlag, einseitig geschwollenem oder schmerzendem Bein, plötzlichem Brustschmerz, Blut im Stuhl oder einer schweren allergischen Reaktion sofort medizinische Hilfe holen.",
+    source: "EMA: Xeljanz® – Produktinformation und Sicherheitsinformationen (abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/xeljanz", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "upadacitinib", name: "Upadacitinib", examples: "Referenzpräparat: Rinvoq® Retardtabletten", category: "Darmerkrankungen",
+    purpose: "Upadacitinib wird bei Erwachsenen mit mittelschwerer bis schwerer Colitis ulcerosa oder Morbus Crohn eingesetzt, wenn andere Behandlungen, auch Biologika, nicht ausreichend wirken oder nicht vertragen werden.",
+    does: "Es hemmt Enzyme des Immunsystems (JAK) und kann so die Entzündung und Beschwerden im Darm verringern.",
+    doesNot: "Es ist keine Selbstbehandlung für einen akuten Infekt, Bauchschmerzen oder Durchfall und darf nicht eigenständig begonnen, unterbrochen oder abgesetzt werden.",
+    daily: "Retardtabletten unzerkaut einnehmen. Blutbild, Leberwerte und Infektzeichen müssen kontrolliert werden. Impfungen, Herz-Kreislauf-Risiken, frühere Blutgerinnsel und neue Medikamente immer mit dem Behandlungsteam abgleichen.",
+    sideEffects: "Infekte, Übelkeit, Kopfschmerzen, Akne, erhöhte Blutfette sowie Veränderungen von Blutbild oder Leberwerten können auftreten.",
+    urgent: "Bei Fieber, Husten oder Atemnot, Gürtelrose-ähnlichem Ausschlag, einseitig geschwollenem oder schmerzendem Bein, plötzlichem Brustschmerz, starken Bauchschmerzen oder einer schweren allergischen Reaktion sofort medizinische Hilfe holen.",
+    source: "EMA: Rinvoq® – Produktinformation (aktualisiert 07/2026, abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/rinvoq", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "ozanimod", name: "Ozanimod", examples: "Referenzpräparat: Zeposia® Hartkapseln", category: "Darmerkrankungen",
+    purpose: "Ozanimod wird bei Erwachsenen mit mittelschwerer bis schwerer Colitis ulcerosa eingesetzt, wenn Standardtherapien oder Biologika nicht ausreichend wirken oder nicht angewendet werden können.",
+    does: "Es hält bestimmte Abwehrzellen stärker in den Lymphknoten zurück. Dadurch gelangen weniger dieser Zellen in den Darm und die Entzündung kann abnehmen.",
+    doesNot: "Es ist keine Selbstbehandlung für einen akuten Infekt oder einen schweren Durchfallschub und darf nicht selbst neu begonnen oder abgesetzt werden.",
+    daily: "Die Behandlung beginnt und endet nach einem genauen Facharztplan. Herzrhythmus, Leberwerte, Blutbild, Augen und Infektzeichen können vor oder während der Behandlung kontrolliert werden. Impfungen und neue Medikamente vorher abklären.",
+    sideEffects: "Erkältungsähnliche Infekte, erhöhte Leberwerte, Kopfschmerzen, Schwindel, niedriger Puls und erhöhter Blutdruck können auftreten.",
+    urgent: "Bei Fieber, Atemnot, sehr langsamem oder unregelmäßigem Herzschlag, Brustschmerz, plötzlich schlechterem Sehen, starker Gelbfärbung von Haut oder Augen oder einer schweren allergischen Reaktion sofort medizinische Hilfe holen.",
+    source: "EMA: Zeposia® – Produktinformation (abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/zeposia", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "filgotinib", name: "Filgotinib", examples: "Referenzpräparat: Jyseleca® Filmtabletten", category: "Darmerkrankungen",
+    purpose: "Filgotinib wird bei Erwachsenen mit mittelschwerer bis schwerer Colitis ulcerosa eingesetzt, wenn herkömmliche oder biologische Behandlungen nicht ausreichend wirken oder nicht vertragen werden.",
+    does: "Es hemmt ein Enzym des Immunsystems (JAK) und kann dadurch die Entzündung im Darm verringern.",
+    doesNot: "Es ist keine Selbstbehandlung für Bauchschmerzen oder Durchfall und behandelt keine Infektion.",
+    daily: "Nur nach festem Facharztplan einnehmen. Vor und während der Behandlung sind Blutkontrollen und die Kontrolle auf Infekte wichtig. Impfungen, frühere Blutgerinnsel, Herz-Kreislauf-Risiken und neue Medikamente immer vorher besprechen.",
+    sideEffects: "Infekte, Übelkeit, Kopfschmerzen, Schwindel und Veränderungen von Blutbild oder Leberwerten können auftreten.",
+    urgent: "Bei Fieber, Husten oder Atemnot, Gürtelrose-ähnlichem Ausschlag, einseitig geschwollenem oder schmerzendem Bein, plötzlichem Brustschmerz, Blut im Stuhl oder einer schweren allergischen Reaktion sofort medizinische Hilfe holen.",
+    source: "EMA: Jyseleca® – Produktinformation (aktualisiert 06/2025, abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/jyseleca", reviewStatus: "Quellenbasierter Entwurf"
   }
 ];
 
@@ -2907,6 +2957,7 @@ const commonBrandAliases = {
   dimenhydrinat: ["Vomex", "VomiSaft", "Vomex A"], "xylometazolin-dexpanthenol": ["Septanasal für Kinder", "Otriven Protect"],
   azathioprin: ["Azathioprin HEXAL", "Azafalk"], vedolizumab: ["Entyvio"], ustekinumab: ["Stelara"], infliximab: ["Remicade", "Remsima"], "budesonid-darm": ["Budenofalk", "Entocort"],
   rizatriptan: ["Maxalt", "Rizatriptan PUREN"], eletriptan: ["Relpax"], propranolol: ["Dociton", "Obsidan", "Propranolol PUREN"], erenumab: ["Aimovig"], atogepant: ["Aquipta"],
+  "mesalazin-rektal": ["Salofalk Rektalschaum", "Salofalk Klysmen", "Salofalk Zäpfchen"], tofacitinib: ["Xeljanz"], upadacitinib: ["Rinvoq"], ozanimod: ["Zeposia"], filgotinib: ["Jyseleca"],
   abirateron: ["Zytiga"], apalutamid: ["Erleada"], enzalutamid: ["Xtandi"], darolutamid: ["Nubeqa"], degarelix: ["Firmagon"], relugolix: ["Orgovyx"], denosumab: ["Prolia", "Xgeva"], zoledronsaeure: ["Zometa", "Aclasta"],
   olaparib: ["Lynparza"], talazoparib: ["Talzenna"], docetaxel: ["Taxotere"], cabazitaxel: ["Jevtana"], "radium-223-dichlorid": ["Xofigo"], "lutetium-177-vipivotid-tetraxetan": ["Pluvicto"], pembrolizumab: ["Keytruda"], nivolumab: ["Opdivo"], abemaciclib: ["Verzenios"], palbociclib: ["Ibrance"], ribociclib: ["Kisqali"], goserelin: ["Zoladex"], triptorelin: ["Pamorelin", "Decapeptyl"], bicalutamid: ["Casodex"],
   hydrocortison: ["Plenadren", "Hydrocortison Jenapharm"], methylprednisolon: ["Urbason", "Medrol"], filgrastim: ["Neupogen", "Zarzio"], pegfilgrastim: ["Neulasta", "Ziextenzo"], "epoetin-alfa": ["Eprex"], "darbepoetin-alfa": ["Aranesp"],
