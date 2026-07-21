@@ -2203,6 +2203,206 @@ const reviewedDrafts = [
     source: "Gebrauchsinformation: Ursofalk® Kapseln (abgerufen am 21.07.2026)",
     sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/u/ursofalkR-250-mg-kapseln",
     reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "venlafaxin", name: "Venlafaxin", examples: "Referenzpräparat: Trevilor® retard Kapseln", category: "Antidepressivum",
+    purpose: "Venlafaxin wird bei Depressionen und bestimmten Angststörungen eingesetzt.",
+    does: "Es beeinflusst Botenstoffe im Gehirn und kann Stimmung, Antrieb und Angstsymptome verbessern.",
+    doesNot: "Es wirkt nicht sofort und ist kein Beruhigungsmittel für eine akute Krise.",
+    daily: "Regelmäßig einnehmen und nicht abrupt absetzen. Zu Beginn und bei Dosisänderungen können Beschwerden vorübergehend stärker sein; Blutdruckkontrollen können nötig sein.",
+    sideEffects: "Übelkeit, Schwitzen, Schlafstörungen, Kopfschmerzen, Schwindel, Mundtrockenheit und Blutdruckanstieg können auftreten.",
+    urgent: "Bei Gedanken, sich selbst zu verletzen, starker Unruhe, hohem Fieber mit Muskelsteife, Krampfanfällen, schwerem Hautausschlag oder Brustschmerz sofort Hilfe holen.",
+    source: "Gebrauchsinformation: Trevilor® retard Kapseln (abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/t/trevilorR-retard-75-mg-hartkapseln-retardiert", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "fluoxetin", name: "Fluoxetin", examples: "Referenzpräparat: Fluctin® Kapseln", category: "Antidepressivum",
+    purpose: "Fluoxetin wird bei Depressionen und je nach Situation weiteren psychischen Erkrankungen eingesetzt.",
+    does: "Es erhöht die Verfügbarkeit des Botenstoffs Serotonin im Gehirn und kann Stimmung und Antrieb verbessern.",
+    doesNot: "Es ist kein sofort wirksames Beruhigungsmittel und ersetzt keine Hilfe in einer akuten psychischen Krise.",
+    daily: "Regelmäßig einnehmen und nicht selbst abrupt absetzen. Wechselwirkungen, zum Beispiel mit Schmerz- oder Migränemitteln, vorher abklären.",
+    sideEffects: "Übelkeit, Schlafstörungen, Kopfschmerzen, Unruhe, Schwitzen und sexuelle Funktionsstörungen können auftreten.",
+    urgent: "Bei Gedanken, sich selbst zu verletzen, starker Unruhe, hohem Fieber mit Muskelsteife, Krampfanfällen oder schwerer allergischer Reaktion sofort Hilfe holen.",
+    source: "Gebrauchsinformation: Fluctin® Kapseln (abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/f/fluctinR-20-mg-kapseln", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "bupropion", name: "Bupropion", examples: "Referenzpräparat: Elontril® Retardtabletten", category: "Antidepressivum",
+    purpose: "Bupropion wird zur Behandlung von Depressionen eingesetzt.",
+    does: "Es beeinflusst die Botenstoffe Noradrenalin und Dopamin und kann Antrieb und Stimmung verbessern.",
+    doesNot: "Es ist kein Schlafmittel und wirkt nicht sofort gegen eine akute psychische Krise.",
+    daily: "Retardtabletten unzerkaut einnehmen und nicht eigenmächtig absetzen. Das Risiko für Krampfanfälle steigt bei zu hoher Dosis oder bestimmten Vorerkrankungen.",
+    sideEffects: "Schlafstörungen, Mundtrockenheit, Kopfschmerzen, Übelkeit, Unruhe und Blutdruckanstieg können auftreten.",
+    urgent: "Bei Krampfanfall, Gedanken, sich selbst zu verletzen, schwerer allergischer Reaktion, starkem Herzrasen oder Brustschmerz sofort Hilfe holen.",
+    source: "Gebrauchsinformation: Elontril® Retardtabletten (abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/e/elontrilR-150-mg-retardtabletten", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "quetiapin", name: "Quetiapin", examples: "Referenzpräparat: Seroquel® Filmtabletten", category: "Antipsychotikum",
+    purpose: "Quetiapin wird je nach Dosierung bei bestimmten psychischen Erkrankungen eingesetzt, zum Beispiel bipolarer Störung, Schizophrenie oder Depression als Zusatzbehandlung.",
+    does: "Es beeinflusst mehrere Botenstoffe im Gehirn und kann psychotische Symptome, starke Stimmungsschwankungen oder Unruhe verringern.",
+    doesNot: "Es ist kein allgemeines Schlafmittel und nicht für jede Form von Unruhe geeignet.",
+    daily: "Kann stark müde und schwindelig machen. Langsam aufstehen, kein Alkohol und nicht fahren, solange die Wirkung nicht sicher eingeschätzt werden kann. Nicht plötzlich absetzen.",
+    sideEffects: "Müdigkeit, Schwindel, Gewichtszunahme, Mundtrockenheit, Verstopfung, niedriger Blutdruck beim Aufstehen und erhöhte Blutzuckerwerte können auftreten.",
+    urgent: "Bei hohem Fieber mit Muskelsteife und Verwirrtheit, unwillkürlichen Bewegungen, Ohnmacht, starkem Herzrasen oder schwerer allergischer Reaktion sofort Hilfe holen.",
+    source: "Gebrauchsinformation: Seroquel® Filmtabletten (abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/s/seroquelR-25-mg-filmtabletten", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "olanzapin", name: "Olanzapin", examples: "Referenzpräparat: Zyprexa® Filmtabletten", category: "Antipsychotikum",
+    purpose: "Olanzapin wird bei Schizophrenie und bestimmten Phasen bipolarer Störungen eingesetzt.",
+    does: "Es beeinflusst Botenstoffe im Gehirn und kann psychotische Symptome, starke Unruhe und Stimmungsschwankungen verringern.",
+    doesNot: "Es ist kein allgemeines Schlafmittel und keine Akutbehandlung für jede Verwirrtheit.",
+    daily: "Müdigkeit und Gewichtszunahme beachten. Blutzucker und Blutfette werden oft kontrolliert; nicht ohne Rücksprache absetzen.",
+    sideEffects: "Müdigkeit, Gewichtszunahme, gesteigerter Appetit, Schwindel, Verstopfung und erhöhte Blutzucker- oder Blutfettwerte können auftreten.",
+    urgent: "Bei hohem Fieber mit Muskelsteife und Verwirrtheit, unwillkürlichen Bewegungen, sehr hohem Blutzucker, Ohnmacht oder schwerer allergischer Reaktion sofort Hilfe holen.",
+    source: "EMA: Zyprexa® – Produktinformation (abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/zyprexa", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "aripiprazol", name: "Aripiprazol", examples: "Referenzpräparat: Abilify® Tabletten", category: "Antipsychotikum",
+    purpose: "Aripiprazol wird bei Schizophrenie und bestimmten Phasen bipolarer Störungen eingesetzt; je nach Situation auch bei Depression als Zusatzbehandlung.",
+    does: "Es beeinflusst Dopamin- und Serotoninsysteme im Gehirn und kann psychotische Symptome oder starke Stimmungsschwankungen verringern.",
+    doesNot: "Es ist kein Mittel für eine akute Selbstgefährdung oder jede Form von Schlafstörung.",
+    daily: "Regelmäßig einnehmen und nicht selbst absetzen. Auf neue starke Impulse wie Glücksspiel-, Kauf- oder Essdrang achten und diese früh ansprechen.",
+    sideEffects: "Unruhe, Schlafstörungen, Übelkeit, Schwindel, Zittern und Bewegungsstörungen können auftreten.",
+    urgent: "Bei hohem Fieber mit Muskelsteife und Verwirrtheit, neuen unkontrollierbaren Bewegungen, Gedanken zur Selbstverletzung, Ohnmacht oder schwerer allergischer Reaktion sofort Hilfe holen.",
+    source: "EMA: Abilify® – Produktinformation (abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/abilify", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "haloperidol", name: "Haloperidol", examples: "Referenzpräparat: Haldol® Tabletten", category: "Antipsychotikum",
+    purpose: "Haloperidol wird bei bestimmten psychotischen Erkrankungen und schweren Unruhezuständen eingesetzt.",
+    does: "Es dämpft eine übermäßige Dopaminwirkung im Gehirn und kann Wahn, Halluzinationen und starke Unruhe verringern.",
+    doesNot: "Es ist kein Mittel gegen eine unklare akute Verwirrtheit, deren Ursache zuerst ärztlich abgeklärt werden muss.",
+    daily: "Kann müde machen und die Beweglichkeit beeinflussen. Nicht ohne Rücksprache absetzen; bei älteren Menschen besonders sorgfältig ärztlich überwachen.",
+    sideEffects: "Bewegungsstörungen, Zittern, Muskelsteife, Müdigkeit, niedriger Blutdruck beim Aufstehen und Herzrhythmusstörungen können auftreten.",
+    urgent: "Bei hohem Fieber mit Muskelsteife und Verwirrtheit, schmerzhaften Krämpfen von Augen oder Hals, Ohnmacht, Herzrasen oder Schluck- und Atembeschwerden sofort Hilfe holen.",
+    source: "EMA: Haldol® – Produktinformation (abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/haldol", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "promethazin", name: "Promethazin", examples: "Referenzpräparat: Atosil® Tropfen", category: "Beruhigungsmittel",
+    purpose: "Promethazin wird je nach Präparat bei starker Unruhe, bestimmten Allergiebeschwerden oder Übelkeit eingesetzt.",
+    does: "Es dämpft bestimmte Botenstoffwirkungen und kann stark beruhigen und müde machen.",
+    doesNot: "Es behandelt nicht die Ursache einer neuen Verwirrtheit, eines Delirs oder einer schweren allergischen Reaktion.",
+    daily: "Kann die Reaktionsfähigkeit deutlich beeinträchtigen: kein Alkohol, kein Fahren und besonders vorsichtig beim Aufstehen. Nicht zusammen mit anderen beruhigenden Mitteln ohne Rücksprache nehmen.",
+    sideEffects: "Starke Müdigkeit, Schwindel, Mundtrockenheit, Verstopfung, Sehstörungen und niedriger Blutdruck beim Aufstehen können auftreten.",
+    urgent: "Bei Atemnot, Ohnmacht, hohem Fieber mit Muskelsteife, unwillkürlichen Bewegungen oder schwerer allergischer Reaktion sofort Hilfe holen.",
+    source: "Gebrauchsinformation: Atosil® Tropfen (abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/a/atosilR-tropfen", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "melatonin", name: "Melatonin", examples: "Referenzpräparat: Circadin® 2 mg Retardtabletten", category: "Schlafmittel",
+    purpose: "Melatonin retard wird bei Menschen ab 55 Jahren kurzfristig zur Behandlung einer primären Schlafstörung mit schlechter Schlafqualität eingesetzt.",
+    does: "Es ersetzt beziehungsweise ergänzt das körpereigene Schlafhormon und soll den Schlaf-Wach-Rhythmus unterstützen.",
+    doesNot: "Es behandelt keine Ursache einer neuen Schlafstörung, etwa Schmerzen, Atemaussetzer, Depression oder Nebenwirkungen anderer Medikamente.",
+    daily: "Wie verordnet nach dem Essen vor dem Schlafengehen einnehmen. Kann am nächsten Tag müde machen; Alkohol meiden und nicht fahren, wenn man sich beeinträchtigt fühlt.",
+    sideEffects: "Müdigkeit, Schwindel, Kopfschmerzen, Bauchbeschwerden und ungewöhnliche Träume können auftreten.",
+    urgent: "Bei Ohnmacht, starker Verwirrtheit, schwerer allergischer Reaktion oder neu auftretenden Gedanken zur Selbstverletzung sofort Hilfe holen.",
+    source: "EMA: Circadin® – Produktinformation (aktualisiert 07/2025, abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/circadin", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "zopiclon", name: "Zopiclon", examples: "Referenzpräparat: Zopiclon-ratiopharm® Filmtabletten", category: "Schlafmittel",
+    purpose: "Zopiclon wird zur kurzfristigen Behandlung schwerer Schlafstörungen eingesetzt.",
+    does: "Es beruhigt das Nervensystem und kann beim Einschlafen und Durchschlafen helfen.",
+    doesNot: "Es beseitigt die Ursache einer Schlafstörung nicht und ist nicht für eine dauerhafte tägliche Anwendung gedacht.",
+    daily: "Nur unmittelbar vor dem Schlafengehen wie verordnet einnehmen und eine ausreichende Schlafzeit einplanen. Kein Alkohol, keine zusätzlichen Beruhigungsmittel ohne Rücksprache; Sturzrisiko beachten.",
+    sideEffects: "Bitterer Geschmack, Tagesmüdigkeit, Schwindel, Gedächtnisstörungen, Muskelschwäche und Stürze können auftreten.",
+    urgent: "Bei langsamer oder flacher Atmung, starker Benommenheit, Schlafwandeln oder anderen ungewöhnlichen Handlungen, Ohnmacht oder allergischer Reaktion sofort Hilfe holen.",
+    source: "Gebrauchsinformation: Zopiclon-ratiopharm® Filmtabletten (abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/z/zopiclon-ratiopharmR-75-mg-filmtabletten", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "carbamazepin", name: "Carbamazepin", examples: "Referenzpräparat: Tegretal® Tabletten", category: "Antiepileptikum",
+    purpose: "Carbamazepin wird bei bestimmten epileptischen Anfällen und Nervenschmerzen eingesetzt.",
+    does: "Es stabilisiert die elektrische Erregbarkeit von Nervenzellen und kann dadurch Anfälle oder Nervenschmerzen verringern.",
+    doesNot: "Es beendet nicht jeden akuten Krampfanfall und ist kein allgemeines Schmerzmittel.",
+    daily: "Regelmäßig und nicht abrupt absetzen. Blutbild, Leberwerte und Natrium können kontrolliert werden; viele Wechselwirkungen vorher abklären.",
+    sideEffects: "Schwindel, Müdigkeit, Doppeltsehen, Übelkeit, niedriger Natriumwert und Hautausschlag können auftreten.",
+    urgent: "Bei Fieber, Halsschmerzen, wunden Stellen im Mund, ungewöhnlichen Blutungen, schwerem Hautausschlag oder Blasenbildung, Gelbfärbung oder starker Verwirrtheit sofort Hilfe holen.",
+    source: "Gebrauchsinformation: Tegretal® Tabletten (abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/t/tegretalR-200-mg-tabletten", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "valproinsaeure", name: "Valproinsäure", examples: "Referenzpräparat: Ergenyl® chrono Retardtabletten", category: "Antiepileptikum",
+    purpose: "Valproinsäure wird bei bestimmten Formen der Epilepsie und je nach Präparat bei manischen Phasen eingesetzt.",
+    does: "Sie stabilisiert die Erregbarkeit im Gehirn und kann Anfälle oder manische Symptome verringern.",
+    doesNot: "Sie beendet keinen akuten Krampfanfall und darf nicht plötzlich abgesetzt werden.",
+    daily: "Regelmäßig einnehmen; Leberwerte und Blutbild können kontrolliert werden. Für Schwangerschaft und Zeugung gelten besondere Sicherheitsregeln – unbedingt ärztlich oder apothekerlich besprechen.",
+    sideEffects: "Übelkeit, Zittern, Gewichtszunahme, Haarausfall, Müdigkeit und Blutbild- oder Leberwertveränderungen können auftreten.",
+    urgent: "Bei starken Bauchschmerzen mit Erbrechen, Gelbfärbung, ungewöhnlichen Blutungen, starker Schläfrigkeit oder einer schweren allergischen Reaktion sofort Hilfe holen.",
+    source: "Gebrauchsinformation: Ergenyl® chrono Retardtabletten (abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/e/ergenylR-chrono-500-mg-retardtabletten", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "topiramat", name: "Topiramat", examples: "Referenzpräparat: Topamax® Filmtabletten", category: "Antiepileptikum",
+    purpose: "Topiramat wird bei bestimmten epileptischen Anfällen und zur Vorbeugung von Migräne eingesetzt.",
+    does: "Es stabilisiert die Erregbarkeit von Nervenzellen und kann die Häufigkeit von Anfällen oder Migräneattacken senken.",
+    doesNot: "Es beendet keinen akuten Krampfanfall und ist kein Schmerzmittel für eine laufende Migräneattacke.",
+    daily: "Langsam nach Plan aufdosieren und nicht abrupt absetzen. Ausreichend trinken, sofern medizinisch nichts dagegen spricht; Konzentration und Sehen beachten.",
+    sideEffects: "Kribbeln, Müdigkeit, Konzentrationsprobleme, Gewichtsabnahme, Geschmacksveränderungen und Nierensteine können auftreten.",
+    urgent: "Bei plötzlicher Sehverschlechterung oder Augenschmerz, starker Verwirrtheit, deutlicher Überhitzung mit wenig Schwitzen, Suizidgedanken oder schwerer allergischer Reaktion sofort Hilfe holen.",
+    source: "EMA: Topamax® – Produktinformation (abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/topamax", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "lacosamid", name: "Lacosamid", examples: "Referenzpräparat: Vimpat® Filmtabletten", category: "Antiepileptikum",
+    purpose: "Lacosamid wird allein oder zusammen mit anderen Mitteln bei bestimmten epileptischen Anfällen eingesetzt.",
+    does: "Es stabilisiert die elektrische Aktivität von Nervenzellen und kann epileptische Anfälle verringern.",
+    doesNot: "Es beendet nicht jeden akuten Krampfanfall und ist kein allgemeines Beruhigungsmittel.",
+    daily: "Regelmäßig einnehmen und nicht abrupt absetzen. Wegen Schwindel und möglicher Herzrhythmuswirkung besonders beim Aufstehen und bei Herzkrankheiten vorsichtig sein.",
+    sideEffects: "Schwindel, Kopfschmerzen, Übelkeit, Doppeltsehen, Müdigkeit und Stürze können auftreten.",
+    urgent: "Bei Ohnmacht, neuem Herzrasen oder unregelmäßigem Puls, starker Atemnot, schwerem Hautausschlag oder deutlicher Verschlechterung der Stimmung sofort Hilfe holen.",
+    source: "EMA: Vimpat® – Produktinformation (aktualisiert 05/2025, abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/vimpat", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "pramipexol", name: "Pramipexol", examples: "Referenzpräparat: Sifrol® Tabletten", category: "Parkinsonmittel",
+    purpose: "Pramipexol wird bei Parkinson und je nach Dosierung bei einem Restless-Legs-Syndrom eingesetzt.",
+    does: "Es ahmt eine Dopaminwirkung im Gehirn nach und kann Beweglichkeit, Zittern oder Beschwerden der unruhigen Beine verbessern.",
+    doesNot: "Es heilt Parkinson nicht und hilft nicht sofort gegen jede Form von Schwindel oder Unruhe.",
+    daily: "Kann plötzliches Einschlafen, Schwindel und Verhaltensänderungen auslösen. Langsam aufstehen und neue starke Impulse wie Glücksspiel- oder Kaufdrang früh ansprechen.",
+    sideEffects: "Übelkeit, Müdigkeit, plötzliches Einschlafen, Schwindel, Halluzinationen und geschwollene Beine können auftreten.",
+    urgent: "Bei Ohnmacht, Halluzinationen mit Gefährdung, starker Verwirrtheit, plötzlichen Schlafattacken im Alltag oder einer schweren allergischen Reaktion sofort Hilfe holen.",
+    source: "EMA: Sifrol® – Produktinformation (abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/sifrol", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "ropinirol", name: "Ropinirol", examples: "Referenzpräparat: Requip® Filmtabletten", category: "Parkinsonmittel",
+    purpose: "Ropinirol wird bei Parkinson und je nach Präparat bei Restless Legs eingesetzt.",
+    does: "Es ahmt eine Dopaminwirkung nach und kann Beweglichkeit oder Beschwerden der unruhigen Beine verbessern.",
+    doesNot: "Es heilt Parkinson nicht und ist kein allgemeines Schlaf- oder Beruhigungsmittel.",
+    daily: "Müdigkeit und plötzliches Einschlafen beachten. Langsam aufstehen und auffälligen Glücksspiel-, Kauf- oder Essdrang frühzeitig ansprechen.",
+    sideEffects: "Übelkeit, Müdigkeit, Schwindel, plötzliches Einschlafen, Halluzinationen und niedriger Blutdruck beim Aufstehen können auftreten.",
+    urgent: "Bei Ohnmacht, Halluzinationen mit Gefährdung, starker Verwirrtheit, Schlafattacken oder schwerer allergischer Reaktion sofort Hilfe holen.",
+    source: "EMA: Requip® – Produktinformation (abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/requip", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "levodopa-benserazid", name: "Levodopa / Benserazid", examples: "Referenzpräparat: Madopar® Hartkapseln", category: "Parkinsonmittel",
+    purpose: "Die Kombination wird zur Behandlung der Parkinson-Krankheit eingesetzt.",
+    does: "Levodopa wird im Gehirn zu Dopamin umgewandelt; Benserazid sorgt dafür, dass mehr Levodopa das Gehirn erreicht. Das kann Beweglichkeit und Steifigkeit verbessern.",
+    doesNot: "Sie heilt Parkinson nicht und darf nicht plötzlich abgesetzt werden.",
+    daily: "Zeitpunkte und Bezug zu Mahlzeiten genau nach Plan einhalten. Schwindel beim Aufstehen, Halluzinationen und unwillkürliche Bewegungen früh ansprechen.",
+    sideEffects: "Übelkeit, Schwindel, niedriger Blutdruck beim Aufstehen, Schläfrigkeit, Halluzinationen und unwillkürliche Bewegungen können auftreten.",
+    urgent: "Bei hohem Fieber mit Muskelsteife und Verwirrtheit, Ohnmacht, Halluzinationen mit Gefährdung, Brustschmerz oder schwerer allergischer Reaktion sofort Hilfe holen.",
+    source: "Gebrauchsinformation: Madopar® 62,5 mg Hartkapseln (abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/m/madoparR-625-mg-hartkapseln/", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "levodopa-carbidopa", name: "Levodopa / Carbidopa", examples: "Referenzpräparat: Nacom® Tabletten", category: "Parkinsonmittel",
+    purpose: "Die Kombination wird zur Behandlung der Parkinson-Krankheit eingesetzt.",
+    does: "Levodopa wird im Gehirn zu Dopamin umgewandelt; Carbidopa sorgt dafür, dass mehr Levodopa dort ankommt. Das kann Beweglichkeit und Steifigkeit verbessern.",
+    doesNot: "Sie heilt Parkinson nicht und darf nicht plötzlich abgesetzt werden.",
+    daily: "Zeitpunkte und Bezug zu Mahlzeiten genau nach dem Plan einhalten. Schwindel, Halluzinationen oder neue unwillkürliche Bewegungen früh ansprechen.",
+    sideEffects: "Übelkeit, Schwindel, niedriger Blutdruck beim Aufstehen, Schläfrigkeit, Halluzinationen und unwillkürliche Bewegungen können auftreten.",
+    urgent: "Bei hohem Fieber mit Muskelsteife und Verwirrtheit, Ohnmacht, Halluzinationen mit Gefährdung, Brustschmerz oder schwerer allergischer Reaktion sofort Hilfe holen.",
+    source: "Gebrauchsinformation: Nacom® Tabletten (abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/n/nacomR-100-mg25-mg-tabletten", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "sumatriptan", name: "Sumatriptan", examples: "Referenzpräparat: Imigran® Filmtabletten", category: "Migränemittel",
+    purpose: "Sumatriptan wird zur Behandlung einer akuten Migräneattacke eingesetzt.",
+    does: "Es wirkt auf bestimmte Blutgefäße und Nervenbahnen und kann eine laufende Migräneattacke lindern.",
+    doesNot: "Es verhindert Migräne nicht dauerhaft und ist nicht zur Vorbeugung oder für unklare, neuartige Kopfschmerzen gedacht.",
+    daily: "Nur zu Beginn einer ärztlich bekannten Migräneattacke nach Plan anwenden. Die maximale Tagesdosis und Abstände einhalten; bei Herz-Kreislauf-Erkrankungen besondere Vorsicht.",
+    sideEffects: "Schwindel, Müdigkeit, Übelkeit, Kribbeln, Druck- oder Engegefühl im Brust- oder Halsbereich können auftreten.",
+    urgent: "Bei neuem oder starkem Brustschmerz, Atemnot, Lähmung, Sprachstörung, ungewöhnlich heftigem Kopfschmerz oder einer schweren allergischen Reaktion sofort Hilfe holen.",
+    source: "Gebrauchsinformation: Imigran® Filmtabletten (abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/i/imigranR-50-mg-filmtabletten", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "tapentadol", name: "Tapentadol", examples: "Referenzpräparat: Palexia® retard Retardtabletten", category: "Schmerzmittel",
+    purpose: "Tapentadol ist ein starkes Opioid-Schmerzmittel für mäßig starke bis starke Schmerzen, wenn andere Schmerzmittel nicht ausreichen.",
+    does: "Es dämpft die Weiterleitung von Schmerzsignalen im Nervensystem. Es lindert Schmerzen, behandelt aber nicht ihre Ursache.",
+    doesNot: "Es heilt keine Verletzung, Entzündung oder Tumorerkrankung und ist kein Mittel für unklare neue starke Schmerzen ohne ärztliche Abklärung.",
+    daily: "Kann müde machen und die Atmung dämpfen. Kein Alkohol und keine zusätzlichen Beruhigungsmittel ohne Rücksprache; Retardtabletten nicht zerkauen oder teilen. Nicht abrupt absetzen.",
+    sideEffects: "Übelkeit, Verstopfung, Schwindel, Müdigkeit, Benommenheit und Schwitzen können auftreten.",
+    urgent: "Bei langsamer oder flacher Atmung, extremer Schläfrigkeit, Ohnmacht, nicht weckbarer Person oder einer schweren allergischen Reaktion sofort den Notruf wählen.",
+    source: "Gebrauchsinformation: Palexia® retard 25 mg Retardtabletten (abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/pq/palexiaR-retard-25-mg-retardtabletten/", reviewStatus: "Quellenbasierter Entwurf"
   }
 ];
 
@@ -2266,7 +2466,9 @@ const commonBrandAliases = {
   abirateron: ["Zytiga"], apalutamid: ["Erleada"], enzalutamid: ["Xtandi"], darolutamid: ["Nubeqa"], degarelix: ["Firmagon"], relugolix: ["Orgovyx"], denosumab: ["Prolia", "Xgeva"], zoledronsaeure: ["Zometa", "Aclasta"],
   leuprorelin: ["Eligard", "Enantone", "Trenantone", "Leuprolin-ratiopharm"], hydrochlorothiazid: ["Esidrex"], bisoprolol: ["Concor", "Concor COR"], furosemid: ["Lasix"], spironolacton: ["Aldactone", "Verospiron"], enalapril: ["Xanef"], valsartan: ["Diovan"], metoprolol: ["Beloc", "Beloc ZOK"], torasemid: ["Torem"], lisinopril: ["Acerbon"], losartan: ["Lorzaar"], telmisartan: ["Micardis", "Kinzalmono"], lercanidipin: ["Carmen"], nebivolol: ["Nebilet"], eplerenon: ["Inspra"],
   sertralin: ["Zoloft", "Gladem"], duloxetin: ["Cymbalta", "Ariclaim"], amitriptylin: ["Saroten"], citalopram: ["Cipramil"], escitalopram: ["Cipralex"], mirtazapin: ["Remeron"], lorazepam: ["Tavor", "Tavor Expidet"], zolpidem: ["Stilnox", "Bikalm"],
+  venlafaxin: ["Trevilor", "Efexor"], fluoxetin: ["Fluctin"], bupropion: ["Elontril", "Zyban"], quetiapin: ["Seroquel"], olanzapin: ["Zyprexa"], aripiprazol: ["Abilify"], haloperidol: ["Haldol"], promethazin: ["Atosil"], melatonin: ["Circadin"], zopiclon: ["Ximovan"],
   amoxicillin: ["Amoxypen"], cefuroxim: ["Elobact"], doxycyclin: ["Vibramycin"], aciclovir: ["Zovirax"], nitrofurantoin: ["Furadantin", "Nifurantin"], levetiracetam: ["Keppra"], lamotrigin: ["Lamictal"], baclofen: ["Lioresal"], colchicin: ["Colchysat"],
+  carbamazepin: ["Tegretal"], valproinsaeure: ["Ergenyl", "Orfiril"], topiramat: ["Topamax"], lacosamid: ["Vimpat"], pramipexol: ["Sifrol"], ropinirol: ["Requip"], "levodopa-benserazid": ["Madopar"], "levodopa-carbidopa": ["Nacom", "Sinemet"], sumatriptan: ["Imigran"], tapentadol: ["Palexia"],
   prednisolon: ["Decortin"], dexamethason: ["Fortecortin"], donepezil: ["Aricept"], memantin: ["Ebixa", "Axura"], risperidon: ["Risperdal"]
 };
 
