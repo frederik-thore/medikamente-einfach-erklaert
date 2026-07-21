@@ -2994,6 +2994,56 @@ const reviewedDrafts = [
     sideEffects: "Schmerzen oder Entzündung an der Einstichstelle, Müdigkeit, Übelkeit, Kopfschmerzen, Hitzewallungen und erhöhte Leberwerte können auftreten.",
     urgent: "Bei Schwellung von Gesicht oder Hals, Atemnot, Fieber, starker oder anhaltender Blutung, Gelbfärbung von Haut oder Augen, schwerer Schwäche oder einer starken Reaktion nach der Injektion sofort medizinische Hilfe holen.",
     source: "EMA: Faslodex® – Produktinformation (abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/faslodex", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "enoxaparin", name: "Enoxaparin", examples: "Referenzpräparat: Clexane® Fertigspritzen", category: "Thrombosespritzen",
+    purpose: "Enoxaparin wird eingesetzt, um Blutgerinnsel zu verhindern oder zu behandeln, zum Beispiel nach Operationen, bei eingeschränkter Beweglichkeit oder bestimmten Herz- und Gefäßerkrankungen.",
+    does: "Es hemmt Teile der Blutgerinnung. Dadurch können Blutgerinnsel weniger leicht entstehen oder größer werden.",
+    doesNot: "Es ist kein Schmerzmittel und löst ein bereits bestehendes Blutgerinnsel nicht selbst auf. Es schützt nicht sicher vor jeder Thrombose oder Embolie.",
+    daily: "Stärke und Zweck der Fertigspritze sind individuell und nicht austauschbar. Nur nach dem verordneten Plan spritzen; keine Dosis selbst verändern. Andere Blutverdünner, Schmerzmittel wie Ibuprofen oder ASS und geplante Eingriffe immer vorher abklären.",
+    sideEffects: "Blutergüsse oder Schmerzen an der Einstichstelle, Blutungen, niedrige Zahl der Blutplättchen und erhöhte Leberwerte können auftreten.",
+    urgent: "Bei nicht stillbarer Blutung, Blut im Urin, schwarzem Stuhl, Bluterbrechen, plötzlich starken Kopfschmerzen, Ohnmacht, Atemnot, Brustschmerz oder einer schweren allergischen Reaktion sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: Clexane® 6.000 I.E. (60 mg)/0,6 ml Injektionslösung (abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/c/clexaneR-6000-i-e-60-mg-pro-06-ml-injektionsloesung/?drucken=an", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "tinzaparin", name: "Tinzaparin", examples: "Referenzpräparat: innohep® Fertigspritzen", category: "Thrombosespritzen",
+    purpose: "Tinzaparin wird eingesetzt, um Blutgerinnsel zu verhindern oder zu behandeln, zum Beispiel nach Operationen oder bei bestimmten Erkrankungen mit erhöhtem Thromboserisiko.",
+    does: "Es hemmt Teile der Blutgerinnung. Dadurch können Blutgerinnsel weniger leicht entstehen oder größer werden.",
+    doesNot: "Es ist kein Schmerzmittel und löst ein bereits bestehendes Blutgerinnsel nicht selbst auf.",
+    daily: "Stärke und Zweck der Fertigspritze sind individuell und nicht austauschbar. Nur nach dem verordneten Plan spritzen; keine Dosis selbst verändern. Andere Blutverdünner, Schmerzmittel wie Ibuprofen oder ASS und geplante Eingriffe immer vorher abklären.",
+    sideEffects: "Blutergüsse oder Schmerzen an der Einstichstelle, Blutungen, niedrige Zahl der Blutplättchen und erhöhte Leberwerte können auftreten.",
+    urgent: "Bei nicht stillbarer Blutung, Blut im Urin, schwarzem Stuhl, Bluterbrechen, plötzlich starken Kopfschmerzen, Ohnmacht, Atemnot, Brustschmerz oder einer schweren allergischen Reaktion sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: innohep® 4.500 Anti-Xa I.E. Injektionslösung (Stand 09/2025, abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/i/innohep-4500-anti-xa-ie-injektionsloesung?schrift=0.9", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "dalteparin", name: "Dalteparin", examples: "Referenzpräparat: Fragmin® P Fertigspritzen", category: "Thrombosespritzen",
+    purpose: "Dalteparin wird eingesetzt, um Blutgerinnsel zu verhindern oder zu behandeln, zum Beispiel nach Operationen oder bei eingeschränkter Beweglichkeit.",
+    does: "Es hemmt Teile der Blutgerinnung. Dadurch können Blutgerinnsel weniger leicht entstehen oder größer werden.",
+    doesNot: "Es ist kein Schmerzmittel und löst ein bereits bestehendes Blutgerinnsel nicht selbst auf.",
+    daily: "Stärke und Zweck der Fertigspritze sind individuell und nicht austauschbar. Nur nach dem verordneten Plan spritzen; keine Dosis selbst verändern. Andere Blutverdünner, Schmerzmittel wie Ibuprofen oder ASS und geplante Eingriffe immer vorher abklären.",
+    sideEffects: "Blutergüsse oder Schmerzen an der Einstichstelle, Blutungen, niedrige Zahl der Blutplättchen und erhöhte Leberwerte können auftreten.",
+    urgent: "Bei nicht stillbarer Blutung, Blut im Urin, schwarzem Stuhl, Bluterbrechen, plötzlich starken Kopfschmerzen, Ohnmacht, Atemnot, Brustschmerz oder einer schweren allergischen Reaktion sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: Fragmin® P 2.500 I.E. Injektionslösung (abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/f/fragminR-p-2500-ie-injektionsloesung", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "nadroparin", name: "Nadroparin", examples: "Referenzpräparat: Fraxiparine® Fertigspritzen", category: "Thrombosespritzen",
+    purpose: "Nadroparin wird eingesetzt, um Blutgerinnsel zu verhindern oder zu behandeln, zum Beispiel nach Operationen, bei eingeschränkter Beweglichkeit oder einer tiefen Venenthrombose.",
+    does: "Es hemmt Teile der Blutgerinnung. Dadurch können Blutgerinnsel weniger leicht entstehen oder größer werden.",
+    doesNot: "Es ist kein Schmerzmittel und löst ein bereits bestehendes Blutgerinnsel nicht selbst auf.",
+    daily: "Stärke und Zweck der Fertigspritze sind individuell und nicht austauschbar. Nur nach dem verordneten Plan spritzen; keine Dosis selbst verändern. Andere Blutverdünner, Schmerzmittel wie Ibuprofen oder ASS und geplante Eingriffe immer vorher abklären.",
+    sideEffects: "Blutergüsse oder Schmerzen an der Einstichstelle, Blutungen, niedrige Zahl der Blutplättchen und selten schmerzhafte Hautveränderungen an der Einstichstelle können auftreten.",
+    urgent: "Bei nicht stillbarer Blutung, Blut im Urin, schwarzem Stuhl, Bluterbrechen, schmerzhaften dunklen Hautveränderungen an der Einstichstelle, plötzlich starken Kopfschmerzen, Atemnot, Brustschmerz oder einer schweren allergischen Reaktion sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: Fraxiparine® 0,4 Injektionslösung (abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/f/fraxiparineR-04-3800-ie-anti-xa--04-ml-injektionsloesung", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "fondaparinux", name: "Fondaparinux", examples: "Referenzpräparat: Arixtra® Fertigspritzen", category: "Thrombosespritzen",
+    purpose: "Fondaparinux wird eingesetzt, um Blutgerinnsel zu verhindern oder zu behandeln, zum Beispiel nach größeren orthopädischen oder Bauchoperationen oder bei einer tiefen Venenthrombose.",
+    does: "Es hemmt gezielt einen Teil der Blutgerinnung. Dadurch können Blutgerinnsel weniger leicht entstehen oder größer werden.",
+    doesNot: "Es ist kein Schmerzmittel und löst ein bereits bestehendes Blutgerinnsel nicht selbst auf.",
+    daily: "Stärke und Zweck der Fertigspritze sind individuell und nicht austauschbar. Nur nach dem verordneten Plan spritzen; keine Dosis selbst verändern. Andere Blutverdünner, Schmerzmittel wie Ibuprofen oder ASS und geplante Eingriffe immer vorher abklären.",
+    sideEffects: "Blutungen, Blutergüsse oder Schmerzen an der Einstichstelle, Blutarmut, Übelkeit und erhöhte Leberwerte können auftreten.",
+    urgent: "Bei nicht stillbarer Blutung, Blut im Urin, schwarzem Stuhl, Bluterbrechen, plötzlich starken Kopfschmerzen, Ohnmacht, Atemnot, Brustschmerz oder einer schweren allergischen Reaktion sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: Arixtra® 7,5 mg/0,6 ml Injektionslösung (abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/a/arixtra-75-mg06-ml-injektionsloesung-fertigspritze?schrift=0.9", reviewStatus: "Quellenbasierter Entwurf"
   }
 ];
 
@@ -3060,6 +3110,7 @@ const commonBrandAliases = {
   "mesalazin-rektal": ["Salofalk Rektalschaum", "Salofalk Klysmen", "Salofalk Zäpfchen"], tofacitinib: ["Xeljanz"], upadacitinib: ["Rinvoq"], ozanimod: ["Zeposia"], filgotinib: ["Jyseleca"],
   "mycophenolat-mofetil": ["CellCept", "Mycophenolat mofetil Teva"], rituximab: ["MabThera", "Rixathon", "Truxima"], cyclophosphamid: ["Endoxan", "Cyclophosphamid HEXAL"], nintedanib: ["Ofev"], pirfenidon: ["Esbriet"],
   tamoxifen: ["Nolvadex", "Tamoxifen HEXAL"], anastrozol: ["Arimidex", "Anastrozol Aristo"], letrozol: ["Femara", "Letrozol Aristo", "Letroblock"], exemestan: ["Aromasin", "Exemestan – 1 A Pharma"], fulvestrant: ["Faslodex", "Fulvestrant Mylan"],
+  enoxaparin: ["Clexane", "Enoxaparin Inhixa"], tinzaparin: ["innohep"], dalteparin: ["Fragmin"], nadroparin: ["Fraxiparine"], fondaparinux: ["Arixtra"],
   abirateron: ["Zytiga"], apalutamid: ["Erleada"], enzalutamid: ["Xtandi"], darolutamid: ["Nubeqa"], degarelix: ["Firmagon"], relugolix: ["Orgovyx"], denosumab: ["Prolia", "Xgeva"], zoledronsaeure: ["Zometa", "Aclasta"],
   olaparib: ["Lynparza"], talazoparib: ["Talzenna"], docetaxel: ["Taxotere"], cabazitaxel: ["Jevtana"], "radium-223-dichlorid": ["Xofigo"], "lutetium-177-vipivotid-tetraxetan": ["Pluvicto"], pembrolizumab: ["Keytruda"], nivolumab: ["Opdivo"], abemaciclib: ["Verzenios"], palbociclib: ["Ibrance"], ribociclib: ["Kisqali"], goserelin: ["Zoladex"], triptorelin: ["Pamorelin", "Decapeptyl"], bicalutamid: ["Casodex"],
   hydrocortison: ["Plenadren", "Hydrocortison Jenapharm"], methylprednisolon: ["Urbason", "Medrol"], filgrastim: ["Neupogen", "Zarzio"], pegfilgrastim: ["Neulasta", "Ziextenzo"], "epoetin-alfa": ["Eprex"], "darbepoetin-alfa": ["Aranesp"],
