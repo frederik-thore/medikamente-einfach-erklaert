@@ -2603,6 +2603,127 @@ const reviewedDrafts = [
     sideEffects: "Kopfschmerzen, Gesichtsrötung, Sodbrennen, Rücken- oder Muskelschmerzen, verstopfte Nase und Schwindel können auftreten.",
     urgent: "Bei Brustschmerz, Ohnmacht, plötzlichem Sehverlust, Hörverlust oder einer schmerzhaften Erektion über vier Stunden sofort Hilfe holen.",
     source: "EMA: Cialis® – Produktinformation (aktualisiert 01/2026, abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/cialis", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "olaparib", name: "Olaparib", examples: "Referenzpräparat: Lynparza® Filmtabletten", category: "Krebstherapie",
+    purpose: "Olaparib wird bei ausgewählten Krebsarten eingesetzt, unter anderem bei bestimmten Formen von Eierstock-, Brust-, Bauchspeicheldrüsen- und Prostatakrebs.",
+    does: "Es hemmt ein Enzym zur DNA-Reparatur in Krebszellen. Dadurch kann das Wachstum bestimmter Tumoren gebremst werden.", doesNot: "Es ist kein Schmerzmittel und heilt Krebs nicht unmittelbar oder bei jeder Tumorart.",
+    daily: "Nur nach dem onkologischen Plan einnehmen. Blutbild und Nebenwirkungen werden regelmäßig kontrolliert; nicht eigenmächtig pausieren oder die Dosis ändern.", sideEffects: "Übelkeit, Müdigkeit, Blutarmut, Appetitverlust, Durchfall und Veränderungen des Blutbilds können auftreten.",
+    urgent: "Bei Fieber, Atemnot, starker Müdigkeit, ungewöhnlichen Blutungen, anhaltendem Husten oder starken Bauchschmerzen sofort die Onkologie kontaktieren.", source: "EMA: Lynparza® – Produktinformation (aktualisiert 02/2026, abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/lynparza", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "talazoparib", name: "Talazoparib", examples: "Referenzpräparat: Talzenna® Hartkapseln", category: "Krebstherapie",
+    purpose: "Talazoparib wird bei ausgewählten Formen von Brustkrebs und metastasiertem kastrationsresistentem Prostatakrebs eingesetzt.", does: "Es hemmt ein Enzym zur DNA-Reparatur in Krebszellen und kann deren Wachstum bremsen.", doesNot: "Es ist kein Schmerzmittel und keine allgemeine Krebstherapie für jede Tumorart.",
+    daily: "Nur nach dem onkologischen Plan einnehmen. Blutbild und Nierenfunktion können kontrolliert werden; Kapseln nicht ohne Rücksprache absetzen.", sideEffects: "Blutarmut, Müdigkeit, Übelkeit, Appetitverlust, Durchfall und Veränderungen des Blutbilds können auftreten.",
+    urgent: "Bei Fieber, Atemnot, starker Blässe oder Müdigkeit, ungewöhnlichen Blutungen oder Zeichen einer Infektion sofort die Onkologie kontaktieren.", source: "EMA: Talzenna® – Produktinformation (abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/talzenna", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "docetaxel", name: "Docetaxel", examples: "Referenzpräparat: Taxotere® Infusionslösung", category: "Krebstherapie",
+    purpose: "Docetaxel ist eine Chemotherapie für verschiedene Krebsarten, unter anderem Brust-, Lungen- und Prostatakrebs.", does: "Es stört die Zellteilung und kann dadurch das Wachstum von Krebszellen bremsen.", doesNot: "Es ist kein Schmerzmittel und wird nicht zur Behandlung gewöhnlicher Infekte eingesetzt.",
+    daily: "Wird als Infusion ausschließlich durch die Onkologie verabreicht. Blutbild, Infekte und Nebenwirkungen werden eng überwacht.", sideEffects: "Erhöhte Infektanfälligkeit, Müdigkeit, Übelkeit, Haarausfall, Durchfall, Kribbeln an Händen oder Füßen und Schwellungen können auftreten.",
+    urgent: "Bei Fieber ab 38 °C, Schüttelfrost, Atemnot, Durchfall, starken wunden Stellen im Mund oder ungewöhnlichen Blutungen sofort die Onkologie oder den Notdienst kontaktieren.", source: "EMA: Taxotere® – Produktinformation (abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/taxotere", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "cabazitaxel", name: "Cabazitaxel", examples: "Referenzpräparat: Jevtana® Infusionslösung", category: "Krebstherapie",
+    purpose: "Cabazitaxel wird zusammen mit Kortison bei metastasiertem kastrationsresistentem Prostatakrebs eingesetzt, wenn eine vorherige Behandlung nicht ausreicht.", does: "Es stört die Zellteilung und kann das Tumorwachstum bremsen.", doesNot: "Es ist kein Schmerzmittel und keine Heilung der Krebserkrankung.",
+    daily: "Wird als Infusion ausschließlich durch die Onkologie gegeben. Blutbild und Infektionszeichen sind besonders wichtig.", sideEffects: "Erhöhte Infektanfälligkeit, Durchfall, Übelkeit, Müdigkeit, Blutbildveränderungen und Haarausfall können auftreten.",
+    urgent: "Bei Fieber, Schüttelfrost, schwerem Durchfall, Atemnot, ungewöhnlichen Blutungen oder starker Schwäche sofort die Onkologie oder den Notdienst kontaktieren.", source: "EMA: Jevtana® – Produktinformation (aktualisiert 09/2025, abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/jevtana", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "radium-223-dichlorid", name: "Radium-223-dichlorid", examples: "Referenzpräparat: Xofigo® Injektionslösung", category: "Krebstherapie",
+    purpose: "Radium-223-dichlorid wird bei bestimmten Formen von Prostatakrebs mit Knochenmetastasen eingesetzt.", does: "Es reichert sich bevorzugt an Knochenmetastasen an und gibt dort eine kurzreichweitige Strahlung ab, die Tumorzellen schädigen kann.", doesNot: "Es behandelt keine Metastasen in allen Organen und ist kein Schmerzmittel für den akuten Bedarf.",
+    daily: "Wird ausschließlich durch ein spezialisiertes nuklearmedizinisches oder onkologisches Team verabreicht. Blutbildtermine unbedingt einhalten.", sideEffects: "Übelkeit, Durchfall, Erbrechen und Veränderungen des Blutbilds können auftreten.",
+    urgent: "Bei Fieber, ungewöhnlichen Blutungen, starker Schwäche, Atemnot oder Zeichen einer Infektion sofort die Onkologie kontaktieren.", source: "EMA: Xofigo® – Produktinformation (abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/xofigo", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "lutetium-177-vipivotid-tetraxetan", name: "Lutetium-177-Vipivotid-Tetraxetan", examples: "Referenzpräparat: Pluvicto® Infusionslösung", category: "Krebstherapie",
+    purpose: "Dieses Radioligandenmittel wird bei ausgewählten Menschen mit metastasiertem kastrationsresistentem Prostatakrebs eingesetzt.", does: "Es bindet an PSMA-tragende Tumorzellen und transportiert eine radioaktive Strahlung gezielt dorthin.", doesNot: "Es ist kein Schmerzmittel und wirkt nur bei einer ärztlich geprüften Eignung des Tumors.",
+    daily: "Wird ausschließlich in einem spezialisierten Zentrum gegeben. Hinweise zu Blutbildkontrollen und Strahlenschutz genau befolgen.", sideEffects: "Mundtrockenheit, Müdigkeit, Übelkeit und Veränderungen des Blutbilds können auftreten.",
+    urgent: "Bei Fieber, ungewöhnlichen Blutungen, starker Schwäche, Atemnot oder Zeichen einer Infektion sofort das Behandlungsteam kontaktieren.", source: "EMA: Pluvicto® – Produktinformation (abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/pluvicto", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "pembrolizumab", name: "Pembrolizumab", examples: "Referenzpräparat: Keytruda® Infusionslösung", category: "Krebstherapie",
+    purpose: "Pembrolizumab ist eine Immuntherapie für zahlreiche bestimmte Krebsarten, wenn die Tumorart und Tests dafür sprechen.", does: "Es löst eine Bremse des Immunsystems, damit Abwehrzellen Krebszellen besser angreifen können.", doesNot: "Es ist keine Chemotherapie und keine Behandlung für jede Krebserkrankung.",
+    daily: "Wird als Infusion oder Spritze durch die Onkologie gegeben. Auch neue, scheinbar harmlose Beschwerden früh melden, weil das Immunsystem Organe angreifen kann.", sideEffects: "Müdigkeit, Hautausschlag, Juckreiz, Durchfall, Übelkeit, Husten und hormonelle Störungen können auftreten.",
+    urgent: "Bei neuer Atemnot, anhaltendem oder blutigem Durchfall, starken Bauchschmerzen, Gelbfärbung, starker Kopfschmerzen, Sehstörungen oder deutlicher Muskelschwäche sofort die Onkologie kontaktieren.", source: "EMA: Keytruda® – Produktinformation (abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/keytruda", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "nivolumab", name: "Nivolumab", examples: "Referenzpräparat: Opdivo® Infusionslösung", category: "Krebstherapie",
+    purpose: "Nivolumab ist eine Immuntherapie für mehrere bestimmte Krebsarten, je nach Tumorart und Behandlungssituation.", does: "Es löst eine Bremse des Immunsystems, damit Abwehrzellen Krebszellen besser angreifen können.", doesNot: "Es ist keine Chemotherapie und keine Behandlung für jede Krebserkrankung.",
+    daily: "Wird durch die Onkologie als Infusion oder Spritze gegeben. Neue Beschwerden immer zeitnah melden, auch nach der letzten Gabe.", sideEffects: "Müdigkeit, Durchfall, Hautausschlag, Juckreiz, Husten, Übelkeit und hormonelle Störungen können auftreten.",
+    urgent: "Bei neuer Atemnot, anhaltendem oder blutigem Durchfall, starken Bauchschmerzen, Gelbfärbung, starken Kopfschmerzen oder deutlicher Muskelschwäche sofort die Onkologie kontaktieren.", source: "EMA: Opdivo® – Produktinformation (abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/opdivo", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "abemaciclib", name: "Abemaciclib", examples: "Referenzpräparat: Verzenios® Filmtabletten", category: "Krebstherapie",
+    purpose: "Abemaciclib wird zusammen mit einer Hormontherapie bei bestimmten hormonrezeptorpositiven HER2-negativen Brustkrebsformen eingesetzt.", does: "Es hemmt Enzyme, die die Zellteilung von Krebszellen fördern können.", doesNot: "Es ist keine allgemeine Krebstherapie und kein Mittel gegen akute Schmerzen.",
+    daily: "Tabletten nur nach onkologischem Plan einnehmen. Durchfall früh behandeln und Blutbild- sowie Leberwertkontrollen einhalten.", sideEffects: "Durchfall, Müdigkeit, Übelkeit, Infekte, Blutbildveränderungen und erhöhte Leberwerte können auftreten.",
+    urgent: "Bei Fieber, Atemnot, Brustschmerz, einseitiger Beinschwellung, schwerem Durchfall, Gelbfärbung oder starker Schwäche sofort die Onkologie kontaktieren.", source: "EMA: Verzenios® – Produktinformation (abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/verzenios", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "palbociclib", name: "Palbociclib", examples: "Referenzpräparat: Ibrance® Hartkapseln", category: "Krebstherapie",
+    purpose: "Palbociclib wird zusammen mit einer Hormontherapie bei bestimmten hormonrezeptorpositiven HER2-negativen Brustkrebsformen eingesetzt.", does: "Es hemmt Enzyme, die die Zellteilung von Krebszellen fördern können.", doesNot: "Es ist keine allgemeine Krebstherapie und kein Mittel gegen akute Schmerzen.",
+    daily: "Nach onkologischem Einnahmeplan anwenden. Blutbildkontrollen sind wichtig; bei Fieber nicht bis zum nächsten Termin warten.", sideEffects: "Niedrige weiße Blutkörperchen, Infekte, Müdigkeit, Haarausdünnung, Übelkeit und Entzündungen im Mund können auftreten.",
+    urgent: "Bei Fieber, Schüttelfrost, Husten oder Atemnot, starken wunden Stellen im Mund, ungewöhnlichen Blutungen oder starker Schwäche sofort die Onkologie kontaktieren.", source: "EMA: Ibrance® – Produktinformation (aktualisiert 03/2025, abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/ibrance", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "ribociclib", name: "Ribociclib", examples: "Referenzpräparat: Kisqali® Filmtabletten", category: "Krebstherapie",
+    purpose: "Ribociclib wird zusammen mit einer Hormontherapie bei bestimmten hormonrezeptorpositiven HER2-negativen Brustkrebsformen eingesetzt.", does: "Es hemmt Enzyme, die die Zellteilung von Krebszellen fördern können.", doesNot: "Es ist keine allgemeine Krebstherapie und kein Mittel gegen akute Schmerzen.",
+    daily: "Nach onkologischem Einnahmeplan anwenden. Blutbild, Leberwerte und Herzstromkurve werden kontrolliert; neue Medikamente vorher abklären.", sideEffects: "Niedrige weiße Blutkörperchen, Infekte, Müdigkeit, Übelkeit, erhöhte Leberwerte und Herzrhythmusveränderungen können auftreten.",
+    urgent: "Bei Fieber, Herzrasen oder Ohnmacht, Gelbfärbung, Atemnot, starken wunden Stellen im Mund oder schwerer Schwäche sofort die Onkologie kontaktieren.", source: "EMA: Kisqali® – Produktinformation (aktualisiert 05/2026, abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/kisqali", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "goserelin", name: "Goserelin", examples: "Referenzpräparat: Zoladex® Implantat", category: "Krebstherapie",
+    purpose: "Goserelin wird unter anderem bei Prostatakrebs und bestimmten hormonabhängigen Erkrankungen eingesetzt.", does: "Es senkt nach einer kurzen Anfangsphase die Bildung von Sexualhormonen und kann so hormonabhängiges Tumorwachstum bremsen.", doesNot: "Es ist kein Schmerzmittel und heilt Prostatakrebs nicht unmittelbar.",
+    daily: "Wird als Depotimplantat durch medizinisches Fachpersonal gegeben. Beschwerden, Stimmung, Knochengesundheit und Blutwerte wie PSA werden nach Plan kontrolliert.", sideEffects: "Hitzewallungen, Schwitzen, Müdigkeit, sexuelle Funktionsstörungen, Stimmungsschwankungen und Knochenschwund können auftreten.",
+    urgent: "Bei neu auftretender starker Schwäche oder Lähmung, Problemen beim Wasserlassen, Brustschmerz, Ohnmacht oder einer schweren allergischen Reaktion sofort Hilfe holen.", source: "Gebrauchsinformation: Zoladex® Implantat (abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/z/zoladexR-36-mg-depotimplantat", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "triptorelin", name: "Triptorelin", examples: "Referenzpräparat: Pamorelin® Depot", category: "Krebstherapie",
+    purpose: "Triptorelin wird unter anderem bei hormonabhängigem Prostatakrebs eingesetzt.", does: "Es senkt nach einer kurzen Anfangsphase die Bildung von Sexualhormonen und kann dadurch hormonabhängiges Tumorwachstum bremsen.", doesNot: "Es ist kein Schmerzmittel und heilt Prostatakrebs nicht unmittelbar.",
+    daily: "Wird als Depotinjektion durch medizinisches Fachpersonal gegeben. PSA, Beschwerden und Knochengesundheit werden nach Plan kontrolliert.", sideEffects: "Hitzewallungen, Schwitzen, Müdigkeit, sexuelle Funktionsstörungen, Stimmungsschwankungen und Knochenschwund können auftreten.",
+    urgent: "Bei neu auftretender starker Schwäche oder Lähmung, Problemen beim Wasserlassen, Brustschmerz, Ohnmacht oder einer schweren allergischen Reaktion sofort Hilfe holen.", source: "Gebrauchsinformation: Pamorelin® Depot (abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/p/pamorelinR-la-1125-mg-pulver-und-loesungsmittel-zur-herstellung-einer-injektionssuspension", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "bicalutamid", name: "Bicalutamid", examples: "Referenzpräparat: Casodex® Filmtabletten", category: "Krebstherapie",
+    purpose: "Bicalutamid wird bei Prostatakrebs eingesetzt, häufig zusammen mit einer Behandlung zur Senkung der Hormonproduktion.", does: "Es blockiert die Wirkung männlicher Hormone an Tumorzellen und kann dadurch hormonabhängiges Tumorwachstum bremsen.", doesNot: "Es ist kein Schmerzmittel und heilt Prostatakrebs nicht unmittelbar.",
+    daily: "Täglich wie verordnet einnehmen. Leberwerte und Beschwerden nach Plan kontrollieren; nicht selbst absetzen.", sideEffects: "Brustspannen, Hitzewallungen, Müdigkeit, Blutarmut, Übelkeit und Veränderungen der Leberwerte können auftreten.",
+    urgent: "Bei Gelbfärbung, dunklem Urin, Atemnot, Brustschmerz, Schwellung von Gesicht oder Hals oder starker Schwäche sofort die Onkologie kontaktieren.", source: "Gebrauchsinformation: Casodex® Filmtabletten (abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/c/casodexR-50-mg-filmtabletten", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "hydrocortison", name: "Hydrocortison", examples: "Referenzpräparat: Plenadren® Retardtabletten", category: "Kortison",
+    purpose: "Hydrocortison ersetzt bei Nebennierenrinden-Schwäche das fehlende körpereigene Kortisol.", does: "Es ersetzt ein lebenswichtiges Hormon, das der Körper unter anderem für Kreislauf, Stoffwechsel und Stressreaktionen braucht.", doesNot: "Es ist nicht nur ein allgemeines Entzündungs- oder Schmerzmittel und darf bei einer Nebennieren-Schwäche nicht einfach abgesetzt werden.",
+    daily: "Genau nach Plan einnehmen. Für Krankheit, Fieber, Operationen oder Erbrechen gilt ein individueller Notfallplan mit möglicher Dosisanpassung – immer ärztlich besprechen.", sideEffects: "Gewichtszunahme, Schlafstörungen, Stimmungsschwankungen, Blutzuckeranstieg und bei zu hoher Dosis Infektanfälligkeit können auftreten.",
+    urgent: "Bei Erbrechen oder Durchfall mit fehlender Medikamentenaufnahme, starker Schwäche, Verwirrtheit, Ohnmacht oder Kreislaufproblemen sofort den Notfallplan anwenden und medizinische Hilfe holen.", source: "EMA: Plenadren® – Produktinformation (abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/plenadren", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "methylprednisolon", name: "Methylprednisolon", examples: "Referenzpräparat: Urbason® Tabletten", category: "Kortison",
+    purpose: "Methylprednisolon wird bei verschiedenen Entzündungs-, Autoimmun- und Allergieerkrankungen eingesetzt.", does: "Es dämpft starke Entzündungen und die Aktivität des Immunsystems.", doesNot: "Es behandelt die Ursache einer Infektion nicht und darf bei längerer Anwendung nicht plötzlich abgesetzt werden.",
+    daily: "Wie verordnet einnehmen, häufig morgens. Bei längerer Anwendung gibt es einen Ausschleichplan; Infektzeichen, Blutzucker und Blutdruck beachten.", sideEffects: "Schlafstörungen, Stimmungsschwankungen, Blutzuckeranstieg, Magenbeschwerden, Blutdruckanstieg und erhöhte Infektanfälligkeit können auftreten.",
+    urgent: "Bei Fieber oder Zeichen einer Infektion, schwarzem Stuhl, starken Bauchschmerzen, Verwirrtheit, Sehstörungen oder einer schweren allergischen Reaktion sofort Hilfe holen.", source: "Gebrauchsinformation: Urbason® Tabletten (abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/u/urbasonR-16-mg-tabletten", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "filgrastim", name: "Filgrastim", examples: "Referenzpräparat: Neupogen® Injektionslösung", category: "Begleitmedikament Krebstherapie",
+    purpose: "Filgrastim wird eingesetzt, um nach Chemotherapie oder in anderen Situationen die Bildung bestimmter weißer Blutkörperchen anzuregen.", does: "Es stimuliert das Knochenmark, damit mehr neutrophile Abwehrzellen gebildet werden.", doesNot: "Es ist kein Antibiotikum und verhindert oder behandelt eine Infektion nicht sicher.",
+    daily: "Als Spritze nach dem genauen onkologischen Plan anwenden. Blutbildtermine einhalten; Knochenschmerzen früh ansprechen.", sideEffects: "Knochen- und Muskelschmerzen, Kopfschmerzen, Müdigkeit, Übelkeit und Reaktionen an der Einstichstelle können auftreten.",
+    urgent: "Bei Fieber, Atemnot, starken Schmerzen im linken Oberbauch oder an der linken Schulter, plötzlich starker Schwäche oder schwerer allergischer Reaktion sofort die Onkologie kontaktieren.", source: "EMA: Neupogen® – Produktinformation (abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/neupogen", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "pegfilgrastim", name: "Pegfilgrastim", examples: "Referenzpräparat: Neulasta® Injektionslösung", category: "Begleitmedikament Krebstherapie",
+    purpose: "Pegfilgrastim wird nach bestimmten Chemotherapien eingesetzt, um die Bildung bestimmter weißer Blutkörperchen anzuregen.", does: "Es stimuliert das Knochenmark länger anhaltend, damit mehr neutrophile Abwehrzellen gebildet werden.", doesNot: "Es ist kein Antibiotikum und verhindert oder behandelt eine Infektion nicht sicher.",
+    daily: "Als Spritze zum festgelegten Zeitpunkt nach dem Chemotherapieplan anwenden. Blutbildtermine einhalten und Knochenschmerzen ansprechen.", sideEffects: "Knochen- und Muskelschmerzen, Kopfschmerzen, Müdigkeit, Übelkeit und Reaktionen an der Einstichstelle können auftreten.",
+    urgent: "Bei Fieber, Atemnot, starken Schmerzen im linken Oberbauch oder an der linken Schulter, plötzlich starker Schwäche oder schwerer allergischer Reaktion sofort die Onkologie kontaktieren.", source: "EMA: Neulasta® – Produktinformation (abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/neulasta", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "epoetin-alfa", name: "Epoetin alfa", examples: "Referenzpräparat: Eprex® Injektionslösung", category: "Blutbildmittel",
+    purpose: "Epoetin alfa wird bei bestimmten Formen von Blutarmut eingesetzt, unter anderem bei chronischer Nierenerkrankung oder je nach Situation während einer Krebstherapie.", does: "Es regt das Knochenmark zur Bildung roter Blutkörperchen an und kann den Hämoglobinwert erhöhen.", doesNot: "Es ersetzt kein Eisen, Vitamin B12 oder Folsäure, wenn deren Mangel die Ursache der Blutarmut ist.",
+    daily: "Als Spritze nach Plan anwenden. Hämoglobin, Blutdruck und Eisenstatus werden kontrolliert; nicht eigenmächtig höher dosieren.", sideEffects: "Blutdruckanstieg, Kopfschmerzen, Muskel- oder Gelenkschmerzen und ein erhöhtes Risiko für Blutgerinnsel können auftreten.",
+    urgent: "Bei Brustschmerz, Atemnot, einseitiger Beinschwellung, plötzlichen neurologischen Ausfällen, sehr hohem Blutdruck oder schwerer allergischer Reaktion sofort Hilfe holen.", source: "EMA: Eprex® – Produktinformation (abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/eprex", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "darbepoetin-alfa", name: "Darbepoetin alfa", examples: "Referenzpräparat: Aranesp® Injektionslösung", category: "Blutbildmittel",
+    purpose: "Darbepoetin alfa wird bei bestimmten Formen von Blutarmut eingesetzt, unter anderem bei chronischer Nierenerkrankung oder je nach Situation während einer Krebstherapie.", does: "Es regt das Knochenmark zur Bildung roter Blutkörperchen an und kann den Hämoglobinwert erhöhen.", doesNot: "Es ersetzt kein Eisen, Vitamin B12 oder Folsäure, wenn deren Mangel die Ursache der Blutarmut ist.",
+    daily: "Als Spritze nach Plan anwenden. Hämoglobin, Blutdruck und Eisenstatus werden kontrolliert; nicht eigenmächtig höher dosieren.", sideEffects: "Blutdruckanstieg, Kopfschmerzen, Muskel- oder Gelenkschmerzen und ein erhöhtes Risiko für Blutgerinnsel können auftreten.",
+    urgent: "Bei Brustschmerz, Atemnot, einseitiger Beinschwellung, plötzlichen neurologischen Ausfällen, sehr hohem Blutdruck oder schwerer allergischer Reaktion sofort Hilfe holen.", source: "EMA: Aranesp® – Produktinformation (abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/aranesp", reviewStatus: "Quellenbasierter Entwurf"
   }
 ];
 
@@ -2664,6 +2785,8 @@ const commonBrandAliases = {
   loratadin: ["Lorano", "Clarityn", "Lorano akut"], cetirizin: ["Zyrtec"], montelukast: ["Singulair"], tamsulosin: ["Omnic", "Alna"], finasterid: ["Proscar"], solifenacin: ["Vesikur"], mirabegron: ["Betmiga"], colecalciferol: ["Dekristol", "Vigantol"], alendronsaeure: ["Fosamax"], "eisenii-sulfat": ["Tardyferon", "Ferro sanol duodenal"], folsaeure: ["Folsan"], levothyroxin: ["Euthyrox", "L-Thyroxin", "Henning"], allopurinol: ["Zyloric"],
   desloratadin: ["Aerius", "Desloratadin Heumann"], fexofenadin: ["Telfast"], azithromycin: ["Zithromax"], clarithromycin: ["Klacid"], cotrimoxazol: ["Cotrim forte-ratiopharm"], fosfomycin: ["Monuril", "Fosfomycin Aristo"], ciprofloxacin: ["Ciprobay"], valaciclovir: ["Valtrex"], fluconazol: ["Diflucan"], terbinafin: ["Lamisil"], nystatin: ["Nystatin Lederle"], mesalazin: ["Salofalk", "Pentasa"], pankreatin: ["Kreon", "Pangrol"], ursodeoxycholsaeure: ["Ursofalk"],
   abirateron: ["Zytiga"], apalutamid: ["Erleada"], enzalutamid: ["Xtandi"], darolutamid: ["Nubeqa"], degarelix: ["Firmagon"], relugolix: ["Orgovyx"], denosumab: ["Prolia", "Xgeva"], zoledronsaeure: ["Zometa", "Aclasta"],
+  olaparib: ["Lynparza"], talazoparib: ["Talzenna"], docetaxel: ["Taxotere"], cabazitaxel: ["Jevtana"], "radium-223-dichlorid": ["Xofigo"], "lutetium-177-vipivotid-tetraxetan": ["Pluvicto"], pembrolizumab: ["Keytruda"], nivolumab: ["Opdivo"], abemaciclib: ["Verzenios"], palbociclib: ["Ibrance"], ribociclib: ["Kisqali"], goserelin: ["Zoladex"], triptorelin: ["Pamorelin", "Decapeptyl"], bicalutamid: ["Casodex"],
+  hydrocortison: ["Plenadren", "Hydrocortison Jenapharm"], methylprednisolon: ["Urbason", "Medrol"], filgrastim: ["Neupogen", "Zarzio"], pegfilgrastim: ["Neulasta", "Ziextenzo"], "epoetin-alfa": ["Eprex"], "darbepoetin-alfa": ["Aranesp"],
   leuprorelin: ["Eligard", "Enantone", "Trenantone", "Leuprolin-ratiopharm"], hydrochlorothiazid: ["Esidrex"], bisoprolol: ["Concor", "Concor COR"], furosemid: ["Lasix"], spironolacton: ["Aldactone", "Verospiron"], enalapril: ["Xanef"], valsartan: ["Diovan"], metoprolol: ["Beloc", "Beloc ZOK"], torasemid: ["Torem"], lisinopril: ["Acerbon"], losartan: ["Lorzaar"], telmisartan: ["Micardis", "Kinzalmono"], lercanidipin: ["Carmen"], nebivolol: ["Nebilet"], eplerenon: ["Inspra"],
   sertralin: ["Zoloft", "Gladem"], duloxetin: ["Cymbalta", "Ariclaim"], amitriptylin: ["Saroten"], citalopram: ["Cipramil"], escitalopram: ["Cipralex"], mirtazapin: ["Remeron"], lorazepam: ["Tavor", "Tavor Expidet"], zolpidem: ["Stilnox", "Bikalm"],
   venlafaxin: ["Trevilor", "Efexor"], fluoxetin: ["Fluctin"], bupropion: ["Elontril", "Zyban"], quetiapin: ["Seroquel"], olanzapin: ["Zyprexa"], aripiprazol: ["Abilify"], haloperidol: ["Haldol"], promethazin: ["Atosil"], melatonin: ["Circadin"], zopiclon: ["Ximovan"],
