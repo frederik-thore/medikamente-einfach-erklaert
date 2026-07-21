@@ -31,10 +31,10 @@ h2 { font-size: 1.35rem; letter-spacing: -.025em; margin-bottom: .85rem; }
 .search-status { color: #536174; font-size: .9rem; min-height: 1.7rem; padding-top: .6rem; }
 .medication-list { display: grid; gap: .75rem; margin-top: 1.2rem; }
 .search-status:not([hidden]) + .medication-list { margin-top: .25rem; }
-.medication-card { background: #fff; border: 1px solid #e0e5eb; border-radius: 1rem; box-shadow: 0 2px 5px #17203309; padding: 1rem; text-align: left; width: 100%; }
+.medication-card { background: #fff; border: 1px solid #e0e5eb; border-radius: 1rem; box-shadow: 0 2px 5px #17203309; color: #172033; padding: 1rem; text-align: left; width: 100%; }
 .medication-card:hover, .medication-card:focus-visible { border-color: #1769aa; box-shadow: 0 0 0 3px #cfe4fa; outline: 0; }
 .medication-card__top { align-items: center; display: flex; gap: .7rem; justify-content: space-between; }
-.medication-card h3 { font-size: 1.12rem; margin: 0; }
+.medication-card h3 { color: #172033; font-size: 1.12rem; margin: 0; }
 .medication-card p { color: #536174; font-size: .92rem; margin: .2rem 0 0; }
 .medication-card .alias-match { color: #175ea8; font-weight: 700; }
 .pill { background: #e7f2ff; border-radius: 99px; color: #175ea8; font-size: .76rem; font-weight: 700; padding: .18rem .55rem; white-space: nowrap; }
@@ -68,6 +68,7 @@ h2 { font-size: 1.35rem; letter-spacing: -.025em; margin-bottom: .85rem; }
 @media (prefers-color-scheme: dark) {
   :root { color: #ecf1f7; background: #111820; }
   .medication-card, .info-card, .search { background: #19232e; border-color: #344252; }
+  .medication-card, .medication-card h3 { color: #ecf1f7; }
   .notice { background: #1b2b3b; color: #c6d7e9; }
   .info-card--warning { background: #1b2b3b; }
   .info-card--urgent { background: #30242a; }
