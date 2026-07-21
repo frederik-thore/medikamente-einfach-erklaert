@@ -2894,6 +2894,56 @@ const reviewedDrafts = [
     sideEffects: "Infekte, Übelkeit, Kopfschmerzen, Schwindel und Veränderungen von Blutbild oder Leberwerten können auftreten.",
     urgent: "Bei Fieber, Husten oder Atemnot, Gürtelrose-ähnlichem Ausschlag, einseitig geschwollenem oder schmerzendem Bein, plötzlichem Brustschmerz, Blut im Stuhl oder einer schweren allergischen Reaktion sofort medizinische Hilfe holen.",
     source: "EMA: Jyseleca® – Produktinformation (aktualisiert 06/2025, abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/jyseleca", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "mycophenolat-mofetil", name: "Mycophenolat-Mofetil", examples: "Referenzpräparat: CellCept® Kapseln oder Tabletten", category: "Immunsuppressiva",
+    purpose: "Mycophenolat-Mofetil wird zusammen mit anderen Mitteln eingesetzt, um nach einer Organtransplantation eine Abstoßung zu verhindern. Bei anderen schweren entzündlichen Erkrankungen entscheidet ein spezialisiertes Behandlungsteam individuell über den Einsatz.",
+    does: "Es bremst Teile des Immunsystems. Dadurch werden bestimmte Abwehrzellen weniger aktiv.",
+    doesNot: "Es behandelt keine Infektion und ist kein Mittel für eine Selbstbehandlung von Husten, Fieber oder Atemnot.",
+    daily: "Nur nach festem Facharztplan einnehmen. Blutbild, Leber- und Nierenwerte sowie Infektzeichen kontrollieren lassen. Schwangerschaft, Kinderwunsch, Stillzeit, Impfungen und neue Medikamente immer vorher besprechen.",
+    sideEffects: "Durchfall, Übelkeit, Erbrechen, Bauchbeschwerden, niedrige Zahl weißer Blutkörperchen und Infekte können auftreten.",
+    urgent: "Bei Fieber, Halsschmerzen, Husten oder Atemnot, ungewöhnlichen Blutungen, starken Bauchschmerzen, schwarzem Stuhl, schwerer Hautreaktion oder möglicher Schwangerschaft sofort das Behandlungsteam kontaktieren.",
+    source: "EMA: CellCept® – Produktinformation (aktualisiert 05/2026, abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/cellcept", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "rituximab", name: "Rituximab", examples: "Referenzpräparat: MabThera® Infusionslösung", category: "Immunsuppressiva",
+    purpose: "Rituximab wird je nach Erkrankung bei bestimmten Blutkrebserkrankungen und schweren entzündlichen Autoimmunerkrankungen eingesetzt, zum Beispiel bei bestimmten Gefäßentzündungen.",
+    does: "Es bindet an bestimmte B-Abwehrzellen und verringert deren Zahl. Dadurch kann eine fehlgeleitete Immunreaktion gebremst werden.",
+    doesNot: "Es ist kein Mittel für eine Selbstbehandlung von Beschwerden und behandelt keine akute Infektion.",
+    daily: "Die Gabe erfolgt als Infusion, teils später auch als Spritze, durch ein erfahrenes Behandlungsteam. Vor und während der Behandlung auf Infekte achten; Impfungen und frühere Hepatitis-B-Infektionen unbedingt angeben.",
+    sideEffects: "Reaktionen während oder nach der Infusion, Infekte, Fieber, Schüttelfrost, Müdigkeit, Übelkeit und Veränderungen des Blutbilds können auftreten.",
+    urgent: "Bei Atemnot, Schwellung von Gesicht oder Hals, starkem Ausschlag, Fieber, anhaltendem Husten, ungewöhnlicher Schwäche oder einer Reaktion während der Infusion sofort das Behandlungsteam informieren.",
+    source: "EMA: MabThera® – Produktinformation (aktualisiert 05/2025, abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/mabthera", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "cyclophosphamid", name: "Cyclophosphamid", examples: "Referenzpräparat: Cyclophosphamid HEXAL® Infusionslösung", category: "Immunsuppressiva und Krebstherapie",
+    purpose: "Cyclophosphamid wird unter enger fachärztlicher Kontrolle vor allem zur Behandlung bestimmter Krebserkrankungen eingesetzt. In besonderen Fällen kann es auch Teil einer spezialisierten Behandlung schwerer Immunerkrankungen sein.",
+    does: "Es hemmt die Vermehrung schnell wachsender Zellen und dämpft dadurch auch Teile des Immunsystems.",
+    doesNot: "Es ist kein Mittel für eine Selbstbehandlung und behandelt keine Infektion.",
+    daily: "Gabe, Begleitmedikamente, Trinkmenge und Kontrollen werden vom Behandlungsteam festgelegt. Blutbild, Nieren- und Leberwerte sowie Urin werden regelmäßig kontrolliert. Schwangerschaft, Kinderwunsch und neue Medikamente immer vorher ansprechen.",
+    sideEffects: "Übelkeit, Erbrechen, Müdigkeit, Haarausfall, Infekte, Veränderungen des Blutbilds und Reizungen oder Blutungen der Harnblase können auftreten.",
+    urgent: "Bei Fieber, Schüttelfrost, Atemnot, Blut im Urin, Schmerzen beim Wasserlassen, ungewöhnlichen Blutungen, schwerer Schwäche oder einer schweren allergischen Reaktion sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: Cyclophosphamid HEXAL® Pulver zur Herstellung einer Injektions-/Infusionslösung (abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/c/cyclophosphamid-hexal-500mg-2000mg-trockensubstanz-ohne-loesungsmittel", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "nintedanib", name: "Nintedanib", examples: "Referenzpräparat: Ofev® Weichkapseln", category: "Lungenmedikamente",
+    purpose: "Nintedanib wird bei bestimmten fortschreitenden Lungenvernarbungen eingesetzt, zum Beispiel bei idiopathischer Lungenfibrose oder bestimmten anderen vernarbenden Lungenerkrankungen.",
+    does: "Es kann die Verschlechterung der Lungenfunktion verlangsamen. Es beseitigt bereits entstandenes Narbengewebe nicht.",
+    doesNot: "Es ist kein Mittel zur schnellen Behandlung einer plötzlich auftretenden Atemnot und ersetzt keine Untersuchung bei neuer Verschlechterung.",
+    daily: "Nach dem Facharztplan einnehmen und bei Durchfall frühzeitig Praxis oder Apotheke kontaktieren. Leberwerte werden kontrolliert. Schwangerschaft, Blutverdünner und neue Medikamente immer vorher besprechen.",
+    sideEffects: "Durchfall, Übelkeit, Erbrechen, Bauchschmerzen, verminderter Appetit, Gewichtsabnahme und erhöhte Leberwerte können auftreten.",
+    urgent: "Bei starker oder anhaltender Durchfallerkrankung, Zeichen von Austrocknung, Blutungen, starken Bauchschmerzen, Gelbfärbung von Haut oder Augen, deutlich zunehmender Atemnot oder einer schweren allergischen Reaktion sofort medizinische Hilfe holen.",
+    source: "EMA: Ofev® – Produktinformation (abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/ofev", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "pirfenidon", name: "Pirfenidon", examples: "Referenzpräparat: Esbriet® Kapseln oder Tabletten", category: "Lungenmedikamente",
+    purpose: "Pirfenidon wird bei Erwachsenen mit idiopathischer Lungenfibrose eingesetzt, einer Erkrankung mit fortschreitender Vernarbung der Lunge.",
+    does: "Es kann die fortschreitende Vernarbung der Lunge verlangsamen. Es kann bereits entstandenes Narbengewebe nicht rückgängig machen.",
+    doesNot: "Es ist kein Mittel für eine plötzlich auftretende Atemnot und ersetzt keine Untersuchung bei neuer Verschlechterung.",
+    daily: "Nach dem Facharztplan mit einer Mahlzeit einnehmen. Leberwerte werden kontrolliert. Die Haut konsequent vor Sonne schützen; neue Medikamente, vor allem Fluvoxamin, immer vorher abklären.",
+    sideEffects: "Übelkeit, Durchfall, Verdauungsbeschwerden, Müdigkeit, Appetitverlust, Kopfschmerzen, Hautausschlag und sonnenbrandähnliche Hautreaktionen können auftreten.",
+    urgent: "Bei Gelbfärbung von Haut oder Augen, dunklem Urin, starken Bauchschmerzen, Schwellung von Gesicht oder Hals, Atemnot, schwerer Hautreaktion oder deutlich zunehmender Atemnot sofort medizinische Hilfe holen.",
+    source: "EMA: Esbriet® – Produktinformation (aktualisiert 07/2026, abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/esbriet", reviewStatus: "Quellenbasierter Entwurf"
   }
 ];
 
@@ -2958,6 +3008,7 @@ const commonBrandAliases = {
   azathioprin: ["Azathioprin HEXAL", "Azafalk"], vedolizumab: ["Entyvio"], ustekinumab: ["Stelara"], infliximab: ["Remicade", "Remsima"], "budesonid-darm": ["Budenofalk", "Entocort"],
   rizatriptan: ["Maxalt", "Rizatriptan PUREN"], eletriptan: ["Relpax"], propranolol: ["Dociton", "Obsidan", "Propranolol PUREN"], erenumab: ["Aimovig"], atogepant: ["Aquipta"],
   "mesalazin-rektal": ["Salofalk Rektalschaum", "Salofalk Klysmen", "Salofalk Zäpfchen"], tofacitinib: ["Xeljanz"], upadacitinib: ["Rinvoq"], ozanimod: ["Zeposia"], filgotinib: ["Jyseleca"],
+  "mycophenolat-mofetil": ["CellCept", "Mycophenolat mofetil Teva"], rituximab: ["MabThera", "Rixathon", "Truxima"], cyclophosphamid: ["Endoxan", "Cyclophosphamid HEXAL"], nintedanib: ["Ofev"], pirfenidon: ["Esbriet"],
   abirateron: ["Zytiga"], apalutamid: ["Erleada"], enzalutamid: ["Xtandi"], darolutamid: ["Nubeqa"], degarelix: ["Firmagon"], relugolix: ["Orgovyx"], denosumab: ["Prolia", "Xgeva"], zoledronsaeure: ["Zometa", "Aclasta"],
   olaparib: ["Lynparza"], talazoparib: ["Talzenna"], docetaxel: ["Taxotere"], cabazitaxel: ["Jevtana"], "radium-223-dichlorid": ["Xofigo"], "lutetium-177-vipivotid-tetraxetan": ["Pluvicto"], pembrolizumab: ["Keytruda"], nivolumab: ["Opdivo"], abemaciclib: ["Verzenios"], palbociclib: ["Ibrance"], ribociclib: ["Kisqali"], goserelin: ["Zoladex"], triptorelin: ["Pamorelin", "Decapeptyl"], bicalutamid: ["Casodex"],
   hydrocortison: ["Plenadren", "Hydrocortison Jenapharm"], methylprednisolon: ["Urbason", "Medrol"], filgrastim: ["Neupogen", "Zarzio"], pegfilgrastim: ["Neulasta", "Ziextenzo"], "epoetin-alfa": ["Eprex"], "darbepoetin-alfa": ["Aranesp"],
