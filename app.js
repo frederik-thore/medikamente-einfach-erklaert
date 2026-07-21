@@ -2944,6 +2944,56 @@ const reviewedDrafts = [
     sideEffects: "Übelkeit, Durchfall, Verdauungsbeschwerden, Müdigkeit, Appetitverlust, Kopfschmerzen, Hautausschlag und sonnenbrandähnliche Hautreaktionen können auftreten.",
     urgent: "Bei Gelbfärbung von Haut oder Augen, dunklem Urin, starken Bauchschmerzen, Schwellung von Gesicht oder Hals, Atemnot, schwerer Hautreaktion oder deutlich zunehmender Atemnot sofort medizinische Hilfe holen.",
     source: "EMA: Esbriet® – Produktinformation (aktualisiert 07/2026, abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/esbriet", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "tamoxifen", name: "Tamoxifen", examples: "Referenzpräparat: Nolvadex® oder Tamoxifen HEXAL® Filmtabletten", category: "Krebstherapie",
+    purpose: "Tamoxifen wird bei hormonempfindlichem Brustkrebs eingesetzt, unter anderem nach der Erstbehandlung oder bei Metastasen.",
+    does: "Es blockiert die Wirkung von Östrogen an Brustkrebszellen. Dadurch kann das Wachstum hormonempfindlicher Krebszellen gebremst werden.",
+    doesNot: "Es ist kein Schmerzmittel und behandelt nicht jede Form von Brustkrebs. Es ersetzt keine Krebsnachsorge oder Untersuchung neuer Beschwerden.",
+    daily: "Regelmäßig genau nach dem onkologischen Plan einnehmen und nicht selbst absetzen. Neue Medikamente, Blutungen, Sehstörungen, Operationen und längere Immobilität immer mit dem Behandlungsteam besprechen.",
+    sideEffects: "Hitzewallungen, Ausfluss oder Blutungen aus der Scheide, Übelkeit, Müdigkeit, Muskel- oder Gelenkbeschwerden und Wassereinlagerungen können auftreten.",
+    urgent: "Bei ungewöhnlicher Blutung aus der Scheide, einseitig geschwollenem oder schmerzendem Bein, plötzlichem Brustschmerz, Atemnot, Sehstörung oder einer schweren allergischen Reaktion sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: Tamoxifen 20 mg HEXAL® Filmtabletten (Stand 09/2025, abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/t/tamoxifen-20mg-hexal-filmtabletten?schrift=0.9", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "anastrozol", name: "Anastrozol", examples: "Referenzpräparat: Anastrozol Aristo® Filmtabletten", category: "Krebstherapie",
+    purpose: "Anastrozol wird nach den Wechseljahren bei hormonempfindlichem Brustkrebs eingesetzt.",
+    does: "Es hemmt ein Enzym, das Östrogen bildet. Dadurch steht hormonempfindlichen Brustkrebszellen weniger Östrogen als Wachstumsreiz zur Verfügung.",
+    doesNot: "Es ist kein Schmerzmittel und behandelt nicht jede Form von Brustkrebs. Es ersetzt keine Krebsnachsorge oder Untersuchung neuer Beschwerden.",
+    daily: "Regelmäßig nach dem onkologischen Plan einnehmen und nicht selbst absetzen. Knochenstabilität, Cholesterin und neue Gelenk- oder Knochenschmerzen mit dem Behandlungsteam besprechen.",
+    sideEffects: "Hitzewallungen, Gelenk- oder Muskelschmerzen, Müdigkeit, Kopfschmerzen, Übelkeit und eine Abnahme der Knochendichte können auftreten.",
+    urgent: "Bei Brustschmerz oder Atemnot, einseitig geschwollenem Bein, plötzlicher starker Schwäche, Zeichen einer schweren allergischen Reaktion oder einem möglichen Knochenbruch sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: Anastrozol Aristo® 1 mg Filmtabletten (abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/a/anastrozol-aristo-1-mg-filmtabletten", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "letrozol", name: "Letrozol", examples: "Referenzpräparat: Femara® oder Letrozol Aristo® Filmtabletten", category: "Krebstherapie",
+    purpose: "Letrozol wird nach den Wechseljahren bei hormonempfindlichem Brustkrebs eingesetzt.",
+    does: "Es hemmt ein Enzym, das Östrogen bildet. Dadurch steht hormonempfindlichen Brustkrebszellen weniger Östrogen als Wachstumsreiz zur Verfügung.",
+    doesNot: "Es ist kein Schmerzmittel und behandelt nicht jede Form von Brustkrebs. Es ersetzt keine Krebsnachsorge oder Untersuchung neuer Beschwerden.",
+    daily: "Regelmäßig nach dem onkologischen Plan einnehmen und nicht selbst absetzen. Knochenstabilität, Cholesterin und neue Gelenk- oder Knochenschmerzen mit dem Behandlungsteam besprechen.",
+    sideEffects: "Hitzewallungen, Gelenk- oder Muskelschmerzen, Müdigkeit, Schwindel, Kopfschmerzen und eine Abnahme der Knochendichte können auftreten.",
+    urgent: "Bei Brustschmerz oder Atemnot, einseitig geschwollenem Bein, plötzlicher starker Schwäche, Zeichen einer schweren allergischen Reaktion oder einem möglichen Knochenbruch sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: Letrozol Aristo® 2,5 mg Filmtabletten (abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/l/letrozol-aristo-25-mg-filmtabletten", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "exemestan", name: "Exemestan", examples: "Referenzpräparat: Exemestan – 1 A Pharma® Filmtabletten", category: "Krebstherapie",
+    purpose: "Exemestan wird nach den Wechseljahren bei hormonempfindlichem Brustkrebs eingesetzt, häufig nach einer vorherigen hormonellen Behandlung.",
+    does: "Es hemmt dauerhaft ein Enzym, das Östrogen bildet. Dadurch steht hormonempfindlichen Brustkrebszellen weniger Östrogen als Wachstumsreiz zur Verfügung.",
+    doesNot: "Es ist kein Schmerzmittel und behandelt nicht jede Form von Brustkrebs. Es ersetzt keine Krebsnachsorge oder Untersuchung neuer Beschwerden.",
+    daily: "Regelmäßig nach dem onkologischen Plan einnehmen und nicht selbst absetzen. Knochenstabilität und neue Gelenk- oder Knochenschmerzen mit dem Behandlungsteam besprechen.",
+    sideEffects: "Hitzewallungen, Müdigkeit, Übelkeit, Kopfschmerzen, Muskel- oder Gelenkschmerzen und eine Abnahme der Knochendichte können auftreten.",
+    urgent: "Bei Brustschmerz oder Atemnot, einseitig geschwollenem Bein, Gelbfärbung von Haut oder Augen, Zeichen einer schweren allergischen Reaktion oder einem möglichen Knochenbruch sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: Exemestan – 1 A Pharma® 25 mg Filmtabletten (Stand 05/2025, abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/e/exemestan-1a-pharma-25mg-filmtabletten", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "fulvestrant", name: "Fulvestrant", examples: "Referenzpräparat: Faslodex® Injektionslösung", category: "Krebstherapie",
+    purpose: "Fulvestrant wird bei bestimmten hormonempfindlichen, fortgeschrittenen oder metastasierten Formen von Brustkrebs eingesetzt.",
+    does: "Es blockiert Östrogen-Rezeptoren und verringert ihre Zahl. Dadurch kann das Wachstum hormonempfindlicher Krebszellen gebremst werden.",
+    doesNot: "Es ist kein Mittel für eine Selbstbehandlung und behandelt nicht jede Form von Brustkrebs.",
+    daily: "Die Injektion wird nach einem festen onkologischen Plan durch medizinisches Fachpersonal gegeben. Beschwerden an der Einstichstelle, Blutungen, Leberprobleme und neue Medikamente immer ansprechen.",
+    sideEffects: "Schmerzen oder Entzündung an der Einstichstelle, Müdigkeit, Übelkeit, Kopfschmerzen, Hitzewallungen und erhöhte Leberwerte können auftreten.",
+    urgent: "Bei Schwellung von Gesicht oder Hals, Atemnot, Fieber, starker oder anhaltender Blutung, Gelbfärbung von Haut oder Augen, schwerer Schwäche oder einer starken Reaktion nach der Injektion sofort medizinische Hilfe holen.",
+    source: "EMA: Faslodex® – Produktinformation (abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/faslodex", reviewStatus: "Quellenbasierter Entwurf"
   }
 ];
 
@@ -3009,6 +3059,7 @@ const commonBrandAliases = {
   rizatriptan: ["Maxalt", "Rizatriptan PUREN"], eletriptan: ["Relpax"], propranolol: ["Dociton", "Obsidan", "Propranolol PUREN"], erenumab: ["Aimovig"], atogepant: ["Aquipta"],
   "mesalazin-rektal": ["Salofalk Rektalschaum", "Salofalk Klysmen", "Salofalk Zäpfchen"], tofacitinib: ["Xeljanz"], upadacitinib: ["Rinvoq"], ozanimod: ["Zeposia"], filgotinib: ["Jyseleca"],
   "mycophenolat-mofetil": ["CellCept", "Mycophenolat mofetil Teva"], rituximab: ["MabThera", "Rixathon", "Truxima"], cyclophosphamid: ["Endoxan", "Cyclophosphamid HEXAL"], nintedanib: ["Ofev"], pirfenidon: ["Esbriet"],
+  tamoxifen: ["Nolvadex", "Tamoxifen HEXAL"], anastrozol: ["Arimidex", "Anastrozol Aristo"], letrozol: ["Femara", "Letrozol Aristo", "Letroblock"], exemestan: ["Aromasin", "Exemestan – 1 A Pharma"], fulvestrant: ["Faslodex", "Fulvestrant Mylan"],
   abirateron: ["Zytiga"], apalutamid: ["Erleada"], enzalutamid: ["Xtandi"], darolutamid: ["Nubeqa"], degarelix: ["Firmagon"], relugolix: ["Orgovyx"], denosumab: ["Prolia", "Xgeva"], zoledronsaeure: ["Zometa", "Aclasta"],
   olaparib: ["Lynparza"], talazoparib: ["Talzenna"], docetaxel: ["Taxotere"], cabazitaxel: ["Jevtana"], "radium-223-dichlorid": ["Xofigo"], "lutetium-177-vipivotid-tetraxetan": ["Pluvicto"], pembrolizumab: ["Keytruda"], nivolumab: ["Opdivo"], abemaciclib: ["Verzenios"], palbociclib: ["Ibrance"], ribociclib: ["Kisqali"], goserelin: ["Zoladex"], triptorelin: ["Pamorelin", "Decapeptyl"], bicalutamid: ["Casodex"],
   hydrocortison: ["Plenadren", "Hydrocortison Jenapharm"], methylprednisolon: ["Urbason", "Medrol"], filgrastim: ["Neupogen", "Zarzio"], pegfilgrastim: ["Neulasta", "Ziextenzo"], "epoetin-alfa": ["Eprex"], "darbepoetin-alfa": ["Aranesp"],
