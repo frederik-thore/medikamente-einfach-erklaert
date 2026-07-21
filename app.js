@@ -2744,6 +2744,56 @@ const reviewedDrafts = [
     sideEffects: "Brennen oder Trockenheit der Nase, Niesen, Kopfschmerzen, Herzklopfen, Unruhe und Schlafstörungen können auftreten.",
     urgent: "Bei Atemnot, starker Schwellung von Gesicht oder Hals, Herzrasen mit Schwindel, auffälliger Unruhe oder einer möglichen Überdosierung sofort medizinische Hilfe holen.",
     source: "Gebrauchsinformation: Septanasal® für Kinder 0,5 mg/ml + 50 mg/ml Nasenspray (abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/s/septanasalR-fuer-kinder-05-mgml--50-mgml-nasenspray-loesung", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "azathioprin", name: "Azathioprin", examples: "Referenzpräparat: Azathioprin HEXAL® Filmtabletten", category: "Darmerkrankungen",
+    purpose: "Azathioprin wird unter fachärztlicher Kontrolle unter anderem bei Colitis ulcerosa und Morbus Crohn eingesetzt, um eine überschießende Immunreaktion zu dämpfen.",
+    does: "Es schwächt gezielt Teile des Immunsystems. Dadurch kann es helfen, Entzündungsschübe langfristig zu verhindern oder seltener zu machen.",
+    doesNot: "Es wirkt nicht sofort bei einem akuten Schub und behandelt keine Infektion.",
+    daily: "Nur nach dem persönlichen Facharztplan einnehmen. Blutbild sowie Leberwerte müssen regelmäßig kontrolliert werden; Impfungen und neue Medikamente immer vorher abklären.",
+    sideEffects: "Übelkeit, Müdigkeit, erhöhte Infektanfälligkeit, Veränderungen des Blutbilds und der Leberwerte können auftreten.",
+    urgent: "Bei Fieber, Halsschmerzen, Husten oder Atemnot, wunden Stellen im Mund, ungewöhnlichen Blutungen, Gelbfärbung oder starker Bauchschmerz sofort die behandelnde Praxis kontaktieren.",
+    source: "Gebrauchsinformation: Azathioprin HEXAL® Filmtabletten (abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/a/azathioprin-hexal-75mg-100mg-filmtabletten", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "vedolizumab", name: "Vedolizumab", examples: "Referenzpräparat: Entyvio® Infusion oder Fertigpen", category: "Darmerkrankungen",
+    purpose: "Vedolizumab wird bei mittelschwerer bis schwerer Colitis ulcerosa oder Morbus Crohn eingesetzt, wenn andere Behandlungen nicht ausreichend wirken oder nicht vertragen werden.",
+    does: "Es bremst die Einwanderung bestimmter Abwehrzellen in den Darm und kann so die Darmentzündung verringern.",
+    doesNot: "Es ist kein Mittel für eine Selbstbehandlung eines akuten Schubs und hilft nicht gegen jede Ursache von Bauchschmerzen oder Durchfall.",
+    daily: "Wird als Infusion oder nach Einweisung als Spritze nach einem festen Facharztplan angewendet. Die Patientenkarte und Kontrolltermine beachten.",
+    sideEffects: "Erkältungsähnliche Infekte, Kopfschmerzen, Gelenkschmerzen, Übelkeit, Müdigkeit und Reaktionen an der Infusions- oder Einstichstelle können auftreten.",
+    urgent: "Bei Fieber, anhaltendem Husten, Atemnot, starkem Durchfall, Schwellung von Gesicht oder Hals, Hautausschlag oder einer Reaktion während/nach der Infusion sofort das Behandlungsteam kontaktieren.",
+    source: "EMA: Entyvio® – Produktinformation (aktualisiert 03/2026, abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/entyvio", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "ustekinumab", name: "Ustekinumab", examples: "Referenzpräparat: Stelara® Infusion oder Fertigspritze", category: "Darmerkrankungen",
+    purpose: "Ustekinumab wird bei mittelschwerer bis schwerer Colitis ulcerosa oder Morbus Crohn eingesetzt, wenn andere Behandlungen nicht ausreichend wirken oder nicht vertragen werden.",
+    does: "Es blockiert zwei Entzündungsbotenstoffe und kann die Entzündung im Darm langfristig verringern.",
+    doesNot: "Es ist kein Mittel für eine Selbstbehandlung eines akuten Schubs und behandelt keine Infektion.",
+    daily: "Die erste Gabe und die weiteren Spritzen erfolgen nach einem festen Facharztplan. Vor und während der Behandlung auf Infektzeichen achten; Impfungen vorher besprechen.",
+    sideEffects: "Infekte, Kopfschmerzen, Müdigkeit, Übelkeit und Reaktionen an der Einstichstelle können auftreten.",
+    urgent: "Bei Fieber, anhaltendem Husten, Atemnot, starker Schwäche, Schwellung von Gesicht oder Hals oder einer schweren Hautreaktion sofort das Behandlungsteam kontaktieren.",
+    source: "EMA: Stelara® – Produktinformation (abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/stelara", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "infliximab", name: "Infliximab", examples: "Referenzpräparat: Remicade® Infusionslösung", category: "Darmerkrankungen",
+    purpose: "Infliximab wird bei mittelschwerer bis schwerer Colitis ulcerosa oder Morbus Crohn eingesetzt, wenn andere Behandlungen nicht ausreichend wirken oder nicht vertragen werden.",
+    does: "Es blockiert den Entzündungsbotenstoff TNF und kann so Entzündungen im Darm verringern.",
+    doesNot: "Es ist kein Mittel für eine Selbstbehandlung eines akuten Schubs und behandelt keine Infektion.",
+    daily: "Wird als Infusion nach einem festen Plan durch ein Behandlungsteam gegeben. Infekte, Impfungen und frühere Reaktionen auf Infusionen immer angeben.",
+    sideEffects: "Infekte, Kopfschmerzen, Bauchschmerzen, Übelkeit, Müdigkeit und Reaktionen während oder nach der Infusion können auftreten.",
+    urgent: "Bei Fieber, anhaltendem Husten, Atemnot, starkem Durchfall, Brustschmerz, Schwellung von Gesicht oder Hals oder einer Infusionsreaktion sofort das Behandlungsteam kontaktieren.",
+    source: "EMA: Remicade® – Produktinformation (abgerufen am 22.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/remicade", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "budesonid-darm", name: "Budesonid (Magen-Darm)", examples: "Referenzpräparat: Budenofalk® Kapseln", category: "Darmerkrankungen",
+    purpose: "Budesonid in passenden Magen-Darm-Darreichungsformen wird bei bestimmten entzündlichen Darmerkrankungen eingesetzt, je nach Präparat und Erkrankung auch bei Colitis ulcerosa.",
+    does: "Es ist ein Kortisonmittel, das vor allem am Entzündungsort im Darm wirken soll und einen Schub dämpfen kann.",
+    doesNot: "Es ist keine Dauerlösung für jede Form von Colitis und darf bei längerer Anwendung nicht selbst abrupt abgesetzt werden.",
+    daily: "Darreichungsform und Einnahmezeit genau beachten: Kapseln, Granulat, Rektalschaum und Einläufe sind nicht austauschbar. Bei Fieber oder Infektzeichen die behandelnde Praxis informieren.",
+    sideEffects: "Bauchbeschwerden, Kopfschmerzen, Schlaf- und Stimmungsschwankungen sowie bei längerer oder höherer Belastung typische Kortisonwirkungen können auftreten.",
+    urgent: "Bei Fieber oder Zeichen einer Infektion, schwarzem Stuhl, starken Bauchschmerzen, Sehstörungen, starker Verwirrtheit oder einer schweren allergischen Reaktion sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: Budenofalk® Kapseln (abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/b/budenofalk-3-mg-magensaftresistente-hartkapseln", reviewStatus: "Quellenbasierter Entwurf"
   }
 ];
 
@@ -2805,6 +2855,7 @@ const commonBrandAliases = {
   loratadin: ["Lorano", "Clarityn", "Lorano akut"], cetirizin: ["Zyrtec", "Cetirizin Aristo Allergiesaft"], montelukast: ["Singulair"], tamsulosin: ["Omnic", "Alna"], finasterid: ["Proscar"], solifenacin: ["Vesikur"], mirabegron: ["Betmiga"], colecalciferol: ["Dekristol", "Vigantol"], alendronsaeure: ["Fosamax"], "eisenii-sulfat": ["Tardyferon", "Ferro sanol duodenal"], folsaeure: ["Folsan"], levothyroxin: ["Euthyrox", "L-Thyroxin", "Henning"], allopurinol: ["Zyloric"],
   desloratadin: ["Aerius", "Aerius Lösung", "Desloratadin Heumann", "Desloratadin Aristo Lösung"], fexofenadin: ["Telfast"], azithromycin: ["Zithromax"], clarithromycin: ["Klacid"], cotrimoxazol: ["Cotrim forte-ratiopharm"], fosfomycin: ["Monuril", "Fosfomycin Aristo"], ciprofloxacin: ["Ciprobay"], valaciclovir: ["Valtrex"], fluconazol: ["Diflucan"], terbinafin: ["Lamisil"], nystatin: ["Nystatin Lederle"], mesalazin: ["Salofalk", "Pentasa"], pankreatin: ["Kreon", "Pangrol"], ursodeoxycholsaeure: ["Ursofalk"],
   dimenhydrinat: ["Vomex", "VomiSaft", "Vomex A"], "xylometazolin-dexpanthenol": ["Septanasal für Kinder", "Otriven Protect"],
+  azathioprin: ["Azathioprin HEXAL", "Azafalk"], vedolizumab: ["Entyvio"], ustekinumab: ["Stelara"], infliximab: ["Remicade", "Remsima"], "budesonid-darm": ["Budenofalk", "Entocort"],
   abirateron: ["Zytiga"], apalutamid: ["Erleada"], enzalutamid: ["Xtandi"], darolutamid: ["Nubeqa"], degarelix: ["Firmagon"], relugolix: ["Orgovyx"], denosumab: ["Prolia", "Xgeva"], zoledronsaeure: ["Zometa", "Aclasta"],
   olaparib: ["Lynparza"], talazoparib: ["Talzenna"], docetaxel: ["Taxotere"], cabazitaxel: ["Jevtana"], "radium-223-dichlorid": ["Xofigo"], "lutetium-177-vipivotid-tetraxetan": ["Pluvicto"], pembrolizumab: ["Keytruda"], nivolumab: ["Opdivo"], abemaciclib: ["Verzenios"], palbociclib: ["Ibrance"], ribociclib: ["Kisqali"], goserelin: ["Zoladex"], triptorelin: ["Pamorelin", "Decapeptyl"], bicalutamid: ["Casodex"],
   hydrocortison: ["Plenadren", "Hydrocortison Jenapharm"], methylprednisolon: ["Urbason", "Medrol"], filgrastim: ["Neupogen", "Zarzio"], pegfilgrastim: ["Neulasta", "Ziextenzo"], "epoetin-alfa": ["Eprex"], "darbepoetin-alfa": ["Aranesp"],
