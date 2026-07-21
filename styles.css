@@ -50,8 +50,8 @@ h2 { font-size: 1.35rem; letter-spacing: -.025em; margin-bottom: .85rem; }
 .info-card p { margin-bottom: 0; }
 .info-card--positive { border-left: .3rem solid #1769aa; }
 .info-card--neutral { border-left: .3rem solid #5978b8; }
-.info-card--warning { background: #fff8e8; border-left: .3rem solid #e5a122; }
-.info-card--urgent { background: #fff0ef; border-left: .3rem solid #ce4d46; }
+.info-card--warning { background: #f3f7fc; border-left: .3rem solid #8bb2d8; }
+.info-card--urgent { background: #fbf5f6; border-left: .3rem solid #b87b85; }
 .preparation-panel { border-left-color: #5978b8; }
 .preparation-list { margin: .65rem 0; padding-left: 1.25rem; }
 .preparation-list li + li { margin-top: .7rem; }
@@ -71,8 +71,8 @@ footer p { margin-bottom: 0; }
   :root { color: #ecf1f7; background: #111820; }
   .medication-card, .info-card, .search { background: #19232e; border-color: #344252; }
   .notice { background: #1b2b3b; color: #c6d7e9; }
-  .info-card--warning { background: #33291a; }
-  .info-card--urgent { background: #382121; }
+  .info-card--warning { background: #1b2b3b; }
+  .info-card--urgent { background: #30242a; }
   .intro, .medication-card p, .detail-meta, .search-status, .source, footer, .eyebrow { color: #b6c1cf; }
   .search input { background: #19232e; color: #ecf1f7; }
   .filter-label select { background: #19232e; border-color: #344252; color: #ecf1f7; }
