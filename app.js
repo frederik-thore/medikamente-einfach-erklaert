@@ -1668,7 +1668,7 @@ const commonBrandAliases = {
 };
 
 const medications = [
-  ...reviewedDrafts.map((medication) => ({ ...medication, aliases: commonBrandAliases[medication.id] ?? [], reviewStatus: medication.reviewStatus ?? "Entwurf – fachlich zu prüfen" })),
+  ...reviewedDrafts.map((medication) => ({ ...medication, aliases: commonBrandAliases[medication.id] ?? [], reviewStatus: (medication.reviewStatus ?? "Entwurf – fachlich zu prüfen").replace(" – Prüfung durch Sonja ausstehend", "") })),
   ...pilotCandidates.filter(([name]) => !reviewedDrafts.some((medication) => medication.name === name)).map(([name, category]) => ({
     id: name.toLocaleLowerCase("de-DE").replaceAll(" ", "-").replaceAll("/", "-"),
     name,
@@ -1857,10 +1857,10 @@ function renderList(query = "") {
       ? medication.aliases.find((alias) => normalizeForSearch(alias).includes(normalizedQuery))
       : undefined
   }));
-  const drafts = medications.filter((medication) => medication.reviewStatus.includes("Best Guess") || medication.reviewStatus.toLocaleLowerCase("de-DE").includes("entwurf")).length;
   status.textContent = normalizedQuery || categoryFilter.value
     ? `${matches.length} Treffer`
-    : `${medications.length} Wirkstoff-Kandidaten · ${drafts} Entwurfskarten`;
+    : "";
+  status.hidden = !(normalizedQuery || categoryFilter.value);
   list.innerHTML = matches.length
     ? matches.map((medication) => `
       <button class="medication-card" data-id="${medication.id}" type="button">
@@ -1960,7 +1960,7 @@ detail.addEventListener("click", (event) => {
   if (event.target.id !== "back-button") return;
   detail.hidden = true;
   list.hidden = false;
-  status.hidden = false;
+  renderList(search.value);
   search.focus();
 });
 

@@ -17,28 +17,30 @@ button { cursor: pointer; }
 .eyebrow { color: #536174; font-size: .82rem; font-weight: 700; letter-spacing: .08em; margin: 0 0 .5rem; text-transform: uppercase; }
 h1, h2, h3, p { margin-top: 0; }
 h1 { font-size: clamp(2.3rem, 8vw, 4.25rem); letter-spacing: -.065em; line-height: .98; margin-bottom: 1rem; }
-h1 span { color: #257a67; }
+h1 span { color: #1769aa; }
 h2 { font-size: 1.35rem; letter-spacing: -.025em; margin-bottom: .85rem; }
 .intro { color: #536174; font-size: 1.08rem; margin-bottom: 0; max-width: 30rem; }
-.notice { background: #fff8e8; border-left: .3rem solid #e5a122; border-radius: .6rem; font-size: .93rem; margin-bottom: 2rem; padding: .85rem 1rem; }
+.notice { background: #eef5fc; border-left: .25rem solid #8dbce6; border-radius: .6rem; color: #41556e; font-size: .85rem; margin-bottom: 2rem; padding: .65rem .85rem; }
 .search { align-items: center; background: #fff; border: 1px solid #cbd2dc; border-radius: .8rem; display: flex; gap: .6rem; padding: .6rem .85rem; }
-.search:focus-within { border-color: #257a67; box-shadow: 0 0 0 3px #c9e7df; }
+.search:focus-within { border-color: #1769aa; box-shadow: 0 0 0 3px #cfe4fa; }
 .search span { color: #536174; font-size: 1.5rem; line-height: 1; }
 .search input { border: 0; color: #172033; min-width: 0; outline: 0; width: 100%; }
-.filter-label { color: #536174; display: block; font-size: .82rem; font-weight: 700; margin-top: 1rem; }
-.filter-label select { background: #fff; border: 1px solid #cbd2dc; border-radius: .55rem; color: #172033; display: block; margin-top: .3rem; max-width: 100%; padding: .45rem .6rem; }
+.visually-hidden { height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; clip: rect(0, 0, 0, 0); white-space: nowrap; }
+.filter-label { display: block; margin-top: .8rem; }
+.filter-label select { background: #fff; border: 1px solid #b9cce0; border-radius: 999px; color: #29445f; display: block; font-size: .9rem; font-weight: 700; max-width: 100%; min-width: 10.5rem; padding: .45rem 2rem .45rem .85rem; }
 .search-status { color: #536174; font-size: .9rem; min-height: 1.7rem; padding-top: .6rem; }
-.medication-list { display: grid; gap: .75rem; }
+.medication-list { display: grid; gap: .75rem; margin-top: 1.2rem; }
+.search-status:not([hidden]) + .medication-list { margin-top: .25rem; }
 .medication-card { background: #fff; border: 1px solid #e0e5eb; border-radius: 1rem; box-shadow: 0 2px 5px #17203309; padding: 1rem; text-align: left; width: 100%; }
-.medication-card:hover, .medication-card:focus-visible { border-color: #257a67; box-shadow: 0 0 0 3px #c9e7df; outline: 0; }
+.medication-card:hover, .medication-card:focus-visible { border-color: #1769aa; box-shadow: 0 0 0 3px #cfe4fa; outline: 0; }
 .medication-card__top { align-items: center; display: flex; gap: .7rem; justify-content: space-between; }
 .medication-card h3 { font-size: 1.12rem; margin: 0; }
 .medication-card p { color: #536174; font-size: .92rem; margin: .2rem 0 0; }
-.medication-card .alias-match { color: #176553; font-weight: 700; }
-.pill { background: #e4f4ef; border-radius: 99px; color: #176553; font-size: .76rem; font-weight: 700; padding: .18rem .55rem; white-space: nowrap; }
+.medication-card .alias-match { color: #175ea8; font-weight: 700; }
+.pill { background: #e7f2ff; border-radius: 99px; color: #175ea8; font-size: .76rem; font-weight: 700; padding: .18rem .55rem; white-space: nowrap; }
 .pill--pending { background: #f0f2f5; color: #536174; }
 .detail-view { margin-top: 2.2rem; }
-.back-button { background: transparent; border: 0; color: #176553; font-weight: 700; margin: 0 0 1rem; padding: .25rem 0; }
+.back-button { background: transparent; border: 0; color: #175ea8; font-weight: 700; margin: 0 0 1rem; padding: .25rem 0; }
 .detail-header { margin-bottom: 1.2rem; }
 .detail-header h2 { font-size: 2rem; margin-bottom: .15rem; }
 .detail-meta { color: #536174; margin-bottom: 0; }
@@ -46,25 +48,30 @@ h2 { font-size: 1.35rem; letter-spacing: -.025em; margin-bottom: .85rem; }
 .info-card { background: #fff; border: 1px solid #e0e5eb; border-radius: 1rem; padding: 1.1rem; }
 .info-card h3 { font-size: 1.08rem; letter-spacing: -.015em; margin-bottom: .45rem; }
 .info-card p { margin-bottom: 0; }
-.info-card--positive { border-left: .3rem solid #257a67; }
+.info-card--positive { border-left: .3rem solid #1769aa; }
 .info-card--neutral { border-left: .3rem solid #5978b8; }
 .info-card--warning { background: #fff8e8; border-left: .3rem solid #e5a122; }
 .info-card--urgent { background: #fff0ef; border-left: .3rem solid #ce4d46; }
 .preparation-panel { border-left-color: #5978b8; }
 .preparation-list { margin: .65rem 0; padding-left: 1.25rem; }
 .preparation-list li + li { margin-top: .7rem; }
-.preparation-list a { color: #176553; }
+.preparation-list a { color: #175ea8; }
 .preparation-note { color: #536174; font-size: .88rem; }
 .source { color: #536174; font-size: .86rem; margin-top: 1.2rem; }
-.source a { color: #176553; }
+.source a { color: #175ea8; }
 footer { border-top: 1px solid #dfe4ea; color: #536174; font-size: .78rem; margin-top: 3rem; padding: 1.2rem .25rem 0; }
 footer p { margin-bottom: 0; }
 
-@media (max-width: 520px) { .page-shell { width: min(100% - 1.25rem, 760px); padding-top: 2rem; } }
+@media (max-width: 520px) {
+  .page-shell { width: min(100% - 1.25rem, 760px); padding-top: 2rem; }
+  .medication-card__top { align-items: flex-start; flex-wrap: wrap; }
+  .medication-card__top .pill { margin-left: auto; max-width: 100%; overflow-wrap: anywhere; white-space: normal; }
+}
 @media (prefers-color-scheme: dark) {
   :root { color: #ecf1f7; background: #111820; }
   .medication-card, .info-card, .search { background: #19232e; border-color: #344252; }
-  .notice, .info-card--warning { background: #33291a; }
+  .notice { background: #1b2b3b; color: #c6d7e9; }
+  .info-card--warning { background: #33291a; }
   .info-card--urgent { background: #382121; }
   .intro, .medication-card p, .detail-meta, .search-status, .source, footer, .eyebrow { color: #b6c1cf; }
   .search input { background: #19232e; color: #ecf1f7; }
