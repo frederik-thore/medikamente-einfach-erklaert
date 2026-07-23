@@ -3144,6 +3144,56 @@ const reviewedDrafts = [
     sideEffects: "Müdigkeit, Schwindel, Benommenheit, Übelkeit, Erbrechen und Magen-Darm-Beschwerden können auftreten.",
     urgent: "Bei Atemnot, starker Benommenheit oder Bewusstseinsstörung, hohem Fieber mit Unruhe, Verwirrtheit, Muskelzucken oder Muskelsteifheit, Herzrasen, Halluzinationen oder einer möglichen Überdosierung sofort medizinische Hilfe holen.",
     source: "Gebrauchsinformation: Hustenstiller-ratiopharm® Dextromethorphan Hartkapseln (abgerufen am 23.07.2026)", sourceUrl: "https://www.ratiopharm.de/produkte/details/?cHash=6505799d58763e2cf2a55411e0d35630&tx_kfiexensioproductsdb_productsviewing%5Baction%5D=viewDetail&tx_kfiexensioproductsdb_productsviewing%5Bcontroller%5D=Products&tx_kfiexensioproductsdb_productsviewing%5Bpzn%5D=9230807", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "oseltamivir", name: "Oseltamivir", examples: "Referenzpräparat: Tamiflu® Kapseln oder Suspension", category: "Virusmittel",
+    purpose: "Oseltamivir wird zur Behandlung oder in besonderen Situationen zur Vorbeugung einer echten Grippe (Influenza) eingesetzt.",
+    does: "Es hemmt ein Enzym der Influenza-Viren und kann so ihre Ausbreitung im Körper bremsen.",
+    doesNot: "Es hilft nicht gegen jede Erkältung und ersetzt keine Grippeimpfung. Es ist kein Antibiotikum und wirkt nicht gegen bakterielle Infektionen.",
+    daily: "Für eine Behandlung muss es früh nach Beginn typischer Grippebeschwerden begonnen werden. Alter, Gewicht, Nierenfunktion und die konkrete Kapsel- oder Saftform sind entscheidend; nur nach ärztlichem Plan einnehmen.",
+    sideEffects: "Übelkeit, Erbrechen, Bauchschmerzen und Kopfschmerzen können auftreten.",
+    urgent: "Bei Atemnot, Brustschmerz, bläulichen Lippen, starker Benommenheit oder Verwirrtheit, Krampfanfällen, schwerer allergischer Reaktion oder deutlicher Verschlechterung sofort medizinische Hilfe holen.",
+    source: "EMA: Tamiflu® – Produktinformation (aktualisiert 04/2025, abgerufen am 23.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/tamiflu", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "nirmatrelvir-ritonavir", name: "Nirmatrelvir / Ritonavir", examples: "Referenzpräparat: Paxlovid® Tabletten", category: "Virusmittel",
+    purpose: "Nirmatrelvir/Ritonavir wird bei COVID-19 eingesetzt, wenn kein zusätzlicher Sauerstoff nötig ist und ein erhöhtes Risiko für einen schweren Verlauf besteht.",
+    does: "Nirmatrelvir hemmt die Vermehrung des Coronavirus. Ritonavir sorgt dafür, dass Nirmatrelvir länger wirksam im Körper bleibt.",
+    doesNot: "Es ist nicht für jede COVID-19-Erkrankung geeignet und ersetzt keine Notfallbehandlung bei Atemnot. Es darf nicht ohne Prüfung der übrigen Medikamente eingenommen werden.",
+    daily: "Die Behandlung muss früh nach Beginn der Beschwerden starten und dauert nur wenige Tage. Vor der ersten Einnahme muss eine Praxis oder Apotheke alle Medikamente, pflanzliche Mittel und die Nieren- bzw. Leberfunktion prüfen. Regelmäßige Medikamente nie selbst absetzen, um Paxlovid einnehmen zu können.",
+    sideEffects: "Geschmacksstörung, Durchfall, Kopfschmerzen und Erbrechen können auftreten.",
+    urgent: "Bei Atemnot, Brustschmerz, bläulichen Lippen, starker Schwäche oder Verwirrtheit, Schwellung von Gesicht oder Hals, starkem Hautausschlag oder einer vermuteten gefährlichen Wechselwirkung sofort medizinische Hilfe holen.",
+    source: "EMA: Paxlovid® – Produktinformation (aktualisiert 05/2026, abgerufen am 23.07.2026)", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/paxlovid", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "clindamycin", name: "Clindamycin", examples: "Referenzpräparat: Clindamycin 1 A Pharma® Kapseln", category: "Antibiotikum",
+    purpose: "Clindamycin wird zur Behandlung bestimmter bakterieller Infektionen eingesetzt, wenn die Bakterien empfindlich sind und der Arzt es ausgewählt hat.",
+    does: "Es hemmt die Vermehrung bestimmter Bakterien und kann so eine bakterielle Infektion behandeln.",
+    doesNot: "Es wirkt nicht gegen Virusinfekte wie Erkältung oder Grippe und hilft nicht gegen jede Ursache von Hals-, Zahn- oder Bauchschmerzen.",
+    daily: "Genau nach dem verordneten Einnahmeplan einnehmen und nicht teilen oder für eine spätere Erkrankung aufbewahren. Bei Problemen mit dem Schlucken, einer Penicillinallergie oder weiteren Medikamenten die Praxis oder Apotheke informieren.",
+    sideEffects: "Übelkeit, Bauchschmerzen, Durchfall, Hautausschlag und Veränderungen von Leberwerten können auftreten.",
+    urgent: "Bei starkem, anhaltendem oder blutigem Durchfall, starken Bauchkrämpfen, Fieber, Schwellung von Gesicht oder Hals, Atemnot, Blasen oder wunden Stellen im Mund sofort medizinische Hilfe holen. Durchfall kann auch noch nach Ende der Behandlung ärztlich abgeklärt werden müssen.",
+    source: "Gebrauchsinformation: Clindamycin 300 – 1 A Pharma® Kapseln (abgerufen am 23.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/c/clindamycin-300-1a-pharma-kapseln", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "phenoxymethylpenicillin", name: "Phenoxymethylpenicillin", examples: "Referenzpräparat: PenHEXAL® Filmtabletten", category: "Antibiotikum",
+    purpose: "Phenoxymethylpenicillin wird zur Behandlung bestimmter leichter bis mittelschwerer bakterieller Infektionen eingesetzt, zum Beispiel im Hals-, Nasen-, Ohren-, Zahn- oder Hautbereich.",
+    does: "Es tötet empfindliche Bakterien ab und kann so eine bakterielle Infektion behandeln.",
+    doesNot: "Es wirkt nicht gegen Virusinfekte wie Erkältung oder Grippe und hilft nicht gegen jede Ursache von Hals-, Zahn- oder Ohrschmerzen.",
+    daily: "Genau nach dem verordneten Einnahmeplan einnehmen und nicht teilen oder für eine spätere Erkrankung aufbewahren. Eine bekannte Penicillinallergie immer vor der ersten Einnahme angeben.",
+    sideEffects: "Übelkeit, Bauchschmerzen, Durchfall, Hautausschlag und Pilzinfektionen der Schleimhäute können auftreten.",
+    urgent: "Bei Schwellung von Gesicht oder Hals, Atemnot, Kreislaufproblemen, Blasen oder wunden Stellen im Mund, starkem oder blutigem Durchfall oder hohem Fieber sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: PenHEXAL® 1,0 Mega Filmtabletten (abgerufen am 23.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/pq/penhexal-10-mega-filmtabletten", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "amoxicillin-clavulansaeure", name: "Amoxicillin / Clavulansäure", examples: "Referenzpräparat: Amoxi-Clavulan Aurobindo® Filmtabletten", category: "Antibiotikum",
+    purpose: "Die Kombination wird zur Behandlung bestimmter bakterieller Infektionen eingesetzt, zum Beispiel an Atemwegen, Harnwegen, Haut, Zähnen, Knochen oder Gelenken.",
+    does: "Amoxicillin tötet empfindliche Bakterien ab. Clavulansäure schützt Amoxicillin vor bestimmten Abwehrmechanismen der Bakterien.",
+    doesNot: "Sie wirkt nicht gegen Virusinfekte wie Erkältung oder Grippe und hilft nicht gegen jede Ursache von Husten, Hals- oder Bauchschmerzen.",
+    daily: "Genau nach dem verordneten Einnahmeplan einnehmen und nicht teilen oder für eine spätere Erkrankung aufbewahren. Eine Penicillinallergie sowie frühere Leberprobleme oder Gelbsucht unter Antibiotika immer vor der ersten Einnahme angeben.",
+    sideEffects: "Durchfall, Übelkeit, Erbrechen, Bauchbeschwerden, Hautausschlag und Pilzinfektionen der Schleimhäute können auftreten.",
+    urgent: "Bei Schwellung von Gesicht oder Hals, Atemnot, Kreislaufproblemen, Blasen oder wunden Stellen im Mund, starkem oder blutigem Durchfall, Gelbfärbung von Haut oder Augen oder dunklem Urin sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: Amoxi-Clavulan Aurobindo® 500 mg/125 mg Filmtabletten (abgerufen am 23.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/a/amoxi-clavulan-aurobindo-500mg125mg-filmtabletten", reviewStatus: "Quellenbasierter Entwurf"
   }
 ];
 
@@ -3212,6 +3262,7 @@ const commonBrandAliases = {
   tamoxifen: ["Nolvadex", "Tamoxifen HEXAL"], anastrozol: ["Arimidex", "Anastrozol Aristo"], letrozol: ["Femara", "Letrozol Aristo", "Letroblock"], exemestan: ["Aromasin", "Exemestan – 1 A Pharma"], fulvestrant: ["Faslodex", "Fulvestrant Mylan"],
   enoxaparin: ["Clexane", "Enoxaparin Inhixa"], tinzaparin: ["innohep"], dalteparin: ["Fragmin"], nadroparin: ["Fraxiparine"], fondaparinux: ["Arixtra"],
   clotrimazol: ["Canesten", "Clotrimazol acis"], "hydrocortison-haut": ["Hydrocutan", "Ebenol", "FeniHydrocort"], "mometason-haut": ["Ecural", "Momecutan"], xylometazolin: ["Otriven gegen Schnupfen", "Olynth"], ambroxol: ["Mucosolvan", "Ambroxol acis"], acetylcystein: ["ACC akut", "ACC Hustenlöser"], dimetinden: ["Fenistil Tropfen"], butylscopolamin: ["Buscopan", "Butylscopolamin PUREN"], simeticon: ["Lefax", "Espumisan", "sab simplex"], dextromethorphan: ["Hustenstiller-ratiopharm Dextromethorphan", "Silomat Hustenstiller Dextromethorphan"],
+  oseltamivir: ["Tamiflu", "Ebilfumin"], "nirmatrelvir-ritonavir": ["Paxlovid"], clindamycin: ["Clindamycin 1 A Pharma", "Sobelin"], phenoxymethylpenicillin: ["PenHEXAL", "Infectocillin"], "amoxicillin-clavulansaeure": ["Amoxi-Clavulan", "AmoxiClav", "Augmentan"],
   abirateron: ["Zytiga"], apalutamid: ["Erleada"], enzalutamid: ["Xtandi"], darolutamid: ["Nubeqa"], degarelix: ["Firmagon"], relugolix: ["Orgovyx"], denosumab: ["Prolia", "Xgeva"], zoledronsaeure: ["Zometa", "Aclasta"],
   olaparib: ["Lynparza"], talazoparib: ["Talzenna"], docetaxel: ["Taxotere"], cabazitaxel: ["Jevtana"], "radium-223-dichlorid": ["Xofigo"], "lutetium-177-vipivotid-tetraxetan": ["Pluvicto"], pembrolizumab: ["Keytruda"], nivolumab: ["Opdivo"], abemaciclib: ["Verzenios"], palbociclib: ["Ibrance"], ribociclib: ["Kisqali"], goserelin: ["Zoladex"], triptorelin: ["Pamorelin", "Decapeptyl"], bicalutamid: ["Casodex"],
   hydrocortison: ["Plenadren", "Hydrocortison Jenapharm"], methylprednisolon: ["Urbason", "Medrol"], filgrastim: ["Neupogen", "Zarzio"], pegfilgrastim: ["Neulasta", "Ziextenzo"], "epoetin-alfa": ["Eprex"], "darbepoetin-alfa": ["Aranesp"],
