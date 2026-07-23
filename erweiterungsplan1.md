@@ -66,6 +66,8 @@ status                 „Produktinformation abgeglichen“
 
 ### Abnahmekriterien
 
+**Umgesetzt am 24.07.2026:** Phase 2 ergänzt vier Wirkstoffkarten für hormonelle Verhütung, Akne und Rosazea sowie 22 konkrete Präparatevarianten für Verhütung, Mangelzustände, Migräne, psychische Gesundheit, Magen-Darm, Haut und Bewegung. Schwangerschaft, Stillzeit, psychische Krisen, Blutgerinnsel- und Herz-Kreislauf-Risiken werden in den Karten ausdrücklich zurückhaltend behandelt.
+
 - Eine konkrete Packung kann in der Suche eindeutig gefunden werden.
 - Wirkstoff, Stärke und Darreichungsform sind sichtbar.
 - Kein Kombinationspräparat führt irreführend zu nur einer Wirkstoffkarte.
