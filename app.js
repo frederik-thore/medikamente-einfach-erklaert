@@ -3044,6 +3044,106 @@ const reviewedDrafts = [
     sideEffects: "Blutungen, Blutergüsse oder Schmerzen an der Einstichstelle, Blutarmut, Übelkeit und erhöhte Leberwerte können auftreten.",
     urgent: "Bei nicht stillbarer Blutung, Blut im Urin, schwarzem Stuhl, Bluterbrechen, plötzlich starken Kopfschmerzen, Ohnmacht, Atemnot, Brustschmerz oder einer schweren allergischen Reaktion sofort medizinische Hilfe holen.",
     source: "Gebrauchsinformation: Arixtra® 7,5 mg/0,6 ml Injektionslösung (abgerufen am 22.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/a/arixtra-75-mg06-ml-injektionsloesung-fertigspritze?schrift=0.9", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "clotrimazol", name: "Clotrimazol", examples: "Referenzpräparat: Canesten® Creme", category: "Haut- und Pilzmittel",
+    purpose: "Clotrimazol wird gegen bestimmte Pilzinfektionen der Haut und Schleimhaut eingesetzt, zum Beispiel Fußpilz, Pilz in Hautfalten oder bestimmte Hefepilzinfektionen.",
+    does: "Es hemmt oder tötet Pilze in den befallenen Hautschichten ab.",
+    doesNot: "Es hilft nicht gegen jede Rötung, jedes Ekzem oder eine bakterielle Hautinfektion. Bei Nagelpilz reicht eine Creme allein häufig nicht aus.",
+    daily: "Nur auf die vorgesehene Haut- oder Schleimhautstelle anwenden und die Packungsbeilage der jeweiligen Form beachten. Auch nach einer raschen Besserung die Behandlung nicht eigenmächtig zu früh beenden.",
+    sideEffects: "Brennen, Stechen, Rötung, Juckreiz, Schwellung oder Hautreizung an der behandelten Stelle können auftreten.",
+    urgent: "Bei starker Schwellung von Gesicht oder Hals, Atemnot, großflächigem Ausschlag, Blasen oder einer deutlichen Verschlechterung sofort medizinische Hilfe holen. Wenn nach etwa zwei Wochen keine Besserung eintritt, ärztlich oder apothekerlich nachfragen.",
+    source: "Gebrauchsinformation: Canesten® Creme 10 mg/g (abgerufen am 23.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/c/canesten-creme?schrift=0.7", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "hydrocortison-haut", name: "Hydrocortison (Creme)", examples: "Referenzpräparat: Hydrocutan® Creme 0,5 %", category: "Hautmittel",
+    purpose: "Hydrocortison-Creme wird kurzzeitig zur Linderung mäßig ausgeprägter entzündlicher Hauterkrankungen eingesetzt, zum Beispiel bei bestimmten Ekzemen oder allergischen Hautreaktionen.",
+    does: "Es bremst eine Entzündung in der Haut und kann Rötung, Juckreiz und Schwellung verringern.",
+    doesNot: "Es behandelt keine Pilz-, Virus- oder bakterielle Hautinfektion. Es ist nicht für jede gerötete Hautstelle und keine Dauerlösung ohne ärztliche Kontrolle.",
+    daily: "Nur kurz und sparsam nach der konkreten Packungsbeilage anwenden. Besondere Vorsicht gilt im Gesicht, an den Augen, auf verletzter Haut, in Hautfalten sowie im Genitalbereich. Bei Kindern, Schwangerschaft oder Stillzeit vorher nachfragen.",
+    sideEffects: "Brennen, Juckreiz, Hautreizung und bei zu langer oder zu häufiger Anwendung dünnere oder empfindlichere Haut können auftreten.",
+    urgent: "Bei starker Verschlechterung, Zeichen einer Infektion wie Eiter, zunehmender Schmerz oder Fieber, Sehstörung nach Anwendung am Auge oder einer schweren allergischen Reaktion sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: Hydrocutan® Creme 0,5 % (abgerufen am 23.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/h/hydrocutan-creme-05-?kontrast=an", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "mometason-haut", name: "Mometason (Creme oder Salbe)", examples: "Referenzpräparat: ECURAL® Fettcreme", category: "Hautmittel",
+    purpose: "Mometason zur Anwendung auf der Haut wird bei stärker ausgeprägten entzündlichen Hauterkrankungen eingesetzt, wenn ein Kortisonmittel ärztlich verordnet wurde.",
+    does: "Es bremst Entzündung, Juckreiz und Schwellung in der Haut.",
+    doesNot: "Es behandelt keine Pilz-, Virus- oder bakterielle Hautinfektion. Es ist nicht für Akne, Rosazea, Windelausschlag oder die eigenständige Langzeitanwendung gedacht.",
+    daily: "Nur dünn, kurzzeitig und genau nach dem ärztlichen Plan anwenden. Nicht ins Auge bringen. Auf Gesicht, Hautfalten, Wunden und bei Kindern nur nach ausdrücklicher Anweisung anwenden.",
+    sideEffects: "Brennen, Juckreiz, trockene Haut, Hautreizung und bei zu langer oder zu häufiger Anwendung dünnere oder empfindlichere Haut können auftreten.",
+    urgent: "Bei Zeichen einer Infektion wie Eiter, zunehmendem Schmerz oder Fieber, Sehstörung nach Anwendung nahe dem Auge, großflächigem Ausschlag oder einer schweren allergischen Reaktion sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: ECURAL® Fettcreme 1 mg/g (Stand 03/2025, abgerufen am 23.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/e/ecuralR-fettcreme?schrift=0.7", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "xylometazolin", name: "Xylometazolin (Nasenspray für Erwachsene)", examples: "Referenzpräparat: Otriven® gegen Schnupfen 0,1 %", category: "Mittel gegen Schnupfen",
+    purpose: "Xylometazolin-Nasenspray wird kurzzeitig bei einer verstopften Nase eingesetzt, zum Beispiel bei einem Schnupfen.",
+    does: "Es lässt die Nasenschleimhaut abschwellen. Dadurch kann die Nase rasch freier werden.",
+    doesNot: "Es behandelt nicht die Ursache eines Infekts oder einer Allergie und ist keine Dauertherapie für eine verstopfte Nase.",
+    daily: "Nur kurz und genau nach der Packungsbeilage anwenden. Längerer oder zu häufiger Gebrauch kann die Nase danach noch stärker verstopfen. Die 0,1-%-Stärke ist für Erwachsene und Jugendliche ab 12 Jahren; Kinder benötigen andere Präparate.",
+    sideEffects: "Brennen oder Trockenheit der Nase, Niesen, Kopfschmerzen, Herzklopfen, Unruhe und Schlafstörungen können auftreten.",
+    urgent: "Bei Atemnot, starker Schwellung von Gesicht oder Hals, Herzrasen mit Schwindel, auffälliger Unruhe oder einer möglichen Überdosierung sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: Otriven® gegen Schnupfen 0,1 % Dosierspray (abgerufen am 23.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/o/otriven-gegen-schnupfen-01--dosierspray-ohne-konservierungsstoffe", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "ambroxol", name: "Ambroxol", examples: "Referenzpräparat: Mucosolvan® Hustensaft", category: "Hustenmittel",
+    purpose: "Ambroxol wird zur Schleimlösung und zum erleichterten Abhusten bei Atemwegserkrankungen mit zähem Schleim eingesetzt.",
+    does: "Es kann zähen Schleim verflüssigen und das Abhusten erleichtern.",
+    doesNot: "Es behandelt nicht die Ursache eines Infekts und ist kein Hustenstiller. Bei trockenem Reizhusten ohne Schleim ist es meist nicht das passende Mittel.",
+    daily: "Für Kinder und Erwachsene gelten je nach Saft, Tropfen, Tablette oder Retardkapsel unterschiedliche Stärken und Altersangaben. Bei Atemnot, Fieber oder länger anhaltendem Husten nicht selbst weiterbehandeln.",
+    sideEffects: "Übelkeit, Bauchschmerzen, Durchfall, Geschmacksstörungen und Hautreaktionen können auftreten.",
+    urgent: "Bei neu auftretenden Haut- oder Schleimhautveränderungen, Blasen, wunden Stellen im Mund, Schwellung von Gesicht oder Hals, Atemnot oder hohem Fieber sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: Mucosolvan® Hustensaft 30 mg/5 ml (abgerufen am 23.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/m/mucosolvan-hustensaft-30-mg5-ml", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "acetylcystein", name: "Acetylcystein", examples: "Referenzpräparat: ACC akut® 600 mg Hustenlöser", category: "Hustenmittel",
+    purpose: "Acetylcystein wird zur Schleimlösung und zum erleichterten Abhusten bei Atemwegserkrankungen mit zähem Schleim eingesetzt.",
+    does: "Es kann zähen Schleim verflüssigen und das Abhusten erleichtern.",
+    doesNot: "Es behandelt nicht die Ursache eines Infekts und ist kein Hustenstiller. Bei trockenem Reizhusten ohne Schleim ist es meist nicht das passende Mittel.",
+    daily: "Die Wirkstoffstärke ist altersabhängig; die 600-mg-Form ist nicht für Kinder unter 14 Jahren geeignet. Hustenstiller nicht ohne Rücksprache gleichzeitig einnehmen, weil gelöster Schleim dann schlechter abgehustet werden kann.",
+    sideEffects: "Magen-Darm-Beschwerden, Übelkeit, Durchfall, Kopfschmerzen, Hautausschlag und selten Atemwegsverengung können auftreten.",
+    urgent: "Bei neu auftretenden Haut- oder Schleimhautveränderungen, Blasen, wunden Stellen im Mund, Schwellung von Gesicht oder Hals, Atemnot oder hohem Fieber sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: ACC akut® 600 mg Hustenlöser (abgerufen am 23.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/a/acc-akut-600mg-hustenloeser-brausetabletten", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "dimetinden", name: "Dimetinden", examples: "Referenzpräparat: Fenistil® Tropfen", category: "Allergiemittel",
+    purpose: "Dimetinden wird zur Linderung von allergischem Juckreiz, Nesselsucht, Insektenstichen und allergischem Schnupfen eingesetzt; je nach Alter und Präparat gelten unterschiedliche Anwendungsgebiete.",
+    does: "Es blockiert die Wirkung des Botenstoffs Histamin und kann dadurch Juckreiz, Schwellung, Niesen und tränende Augen lindern.",
+    doesNot: "Es behandelt nicht die Ursache einer Allergie und ist kein Ersatz für den Notruf bei einer schweren allergischen Reaktion.",
+    daily: "Kann müde und benommen machen. Alkohol und andere beruhigende Mittel können das verstärken. Bei Kindern sind Alter, Gewicht, Tropfenzahl und die konkrete Packung entscheidend; die App berechnet keine Dosis.",
+    sideEffects: "Müdigkeit, Schläfrigkeit, Schwindel, Nervosität, Kopfschmerzen, Mundtrockenheit und Magen-Darm-Beschwerden können auftreten.",
+    urgent: "Bei Schwellung von Gesicht, Mund oder Hals, Atemnot, Kreislaufproblemen, starker Unruhe oder Verwirrtheit, Krampfanfällen oder einer möglichen Überdosierung sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: Fenistil® Tropfen 1 mg/ml (abgerufen am 23.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/f/fenistil-tropfen", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "butylscopolamin", name: "Butylscopolamin", examples: "Referenzpräparat: Buscopan® Dragées", category: "Magen-Darm-Mittel",
+    purpose: "Butylscopolamin wird bei krampfartigen Schmerzen im Magen-Darm-Bereich sowie je nach Präparat auch bei Krämpfen der Gallen- oder Harnwege eingesetzt.",
+    does: "Es entspannt verkrampfte glatte Muskulatur. Dadurch können krampfartige Schmerzen nachlassen.",
+    doesNot: "Es behandelt nicht die Ursache starker oder neu auftretender Bauchschmerzen und ist kein allgemeines Schmerzmittel.",
+    daily: "Nur kurz nach Packungsbeilage oder ärztlichem Plan anwenden. Bei Grünem Star, Problemen beim Wasserlassen, bestimmten Herzrhythmusstörungen oder Verdacht auf Darmverschluss vorher ärztlich oder apothekerlich abklären.",
+    sideEffects: "Mundtrockenheit, Verstopfung, Herzklopfen, verschwommenes Sehen und Probleme beim Wasserlassen können auftreten.",
+    urgent: "Bei starken oder zunehmenden Bauchschmerzen, Fieber, Erbrechen, hartem Bauch, fehlendem Stuhl und Wind, Blut im Stuhl, schmerzhaft gerötetem Auge mit Sehstörung oder Problemen beim Wasserlassen sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: Buscopan® Dragées 10 mg (abgerufen am 23.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/b/buscopanR-drages?schrift=0.7", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "simeticon", name: "Simeticon", examples: "Referenzpräparat: Lefax® Kautabletten", category: "Magen-Darm-Mittel",
+    purpose: "Simeticon wird bei gasbedingten Magen-Darm-Beschwerden wie Blähungen, Völlegefühl und Druckgefühl eingesetzt.",
+    does: "Es lässt kleine Gasblasen im Magen-Darm-Trakt zerfallen. Das Gas kann dann leichter auf natürlichem Weg entweichen.",
+    doesNot: "Es behandelt nicht die Ursache starker oder neu auftretender Bauchschmerzen, einer Verstopfung oder eines Darmverschlusses.",
+    daily: "Je nach Präparat als Kautablette, Tropfen oder Emulsion erhältlich. Bei Kindern immer die passende Altersform prüfen. Bei anhaltenden, neuen oder zunehmenden Beschwerden die Ursache ärztlich oder apothekerlich abklären lassen.",
+    sideEffects: "Nebenwirkungen sind selten; gelegentlich können Magen-Darm-Beschwerden oder eine Unverträglichkeitsreaktion auftreten.",
+    urgent: "Bei starken oder zunehmenden Bauchschmerzen, Fieber, wiederholtem Erbrechen, hartem Bauch, Blut im Stuhl, deutlicher Schwäche oder einer schweren allergischen Reaktion sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: Lefax® 42 mg Kautabletten (abgerufen am 23.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/l/lefax?schrift=0.9", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "dextromethorphan", name: "Dextromethorphan", examples: "Referenzpräparat: Hustenstiller-ratiopharm® Dextromethorphan", category: "Hustenmittel",
+    purpose: "Dextromethorphan wird kurzzeitig bei trockenem Reizhusten ohne nennenswerten Schleim eingesetzt.",
+    does: "Es dämpft den Hustenreiz im Nervensystem und kann dadurch Hustenanfälle verringern.",
+    doesNot: "Es löst keinen Schleim und behandelt nicht die Ursache eines Infekts. Bei Husten mit viel Schleim ist ein Hustenstiller ohne Rücksprache meist nicht passend.",
+    daily: "Nur kurz und genau nach der Packungsbeilage anwenden. Kann müde oder benommen machen. Alkohol, weitere beruhigende Mittel sowie Antidepressiva oder andere psychische Medikamente vorher mit Apotheke oder Praxis abklären, da es gefährliche Wechselwirkungen geben kann.",
+    sideEffects: "Müdigkeit, Schwindel, Benommenheit, Übelkeit, Erbrechen und Magen-Darm-Beschwerden können auftreten.",
+    urgent: "Bei Atemnot, starker Benommenheit oder Bewusstseinsstörung, hohem Fieber mit Unruhe, Verwirrtheit, Muskelzucken oder Muskelsteifheit, Herzrasen, Halluzinationen oder einer möglichen Überdosierung sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: Hustenstiller-ratiopharm® Dextromethorphan Hartkapseln (abgerufen am 23.07.2026)", sourceUrl: "https://www.ratiopharm.de/produkte/details/?cHash=6505799d58763e2cf2a55411e0d35630&tx_kfiexensioproductsdb_productsviewing%5Baction%5D=viewDetail&tx_kfiexensioproductsdb_productsviewing%5Bcontroller%5D=Products&tx_kfiexensioproductsdb_productsviewing%5Bpzn%5D=9230807", reviewStatus: "Quellenbasierter Entwurf"
   }
 ];
 
@@ -3111,6 +3211,7 @@ const commonBrandAliases = {
   "mycophenolat-mofetil": ["CellCept", "Mycophenolat mofetil Teva"], rituximab: ["MabThera", "Rixathon", "Truxima"], cyclophosphamid: ["Endoxan", "Cyclophosphamid HEXAL"], nintedanib: ["Ofev"], pirfenidon: ["Esbriet"],
   tamoxifen: ["Nolvadex", "Tamoxifen HEXAL"], anastrozol: ["Arimidex", "Anastrozol Aristo"], letrozol: ["Femara", "Letrozol Aristo", "Letroblock"], exemestan: ["Aromasin", "Exemestan – 1 A Pharma"], fulvestrant: ["Faslodex", "Fulvestrant Mylan"],
   enoxaparin: ["Clexane", "Enoxaparin Inhixa"], tinzaparin: ["innohep"], dalteparin: ["Fragmin"], nadroparin: ["Fraxiparine"], fondaparinux: ["Arixtra"],
+  clotrimazol: ["Canesten", "Clotrimazol acis"], "hydrocortison-haut": ["Hydrocutan", "Ebenol", "FeniHydrocort"], "mometason-haut": ["Ecural", "Momecutan"], xylometazolin: ["Otriven gegen Schnupfen", "Olynth"], ambroxol: ["Mucosolvan", "Ambroxol acis"], acetylcystein: ["ACC akut", "ACC Hustenlöser"], dimetinden: ["Fenistil Tropfen"], butylscopolamin: ["Buscopan", "Butylscopolamin PUREN"], simeticon: ["Lefax", "Espumisan", "sab simplex"], dextromethorphan: ["Hustenstiller-ratiopharm Dextromethorphan", "Silomat Hustenstiller Dextromethorphan"],
   abirateron: ["Zytiga"], apalutamid: ["Erleada"], enzalutamid: ["Xtandi"], darolutamid: ["Nubeqa"], degarelix: ["Firmagon"], relugolix: ["Orgovyx"], denosumab: ["Prolia", "Xgeva"], zoledronsaeure: ["Zometa", "Aclasta"],
   olaparib: ["Lynparza"], talazoparib: ["Talzenna"], docetaxel: ["Taxotere"], cabazitaxel: ["Jevtana"], "radium-223-dichlorid": ["Xofigo"], "lutetium-177-vipivotid-tetraxetan": ["Pluvicto"], pembrolizumab: ["Keytruda"], nivolumab: ["Opdivo"], abemaciclib: ["Verzenios"], palbociclib: ["Ibrance"], ribociclib: ["Kisqali"], goserelin: ["Zoladex"], triptorelin: ["Pamorelin", "Decapeptyl"], bicalutamid: ["Casodex"],
   hydrocortison: ["Plenadren", "Hydrocortison Jenapharm"], methylprednisolon: ["Urbason", "Medrol"], filgrastim: ["Neupogen", "Zarzio"], pegfilgrastim: ["Neulasta", "Ziextenzo"], "epoetin-alfa": ["Eprex"], "darbepoetin-alfa": ["Aranesp"],
