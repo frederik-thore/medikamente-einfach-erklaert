@@ -100,12 +100,16 @@ Etwa 25–35 neue Wirkstoff- oder Darreichungsformkarten und mindestens 100 gepr
 
 #### Charge 3: Magen-Darm und Verstopfung
 
+**Umgesetzt am 24.07.2026:** Ergänzt wurden getrennte Macrogol- und Lactulose-Varianten sowie eine neue Wirkstoffkarte für Glycerol-Zäpfchen. Die Karten betonen Warnzeichen bei Bauchschmerzen, Erbrechen, Blut im Stuhl und möglichem Flüssigkeitsverlust; die App berechnet keine Dosis.
+
 - Macrogol: Kinder- und Erwachsenenbeutel trennen
 - Elektrolyt-/Rehydratationspräparate, falls belastbare Produktinformation verfügbar
 - Lactulose, Zäpfchen- oder weitere kindgerechte Varianten nur produktbezogen
 - Klare Warnzeichen bei Trinkschwäche, Austrocknung, Blut im Stuhl, starken Schmerzen oder anhaltendem Erbrechen
 
 #### Charge 4: Häufige Infektionen und Haut
+
+**Umgesetzt am 24.07.2026:** Ergänzt wurden konkrete Saft-/Suspensionsvarianten für Amoxicillin, Phenoxymethylpenicillin und Cefuroxim sowie geprüfte Hautvarianten für Krätze, Pilzinfektionen, entzündliche Hauterkrankungen und bakterielle Hautinfektionen. Alle Antibiotikakarten bleiben strikt an ärztliche Verordnung und individuellen Plan gebunden.
 
 - Antibiotika-Säfte bzw. Suspensionen: Amoxicillin, Phenoxymethylpenicillin, Cefuroxim – stets ohne Dosisberechnung
 - Häufige Hautthemen: Läuse, Krätze, Pilzinfektionen, Neurodermitis
