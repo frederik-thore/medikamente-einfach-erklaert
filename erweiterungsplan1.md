@@ -81,6 +81,8 @@ Etwa 25–35 neue Wirkstoff- oder Darreichungsformkarten und mindestens 100 gepr
 
 #### Charge 1: Fieber, Schmerzen und Erkältung
 
+**Umgesetzt am 24.07.2026:** Bestehende Wirkstoffkarten wurden durch konkrete Varianten für Paracetamol, Ibuprofen, Xylometazolin und Dimenhydrinat ergänzt. Die Karten trennen Kinder- und Erwachsenenstärken sichtbar und enthalten einen Packungs-, Alters- und Gewichtscheck ohne Dosisberechnung.
+
 - Paracetamol: Saft, Zäpfchen und Tablette nach Altersbereich
 - Ibuprofen: Saft, Zäpfchen und Tablette nach Altersbereich
 - Xylometazolin: Kinderstärke und Erwachsenenstärke sauber trennen
@@ -88,6 +90,8 @@ Etwa 25–35 neue Wirkstoff- oder Darreichungsformkarten und mindestens 100 gepr
 - Dimenhydrinat: Kinder- und Erwachsenenvarianten
 
 #### Charge 2: Atemwege und Allergie
+
+**Umgesetzt am 24.07.2026:** Bestehende Wirkstoffkarten wurden durch konkrete Inhalator-/Verneblervarianten für Salbutamol und Budesonid sowie kindgerechte Desloratadin-Lösungen ergänzt. Inhalationspräparate weisen auf Technik, persönlichen Plan und Notfallabklärung hin.
 
 - Salbutamol: Inhalator und Lösung, jeweils nur mit Technik-/Notfallhinweis
 - Budesonid und weitere häufige inhalative Kortisonvarianten
