@@ -21,6 +21,20 @@ h1 span { color: #1769aa; }
 h2 { font-size: 1.35rem; letter-spacing: -.025em; margin-bottom: .85rem; }
 .intro { color: #536174; font-size: 1.08rem; margin-bottom: 0; max-width: 30rem; }
 .notice { background: #eef5fc; border-left: .25rem solid #8dbce6; border-radius: .6rem; color: #41556e; font-size: .85rem; margin-bottom: 2rem; padding: .65rem .85rem; }
+.review-actions { margin: -1.2rem 0 1.6rem; }
+.text-button { background: transparent; border: 0; color: #315a84; font-size: .86rem; font-weight: 700; padding: .45rem 0; text-decoration: underline; text-underline-offset: .16em; }
+.text-button:focus-visible { border-radius: .2rem; box-shadow: 0 0 0 3px #cfe4fa; outline: 0; }
+.review-dashboard { background: #fff; border: 1px solid #dce5ef; border-radius: 1rem; margin: 0 0 2rem; padding: 1rem; }
+.review-dashboard h2 { margin-bottom: .35rem; }
+.review-dashboard__intro { color: #536174; font-size: .9rem; }
+.review-summary { display: grid; gap: .6rem; grid-template-columns: repeat(3, 1fr); margin: 1rem 0; }
+.review-summary__item { background: #f3f7fc; border-radius: .7rem; padding: .7rem; }
+.review-summary__item strong { display: block; color: #29445f; font-size: 1.35rem; line-height: 1.1; }
+.review-summary__item span { color: #536174; font-size: .75rem; }
+.review-actions__row { align-items: center; display: flex; flex-wrap: wrap; gap: .7rem; }
+.review-download { background: #e7f2ff; border: 1px solid #b9cce0; border-radius: 999px; color: #29445f; font-size: .84rem; font-weight: 700; padding: .45rem .8rem; }
+.review-download:focus-visible { box-shadow: 0 0 0 3px #cfe4fa; outline: 0; }
+.review-note { color: #536174; font-size: .8rem; margin: .85rem 0 0; }
 .search { align-items: center; background: #fff; border: 1px solid #cbd2dc; border-radius: .8rem; display: flex; gap: .6rem; padding: .6rem .85rem; }
 .search:focus-within { border-color: #1769aa; box-shadow: 0 0 0 3px #cfe4fa; }
 .search span { color: #536174; font-size: 1.5rem; line-height: 1; }
@@ -34,10 +48,13 @@ h2 { font-size: 1.35rem; letter-spacing: -.025em; margin-bottom: .85rem; }
 .medication-card { background: #fff; border: 1px solid #e0e5eb; border-radius: 1rem; box-shadow: 0 2px 5px #17203309; color: #172033; padding: 1rem; text-align: left; width: 100%; }
 .medication-card:hover, .medication-card:focus-visible { border-color: #1769aa; box-shadow: 0 0 0 3px #cfe4fa; outline: 0; }
 .medication-card__top { align-items: center; display: flex; gap: .7rem; justify-content: space-between; }
+.card-tags { align-items: center; display: flex; flex-shrink: 0; flex-wrap: wrap; gap: .35rem; justify-content: flex-end; }
 .medication-card h3 { color: #172033; font-size: 1.12rem; margin: 0; }
 .medication-card p { color: #536174; font-size: .92rem; margin: .2rem 0 0; }
 .medication-card .alias-match { color: #175ea8; font-weight: 700; }
 .pill { background: #e7f2ff; border-radius: 99px; color: #175ea8; font-size: .76rem; font-weight: 700; padding: .18rem .55rem; white-space: nowrap; }
+.pill--category { background: #dcecff; color: #1b5d9f; }
+.pill--type { background: #f0f2f5; color: #536174; }
 .pill--pending { background: #f0f2f5; color: #536174; }
 .detail-view { margin-top: 2.2rem; }
 .back-button { background: transparent; border: 0; color: #175ea8; font-weight: 700; margin: 0 0 1rem; padding: .25rem 0; }
@@ -69,17 +86,27 @@ h2 { font-size: 1.35rem; letter-spacing: -.025em; margin-bottom: .85rem; }
 
 @media (max-width: 520px) {
   .page-shell { width: min(100% - 1.25rem, 760px); padding-top: 2rem; }
+  .search { min-height: 3.1rem; padding: .7rem .85rem; }
+  .search input { font-size: 1rem; }
+  .filter-label select { min-height: 2.75rem; width: 100%; }
+  .medication-card { min-height: 5.25rem; padding: 1rem; }
+  .back-button, .text-button, .review-download, .preparation-link { min-height: 2.75rem; }
   .medication-card__top { align-items: flex-start; flex-wrap: wrap; }
-  .medication-card__top .pill { margin-left: auto; max-width: 100%; overflow-wrap: anywhere; white-space: normal; }
+  .medication-card__top .card-tags { margin-left: auto; max-width: 100%; }
+  .medication-card__top .pill { max-width: 100%; overflow-wrap: anywhere; white-space: normal; }
+  .review-summary { grid-template-columns: 1fr; }
 }
 @media (prefers-color-scheme: dark) {
   :root { color: #ecf1f7; background: #111820; }
-  .medication-card, .info-card, .search { background: #19232e; border-color: #344252; }
+  .medication-card, .info-card, .search, .review-dashboard { background: #19232e; border-color: #344252; }
   .medication-card, .medication-card h3 { color: #ecf1f7; }
   .notice { background: #1b2b3b; color: #c6d7e9; }
   .info-card--warning { background: #1b2b3b; }
   .info-card--urgent { background: #30242a; }
-  .intro, .medication-card p, .detail-meta, .search-status, .source, .eyebrow { color: #b6c1cf; }
+  .intro, .medication-card p, .detail-meta, .search-status, .source, .eyebrow, .review-dashboard__intro, .review-note { color: #b6c1cf; }
   .search input { background: #19232e; color: #ecf1f7; }
   .filter-label select { background: #19232e; border-color: #344252; color: #ecf1f7; }
+  .review-summary__item { background: #1b2b3b; }
+  .review-summary__item strong, .review-summary__item span, .text-button, .review-download { color: #c6d7e9; }
+  .review-download { background: #1b2b3b; border-color: #344e67; }
 }

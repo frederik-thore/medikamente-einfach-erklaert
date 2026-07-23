@@ -3634,7 +3634,11 @@ const verifiedPreparationsRaw = [
   { tradeName: "Xarelto", medicationId: "rivaroxaban", strength: "Stärke abhängig von der Verordnung", dosageForm: "Tabletten oder Granulat zur Suspension", status: "Präparatfamilie – Packungsabgleich nötig", checkedOn: "21.07.2026", sourceLabel: "EMA: Xarelto – Produktinformation", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/xarelto" },
   { tradeName: "Pradaxa", medicationId: "dabigatran", strength: "Stärke abhängig von der Verordnung", dosageForm: "Kapseln", status: "Präparatfamilie – Packungsabgleich nötig", checkedOn: "21.07.2026", sourceLabel: "EMA: Pradaxa – Produktinformation", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/pradaxa" },
   { tradeName: "Zytiga", medicationId: "abirateron", strength: "Stärke abhängig von der Verordnung", dosageForm: "Tabletten", status: "Präparatfamilie – Packungsabgleich nötig", checkedOn: "21.07.2026", sourceLabel: "EMA: Zytiga – Produktinformation", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/zytiga" },
-  { tradeName: "Xtandi", medicationId: "enzalutamid", strength: "Stärke abhängig von der Verordnung", dosageForm: "Tabletten oder Kapseln", status: "Präparatfamilie – Packungsabgleich nötig", checkedOn: "21.07.2026", sourceLabel: "EMA: Xtandi – Produktinformation", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/xtandi" }
+  { tradeName: "Xtandi", medicationId: "enzalutamid", strength: "Stärke abhängig von der Verordnung", dosageForm: "Tabletten oder Kapseln", status: "Präparatfamilie – Packungsabgleich nötig", checkedOn: "21.07.2026", sourceLabel: "EMA: Xtandi – Produktinformation", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/xtandi" },
+  { tradeName: "Delix 5 mg", medicationId: "ramipril", strength: "5 mg Ramipril", dosageForm: "Tabletten", audience: "Nur nach persönlicher Verordnung; Anwendungsbereich der Gebrauchsinformation beachten", safetyNote: "Nicht selbst absetzen oder die Dosis ändern. Bei Schwellung von Gesicht, Lippen, Zunge oder Rachen sowie Atem- oder Schluckbeschwerden sofort medizinische Hilfe holen.", status: "Produktinformation abgeglichen", checkedOn: "24.07.2026", sourceLabel: "PatientenInfo-Service: Delix 5 mg Tabletten", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/d/delix-5-mg-tabletten/" },
+  { tradeName: "Norvasc 5 mg", medicationId: "amlodipin", strength: "5 mg Amlodipin", dosageForm: "Tabletten", audience: "Altersbereich und persönliche Verordnung der Gebrauchsinformation beachten", safetyNote: "Nicht selbst absetzen oder die Dosis ändern. Bei starkem Schwindel, Ohnmacht, Brustschmerz oder neuer Atemnot zeitnah medizinisch abklären lassen.", status: "Produktinformation abgeglichen", checkedOn: "24.07.2026", sourceLabel: "PatientenInfo-Service: Norvasc 5 mg Tabletten", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/n/norvascR-5-mg-tabletten?kontrast=an" },
+  { tradeName: "Eliquis 5 mg", medicationId: "apixaban", strength: "5 mg Apixaban", dosageForm: "Filmtabletten", audience: "Anwendungsbereich, Alter und persönliche Verordnung der Gebrauchsinformation beachten", safetyNote: "Erhöht das Blutungsrisiko. Nicht selbst absetzen; bei starker oder ungewöhnlicher Blutung, Blut im Stuhl oder Urin, Erbrechen von Blut oder Sturz auf den Kopf sofort medizinische Hilfe holen.", status: "Produktinformation abgeglichen", checkedOn: "24.07.2026", sourceLabel: "PatientenInfo-Service: Eliquis 5 mg Filmtabletten", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/e/eliquisR-5-mg-filmtabletten" },
+  { tradeName: "Xarelto 20 mg", medicationId: "rivaroxaban", strength: "20 mg Rivaroxaban", dosageForm: "Filmtabletten", audience: "Nur nach persönlicher Verordnung; Anwendungsbereich der Gebrauchsinformation beachten", safetyNote: "Erhöht das Blutungsrisiko. Nicht selbst absetzen; bei starker oder ungewöhnlicher Blutung, Blut im Stuhl oder Urin, Erbrechen von Blut oder Sturz auf den Kopf sofort medizinische Hilfe holen.", status: "Produktinformation abgeglichen", checkedOn: "24.07.2026", sourceLabel: "PatientenInfo-Service: Xarelto 15 mg/20 mg Filmtabletten", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/xyz/xarelto-15-mg-filmtabletten-xarelto-20-mg-filmtabletten" }
 ];
 
 const medicationNameById = new Map(medications.map((medication) => [medication.id, medication.name]));
@@ -3653,6 +3657,39 @@ const verifiedPreparations = verifiedPreparationsRaw.map((preparation, index) =>
   };
 });
 
+function referenceTradeName(example) {
+  return example
+    .replace(/^Referenzpräparat:\s*/i, "")
+    .replace(/^z\.\s*B\.\s*/i, "")
+    .trim();
+}
+
+// Diese Einträge machen die in den Wirkstoffkarten dokumentierten Referenzpräparate
+// auffindbar. Sie sind bewusst kein Ersatz für einen produktbezogenen Abgleich:
+// Stärke, Darreichungsform und die tatsächliche Packung werden hier nicht als
+// bestätigt dargestellt.
+const sourceBackedReferences = reviewedDrafts
+  .filter((medication) => medication.examples && medication.source && medication.sourceUrl)
+  .map((medication, index) => ({
+    id: `reference-${index + 1}`,
+    tradeName: referenceTradeName(medication.examples),
+    medicationIds: [medication.id],
+    medicationId: medication.id,
+    activeIngredients: medication.name,
+    strength: "Stärke in der Originalinformation und auf der Packung prüfen",
+    dosageForm: "Darreichungsform in der Originalinformation und auf der Packung prüfen",
+    audience: "Alters- und Anwendungsbereich der Originalinformation prüfen",
+    ageNote: "Die tatsächliche Packung und ihren Altersbereich prüfen",
+    safetyNote: "Dies ist ein quellenverlinktes Referenzpräparat zur Wirkstoffkarte. Vor einer Anwendung Handelsname, Wirkstoff(e), Stärke und Darreichungsform mit der tatsächlichen Packung abgleichen.",
+    status: "Referenzpräparat – Packungsabgleich nötig",
+    sourceLabel: medication.source,
+    sourceUrl: medication.sourceUrl,
+    checkedOn: "Quelle in der Wirkstoffkarte dokumentiert"
+  }))
+  .filter((reference) => !verifiedPreparations.some((preparation) =>
+    normalizeForSearch(preparation.tradeName) === normalizeForSearch(reference.tradeName)
+  ));
+
 const aliasPreparations = Object.entries(commonBrandAliases).flatMap(([medicationId, aliases]) => aliases.map((tradeName) => ({
   tradeName,
   medicationIds: [medicationId],
@@ -3666,6 +3703,7 @@ const aliasPreparations = Object.entries(commonBrandAliases).flatMap(([medicatio
 
 const preparations = [
   ...verifiedPreparations,
+  ...sourceBackedReferences,
   ...aliasPreparations.filter((candidate) => !verifiedPreparations.some((verified) =>
     verified.tradeName.toLocaleLowerCase("de-DE") === candidate.tradeName.toLocaleLowerCase("de-DE")
   )).map((preparation, index) => ({
@@ -3782,6 +3820,9 @@ const detail = document.querySelector("#detail-view");
 const search = document.querySelector("#search-input");
 const status = document.querySelector("#search-status");
 const categoryFilter = document.querySelector("#category-filter");
+const searchSection = document.querySelector("#search-section");
+const reviewDashboard = document.querySelector("#review-dashboard");
+const reviewDashboardToggle = document.querySelector("#review-dashboard-toggle");
 
 const categories = [...new Set(medications.map((medication) => medication.category))].sort((a, b) => a.localeCompare(b, "de"));
 categoryFilter.insertAdjacentHTML("beforeend", categories.map((category) => `<option value="${category}">${category}</option>`).join(""));
@@ -3789,16 +3830,66 @@ categoryFilter.insertAdjacentHTML("beforeend", categories.map((category) => `<op
 function normalizeForSearch(value) {
   return String(value)
     .toLocaleLowerCase("de-DE")
+    .replace(/ä/g, "ae")
+    .replace(/ö/g, "oe")
+    .replace(/ü/g, "ue")
+    .replace(/ß/g, "ss")
     .replace(/[^\p{L}\p{N}]+/gu, " ")
     .trim();
+}
+
+function levenshteinDistance(left, right) {
+  const previous = Array.from({ length: right.length + 1 }, (_, index) => index);
+  for (let leftIndex = 0; leftIndex < left.length; leftIndex += 1) {
+    let diagonal = previous[0];
+    previous[0] = leftIndex + 1;
+    for (let rightIndex = 0; rightIndex < right.length; rightIndex += 1) {
+      const saved = previous[rightIndex + 1];
+      previous[rightIndex + 1] = Math.min(
+        previous[rightIndex + 1] + 1,
+        previous[rightIndex] + 1,
+        diagonal + (left[leftIndex] === right[rightIndex] ? 0 : 1)
+      );
+      diagonal = saved;
+    }
+  }
+  return previous[right.length];
+}
+
+function matchesSearch(query, values) {
+  const normalizedQuery = normalizeForSearch(query);
+  if (!normalizedQuery) return true;
+  const searchable = normalizeForSearch(values.filter(Boolean).join(" "));
+  if (searchable.includes(normalizedQuery)) return true;
+  const candidateTokens = searchable.split(" ").filter(Boolean);
+  return normalizedQuery.split(" ").every((queryToken) => candidateTokens.some((candidateToken) => {
+    if (candidateToken.includes(queryToken)) return true;
+    const maximumDistance = queryToken.length >= 9 ? 2 : queryToken.length >= 5 ? 1 : 0;
+    return maximumDistance > 0 && levenshteinDistance(queryToken, candidateToken) <= maximumDistance;
+  }));
 }
 
 function isVerifiedPreparation(preparation) {
   return preparation.status === "Produktinformation abgeglichen";
 }
 
+function isSourceBackedReference(preparation) {
+  return preparation.status === "Referenzpräparat – Packungsabgleich nötig";
+}
+
 function preparationSearchText(preparation) {
-  return [preparation.tradeName, preparation.activeIngredients, preparation.strength, preparation.dosageForm, preparation.audience, preparation.ageNote].filter(Boolean).join(" ");
+  return [preparation.tradeName, preparation.strength, preparation.dosageForm].filter(Boolean).join(" ");
+}
+
+function categoryLabelForPreparation(preparation) {
+  const categories = [...new Set(preparation.medicationIds
+    .map((medicationId) => medications.find((medication) => medication.id === medicationId)?.category)
+    .filter(Boolean))];
+  return categories.join(" · ") || "Medikament";
+}
+
+function cardTags(category, type) {
+  return `<span class="card-tags"><span class="pill pill--category">${category}</span><span class="pill pill--type">${type}</span></span>`;
 }
 
 function validatePreparationModel() {
@@ -3817,13 +3908,86 @@ function validatePreparationModel() {
 
 validatePreparationModel();
 
+function preparationSort(a, b, query) {
+  const normalizedQuery = normalizeForSearch(query);
+  const rank = (preparation) => {
+    const name = normalizeForSearch(preparation.tradeName);
+    if (name === normalizedQuery) return 0;
+    if (name.startsWith(normalizedQuery)) return 1;
+    if (isVerifiedPreparation(preparation)) return 2;
+    return 3;
+  };
+  return rank(a) - rank(b)
+    || a.strength.localeCompare(b.strength, "de")
+    || a.dosageForm.localeCompare(b.dosageForm, "de")
+    || String(a.audience ?? "").localeCompare(String(b.audience ?? ""), "de")
+    || a.tradeName.localeCompare(b.tradeName, "de");
+}
+
+function reviewCadence(medication) {
+  const highPriorityCategories = new Set(["Gerinnungshemmer", "Krebstherapie", "Diabetesmittel", "Atemwegsmedikament"]);
+  const hasChildVariant = preparations.some((preparation) => preparation.medicationIds.includes(medication.id) && /kind|säugling|jugendlich/i.test(`${preparation.audience} ${preparation.ageNote}`));
+  return highPriorityCategories.has(medication.category) || hasChildVariant ? "halbjährlich" : "jährlich";
+}
+
+function reviewChecklistRows() {
+  const medicationRows = medications.map((medication) => [
+    "Wirkstoffkarte",
+    medication.name,
+    medication.category,
+    medication.reviewStatus,
+    medication.source,
+    medication.sourceUrl,
+    reviewCadence(medication),
+    "fachliche Prüfung offen"
+  ]);
+  const preparationRows = verifiedPreparations.map((preparation) => [
+    "Konkretes Präparat",
+    preparation.tradeName,
+    preparation.activeIngredients,
+    preparation.status,
+    `${preparation.sourceLabel} · abgeglichen am ${preparation.checkedOn}`,
+    preparation.sourceUrl,
+    /kind|säugling|jugendlich/i.test(`${preparation.audience} ${preparation.ageNote}`) ? "halbjährlich" : "jährlich",
+    "fachliche Prüfung offen"
+  ]);
+  return [["Eintragstyp", "Name", "Bereich/Wirkstoff", "Quellenstatus", "Quelle", "Quell-URL", "empfohlener Quellencheck", "Fachprüfung"], ...medicationRows, ...preparationRows];
+}
+
+function escapeCsv(value) {
+  return `"${String(value).replaceAll('"', '""')}"`;
+}
+
+function downloadReviewChecklist() {
+  const csv = reviewChecklistRows().map((row) => row.map(escapeCsv).join(";")).join("\n");
+  const link = document.createElement("a");
+  link.href = URL.createObjectURL(new Blob([`\ufeff${csv}`], { type: "text/csv;charset=utf-8" }));
+  link.download = "pruefliste-medikamente-einfach-erklaert.csv";
+  link.click();
+  URL.revokeObjectURL(link.href);
+}
+
+function renderReviewDashboard() {
+  const concreteCount = verifiedPreparations.filter(isVerifiedPreparation).length;
+  reviewDashboard.innerHTML = `
+    <h2 id="review-heading">Prüfübersicht</h2>
+    <p class="review-dashboard__intro">Interne Arbeitsansicht für den Quellen- und Fachcheck. Die Liste dient der Prüfung; sie ersetzt keine medizinische Freigabe.</p>
+    <div class="review-summary" aria-label="Stand der Prüfliste">
+      <div class="review-summary__item"><strong>${medications.length}</strong><span>Wirkstoffkarten mit dokumentierter Quelle</span></div>
+      <div class="review-summary__item"><strong>${concreteCount}</strong><span>konkrete Präparate mit Produktabgleich</span></div>
+      <div class="review-summary__item"><strong>${sourceBackedReferences.length}</strong><span>zusätzliche Referenzpräparate zum Packungsabgleich</span></div>
+    </div>
+    <div class="review-actions__row"><button class="review-download" type="button" data-review-download>Prüfliste als CSV herunterladen</button></div>
+    <p class="review-note">Die CSV enthält Quelle, Quell-URL, Status und den empfohlenen Rhythmus: halbjährlich bei Kinder-, Hochrisiko- und Atemwegs-/Gerinnungs-/Diabetes-/Krebstherapie-Einträgen, sonst jährlich. Änderungen gegenüber einer früheren Prüfung werden erst nach dem Import einer fachlich bestätigten Vergleichsversion ausgewiesen.</p>`;
+}
+
 function renderList(query = "") {
   const normalizedQuery = normalizeForSearch(query);
   const productMatches = normalizedQuery
-    ? verifiedPreparations.filter((preparation) => normalizeForSearch(preparationSearchText(preparation)).includes(normalizedQuery))
+    ? [...verifiedPreparations, ...sourceBackedReferences].filter((preparation) => matchesSearch(query, [preparationSearchText(preparation)])).sort((a, b) => preparationSort(a, b, query))
     : [];
   const matches = medications.filter((medication) =>
-    normalizeForSearch([medication.name, medication.examples, medication.category, ...medication.aliases].join(" ")).includes(normalizedQuery)
+    matchesSearch(query, [medication.name, medication.examples, medication.category, ...medication.aliases])
     && (!categoryFilter.value || medication.category === categoryFilter.value)
   ).map((medication) => ({
     ...medication,
@@ -3833,7 +3997,7 @@ function renderList(query = "") {
     matchedAlias: normalizedQuery
       ? medication.aliases.find((alias) => normalizeForSearch(alias).includes(normalizedQuery))
       : undefined
-  })).filter((medication) => !productMatches.some((preparation) => preparation.medicationIds.includes(medication.id)));
+  })).sort((a, b) => a.name.localeCompare(b.name, "de"));
   const numberOfResults = productMatches.length + matches.length;
   status.textContent = normalizedQuery || categoryFilter.value
     ? `${numberOfResults} Treffer${productMatches.length ? ` · ${productMatches.length} Präparat${productMatches.length === 1 ? "" : "e"}` : ""}`
@@ -3842,7 +4006,7 @@ function renderList(query = "") {
   list.innerHTML = numberOfResults
     ? `${productMatches.map((preparation) => preparationResultCard(preparation)).join("")}${matches.map((medication) => `
       <button class="medication-card" data-id="${medication.id}" type="button">
-        <div class="medication-card__top"><h3>${medication.name}</h3><span class="pill">Wirkstoff</span></div>
+        <div class="medication-card__top"><h3>${medication.name}</h3>${cardTags(medication.category, "Wirkstoff")}</div>
         <p>${medication.examples}</p>
         ${preparationMatchText(medication.matchedPreparation, medication.matchedAlias, medication.name)}
         <p><span class="pill ${medication.reviewStatus.startsWith("Best Guess") ? "pill--pending" : ""}">${medication.reviewStatus}</span></p>
@@ -3852,10 +4016,12 @@ function renderList(query = "") {
 
 function preparationResultCard(preparation) {
   const isConfirmed = isVerifiedPreparation(preparation);
+  const isReference = isSourceBackedReference(preparation);
+  const type = isConfirmed ? "Konkretes Präparat" : isReference ? "Referenzpräparat" : "Packung auswählen";
   return `<button class="medication-card preparation-result" data-preparation-id="${preparation.id}" type="button">
-    <div class="medication-card__top"><h3>${preparation.tradeName}</h3><span class="pill ${isConfirmed ? "" : "pill--pending"}">${isConfirmed ? "Konkretes Präparat" : "Packung auswählen"}</span></div>
-    <p>${preparation.activeIngredients} · ${preparation.strength} · ${preparation.dosageForm}</p>
-    <p class="alias-match">${isConfirmed ? `Produktinformation abgeglichen am ${preparation.checkedOn}.` : "Mehrdeutiger Handelsname: Bitte passende Stärke und Darreichungsform auswählen."}</p>
+    <div class="medication-card__top"><h3>${preparation.tradeName}</h3>${cardTags(categoryLabelForPreparation(preparation), type)}</div>
+    <p>${isReference ? `${preparation.activeIngredients} · Originalinformation verlinkt` : `${preparation.activeIngredients} · ${preparation.strength} · ${preparation.dosageForm}`}</p>
+    <p class="alias-match">${isConfirmed ? `Produktinformation abgeglichen am ${preparation.checkedOn}.` : isReference ? "Originalinformation ist an der Wirkstoffkarte hinterlegt. Packung vor der Anwendung abgleichen." : "Mehrdeutiger Handelsname: Bitte passende Stärke und Darreichungsform auswählen."}</p>
   </button>`;
 }
 
@@ -3872,30 +4038,33 @@ function preparationMatchText(preparation, alias, medicationName) {
 function preparationPanel(medication) {
   const linkedPreparations = preparations.filter((preparation) => preparation.medicationIds.includes(medication.id));
   const verified = linkedPreparations.filter(isVerifiedPreparation);
-  const pendingCount = linkedPreparations.length - verified.length;
+  const references = linkedPreparations.filter(isSourceBackedReference);
+  const aliasCount = linkedPreparations.length - verified.length - references.length;
   if (!linkedPreparations.length) return "";
   return `<article class="info-card info-card--neutral preparation-panel">
     <h3>Präparate und Handelsnamen</h3>
     ${verified.length ? `<ul class="preparation-list">${verified.map((preparation) => `<li><button class="preparation-link" data-preparation-id="${preparation.id}" type="button">${preparation.tradeName}</button><br>${preparation.strength} · ${preparation.dosageForm}${preparation.audience ? `<br><strong>${preparation.audience}</strong>` : ""}${preparation.safetyNote ? `<br><span class="preparation-note">${preparation.safetyNote}</span>` : ""}<br><a href="${preparation.sourceUrl}" target="_blank" rel="noreferrer">${preparation.sourceLabel}</a> · abgeglichen am ${preparation.checkedOn}</li>`).join("")}</ul>` : ""}
-    ${pendingCount ? `<p>${pendingCount} weitere Handelsnamen sind als Suchhilfe hinterlegt. Ihre konkrete Packungsvariante muss noch in <a href="${defaultSource.url}" target="_blank" rel="noreferrer">PharmNet.Bund</a> abgeglichen werden.</p>` : ""}
+    ${references.length ? `<p>${references.length} quellenverlinktes Referenzpräparat${references.length === 1 ? "" : "e"} ist${references.length === 1 ? "" : " sind"} als Suchhilfe hinterlegt: ${references.map((preparation) => `<button class="preparation-link" data-preparation-id="${preparation.id}" type="button">${preparation.tradeName}</button>`).join(", ")}. Stärke, Darreichungsform und Packung müssen noch abgeglichen werden.</p>` : ""}
+    ${aliasCount ? `<p>${aliasCount} weitere Handelsnamen sind als Suchhilfe hinterlegt. Ihre konkrete Packungsvariante muss noch in <a href="${defaultSource.url}" target="_blank" rel="noreferrer">PharmNet.Bund</a> abgeglichen werden.</p>` : ""}
     <p class="preparation-note">Auch bei abgeglichener Zuordnung gilt: Nicht selbst wechseln, absetzen oder dosieren. Entscheidend sind Wirkstoff(e), Stärke und Darreichungsform auf der tatsächlichen Packung.</p>
   </article>`;
 }
 
 function openPreparation(id) {
-  const preparation = verifiedPreparations.find((item) => item.id === id);
+  const preparation = preparations.find((item) => item.id === id);
   if (!preparation) return;
   const medicationLinks = preparation.medicationIds.map((medicationId) => {
     const medication = medications.find((item) => item.id === medicationId);
     return medication ? `<button class="preparation-link" data-medication-id="${medication.id}" type="button">${medication.name}</button>` : "";
   }).filter(Boolean).join(" · ");
   const isConfirmed = isVerifiedPreparation(preparation);
+  const isReference = isSourceBackedReference(preparation);
   detail.innerHTML = `
     <button class="back-button" id="back-button" type="button">← Zurück zur Suche</button>
-    <div class="detail-header"><p class="eyebrow">${isConfirmed ? "Konkretes Präparat" : "Handelsname – Packungsabgleich nötig"}</p><h2>${preparation.tradeName}</h2><p class="detail-meta">${preparation.activeIngredients}</p></div>
+    <div class="detail-header"><p class="eyebrow">${isConfirmed ? "Konkretes Präparat" : isReference ? "Referenzpräparat mit Originalquelle" : "Handelsname – Packungsabgleich nötig"}</p><h2>${preparation.tradeName}</h2><p class="detail-meta">${preparation.activeIngredients}</p></div>
     <div class="cards">
       <article class="info-card info-card--neutral preparation-detail">
-        <h3>Diese Packungsvariante</h3>
+        <h3>${isReference ? "Was diese Verknüpfung bedeutet" : "Diese Packungsvariante"}</h3>
         <dl class="preparation-facts">
           <div><dt>Wirkstoff(e)</dt><dd>${preparation.activeIngredients}</dd></div>
           <div><dt>Stärke</dt><dd>${preparation.strength}</dd></div>
@@ -3910,10 +4079,10 @@ function openPreparation(id) {
       </article>
       <article class="info-card info-card--warning">
         <h3>Packung prüfen</h3>
-        <p>Vergleichen Sie Handelsname, Wirkstoff(e), Stärke und Darreichungsform mit Ihrer tatsächlichen Packung. Nicht selbst wechseln, absetzen oder dosieren.</p>
+        <p>${isReference ? "Die verlinkte Originalinformation bezieht sich auf ein Referenzpräparat. Vergleichen Sie zuerst Handelsname, Wirkstoff(e), Stärke und Darreichungsform mit Ihrer tatsächlichen Packung." : "Vergleichen Sie Handelsname, Wirkstoff(e), Stärke und Darreichungsform mit Ihrer tatsächlichen Packung."} Nicht selbst wechseln, absetzen oder dosieren.</p>
       </article>
     </div>
-    <p class="source"><strong>Status: ${preparation.status}.</strong> Quelle: <a href="${preparation.sourceUrl}" target="_blank" rel="noreferrer">${preparation.sourceLabel}</a>${preparation.checkedOn ? ` · abgeglichen am ${preparation.checkedOn}` : ""}.</p>`;
+    <p class="source"><strong>Status: ${preparation.status}.</strong> Quelle: <a href="${preparation.sourceUrl}" target="_blank" rel="noreferrer">${preparation.sourceLabel}</a>${isConfirmed ? ` · abgeglichen am ${preparation.checkedOn}` : isReference ? " · Quelle in der Wirkstoffkarte dokumentiert" : ""}.</p>`;
   list.hidden = true;
   status.hidden = true;
   detail.hidden = false;
@@ -3978,6 +4147,17 @@ function card(title, text, style) {
 
 search.addEventListener("input", (event) => renderList(event.target.value));
 categoryFilter.addEventListener("change", () => renderList(search.value));
+reviewDashboardToggle.addEventListener("click", () => {
+  const willOpen = reviewDashboard.hidden;
+  if (willOpen) renderReviewDashboard();
+  reviewDashboard.hidden = !willOpen;
+  reviewDashboardToggle.setAttribute("aria-expanded", String(willOpen));
+  reviewDashboardToggle.textContent = willOpen ? "Prüfübersicht schließen" : "Prüfübersicht öffnen";
+  if (willOpen) reviewDashboard.scrollIntoView({ behavior: "smooth", block: "start" });
+});
+reviewDashboard.addEventListener("click", (event) => {
+  if (event.target.closest("[data-review-download]")) downloadReviewChecklist();
+});
 list.addEventListener("click", (event) => {
   const preparationButton = event.target.closest("[data-preparation-id]");
   if (preparationButton) {

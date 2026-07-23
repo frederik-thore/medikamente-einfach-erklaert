@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Medikamente einfach erklärt – lokale Testversion." />
+    <meta name="description" content="Medikamente einfach erklärt – quellenbasierte Orientierung zu Wirkstoffen und Präparaten." />
     <title>Einfach erklärt</title>
-    <link rel="stylesheet" href="styles.css?v=20260721-3" />
+    <link rel="stylesheet" href="styles.css?v=20260724-2" />
   </head>
   <body>
     <main class="page-shell">
@@ -18,7 +18,13 @@
         Ergänzt ärztliche und apothekerliche Beratung.
       </section>
 
-      <section aria-labelledby="search-heading">
+      <div class="review-actions">
+        <button id="review-dashboard-toggle" class="text-button" type="button" aria-expanded="false" aria-controls="review-dashboard">Prüfübersicht öffnen</button>
+      </div>
+
+      <section id="review-dashboard" class="review-dashboard" hidden aria-labelledby="review-heading"></section>
+
+      <section id="search-section" aria-labelledby="search-heading">
         <div class="section-heading">
           <h2 id="search-heading">Medikament suchen</h2>
           <label class="search" for="search-input">
@@ -38,6 +44,6 @@
 
       <section id="detail-view" class="detail-view" hidden aria-live="polite"></section>
     </main>
-    <script src="app.js?v=20260724-3"></script>
+    <script src="app.js?v=20260724-6"></script>
   </body>
 </html>

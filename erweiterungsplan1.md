@@ -159,6 +159,10 @@ Etwa 30–40 zusätzliche Wirkstoffkarten und mindestens 100 konkrete Präparate
 
 ## Phase 3 – Systematische Präparate-Verknüpfung
 
+**Alias-Charge 1 am 24.07.2026:** Die bisher bloßen Suchhilfen Delix, Norvasc, Eliquis und Xarelto sind nun zusätzlich über die konkreten Varianten Delix 5 mg, Norvasc 5 mg, Eliquis 5 mg und Xarelto 20 mg mit direkter Gebrauchsinformation verknüpft. Die kurzen Handelsnamen bleiben bewusst erhalten: Sie können mehrere Stärken und Darreichungsformen meinen.
+
+**Teilumsetzung am 24.07.2026:** Alle 279 Wirkstoffkarten dokumentieren ein Referenzpräparat; 268 davon erscheinen zusätzlich als eigene, durchsuchbare Trefferart mit Link zur Originalquelle. Die übrigen sind bereits über eine identische konkrete Packungsvariante auffindbar. Referenzeinträge sind ausdrücklich als `Referenzpräparat – Packungsabgleich nötig` gekennzeichnet; sie zählen nicht als konkret geprüfte Packungsvarianten. Der Bestand an tatsächlich abgeglichenen Varianten bleibt bei 57 und wird in den folgenden Chargen nach dem unten beschriebenen Arbeitsablauf erweitert.
+
 ### Ziel
 
 Die wichtigsten vorhandenen Wirkstoffkarten mit 300–500 überprüften, realen Packungsvarianten verbinden.
@@ -190,6 +194,8 @@ Die wichtigsten vorhandenen Wirkstoffkarten mit 300–500 überprüften, realen 
 
 ## Phase 4 – Redaktion, Prüfung und Aktualisierung
 
+**Umgesetzt am 24.07.2026:** Die App erzeugt jetzt eine interne CSV-Prüfliste aus allen Wirkstoffkarten und konkret abgeglichenen Präparaten. Sie enthält Quelle, Quell-URL, Status und einen empfohlenen Quellencheck-Rhythmus. Das lokale Prüfskript kontrolliert zusätzlich die vollständigen Pflichtabschnitte und Quellen einer Wirkstoffkarte; fehlende Datumsangaben in Quellen werden als Qualitätshinweis ausgegeben. Ein verständlicher Änderungsvergleich ist vorbereitet, benötigt jedoch erst eine fachlich bestätigte Vergleichsversion als Ausgangspunkt.
+
 ### Qualitätsprozess
 
 - Für jede Karte und jedes Präparat dokumentieren:
@@ -213,6 +219,8 @@ Die wichtigsten vorhandenen Wirkstoffkarten mit 300–500 überprüften, realen 
 - Bei Dosierung, Kindermedizin, Schwangerschaft und Wechselwirkungen konservativ formulieren und auf Praxis oder Apotheke verweisen.
 
 ## Phase 5 – Technische und Nutzerfreundlichkeits-Verbesserungen
+
+**Umgesetzt am 24.07.2026:** Die Suche unterstützt Umlaute, Bindestriche und vorsichtige Tippfehlertoleranz; Treffer bleiben nach Trefferart sichtbar und Präparate werden nach Relevanz sowie Stärke, Darreichungsform und Altersbereich geordnet. Die mobile Oberfläche hat größere Antippflächen für Suche, Filter, Karten und Navigation erhalten.
 
 ### Suche
 
