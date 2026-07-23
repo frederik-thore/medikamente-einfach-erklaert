@@ -3194,6 +3194,56 @@ const reviewedDrafts = [
     sideEffects: "Durchfall, Übelkeit, Erbrechen, Bauchbeschwerden, Hautausschlag und Pilzinfektionen der Schleimhäute können auftreten.",
     urgent: "Bei Schwellung von Gesicht oder Hals, Atemnot, Kreislaufproblemen, Blasen oder wunden Stellen im Mund, starkem oder blutigem Durchfall, Gelbfärbung von Haut oder Augen oder dunklem Urin sofort medizinische Hilfe holen.",
     source: "Gebrauchsinformation: Amoxi-Clavulan Aurobindo® 500 mg/125 mg Filmtabletten (abgerufen am 23.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/a/amoxi-clavulan-aurobindo-500mg125mg-filmtabletten", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "metronidazol", name: "Metronidazol", examples: "Referenzpräparat: Metronidazol Aristo® 400 mg Tabletten", category: "Antibiotikum und Antiparasitikum",
+    purpose: "Metronidazol wird gegen bestimmte Bakterien und Parasiten eingesetzt, zum Beispiel bei bestimmten Infektionen im Bauchraum, im Mund- und Kieferbereich, im Intimbereich oder im Darm.",
+    does: "Es tötet bestimmte Bakterien, die ohne Sauerstoff leben, und bestimmte einzellige Parasiten ab.",
+    doesNot: "Es wirkt nicht gegen Erkältung, Grippe und die meisten anderen Virusinfekte. Es ist nicht für jede Ursache von Bauch-, Zahn- oder Intimbeschwerden geeignet.",
+    daily: "Genau nach dem verordneten Plan und zu oder kurz nach einer Mahlzeit mit ausreichend Wasser einnehmen. Alkohol während der Behandlung und mindestens 48 Stunden danach meiden. Die Dauer und Menge sind je nach Infektion sehr unterschiedlich; nichts selbst ändern.",
+    sideEffects: "Übelkeit, Erbrechen, Durchfall, Bauchschmerzen, metallischer Geschmack, Kopfschmerzen und dunkler Urin können auftreten.",
+    urgent: "Bei Kribbeln oder Taubheitsgefühl, Krampfanfällen, Verwirrtheit, schweren Hautreaktionen, Gelbfärbung von Haut oder Augen, Atemnot oder anhaltendem schwerem bzw. blutigem Durchfall sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: Metronidazol Aristo® 400 mg Tabletten (abgerufen am 23.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/m/metronidazol-aristo-400-mg-tabletten", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "pivmecillinam", name: "Pivmecillinam", examples: "Referenzpräparat: X-SYSTO® 400 mg Filmtabletten", category: "Antibiotikum",
+    purpose: "Pivmecillinam wird bei Erwachsenen zur Behandlung einer Harnblaseninfektion (Zystitis) eingesetzt.",
+    does: "Es ist ein Penicillin-Antibiotikum und tötet empfindliche Bakterien ab, die eine Blaseninfektion verursachen können.",
+    doesNot: "Es wirkt nicht gegen Virusinfekte und ist nicht für jede Ursache von Beschwerden beim Wasserlassen geeignet. Fieber oder Schmerzen in der Flanke können auf eine andere oder schwerere Infektion hinweisen.",
+    daily: "Tabletten nach Plan gleichmäßig über den Tag verteilt, mit mindestens einem halben Glas Flüssigkeit und rechtzeitig vor dem Hinlegen einnehmen. Eine Penicillin- oder Cephalosporinallergie sowie alle anderen Medikamente vor Beginn angeben.",
+    sideEffects: "Durchfall, Übelkeit, Pilzinfektion der Scheide, Kopfschmerzen, Schwindel und Bauchschmerzen können auftreten.",
+    urgent: "Bei Atemnot, Schwellung von Gesicht oder Hals, Blasen oder wunden Stellen im Mund, starkem oder blutigem Durchfall, hohem Fieber, Schüttelfrost oder Flankenschmerzen sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: X-SYSTO® 400 mg Filmtabletten (abgerufen am 23.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/xyz/x-systo-400-mg-filmtabletten", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "trimethoprim", name: "Trimethoprim", examples: "Referenzpräparat: Infectotrimet® 100 mg Tabletten", category: "Antibiotikum",
+    purpose: "Trimethoprim wird bei bestimmten unkomplizierten Harnwegsinfektionen eingesetzt; es kann auch zur Vorbeugung wiederkehrender Harnwegsinfektionen verordnet werden.",
+    does: "Es hemmt Wachstum und Vermehrung bestimmter Bakterien und erreicht im Urin hohe Konzentrationen.",
+    doesNot: "Es wirkt nicht gegen Virusinfekte und ist nicht für jede Harnwegsinfektion geeignet. Fieber, Flankenschmerz oder Blut im Urin müssen ärztlich abgeklärt werden.",
+    daily: "Genau nach dem verordneten Einnahmeplan einnehmen und nicht für spätere Beschwerden aufbewahren. Bei Nieren- oder Leberproblemen, Folsäuremangel, Blutbildproblemen oder weiteren Medikamenten die Praxis oder Apotheke informieren.",
+    sideEffects: "Übelkeit, Erbrechen, Durchfall, Hautausschlag, Kopfschmerzen sowie Veränderungen von Blutbild oder Kaliumwerten können auftreten.",
+    urgent: "Bei Fieber, Halsschmerzen, wunden Stellen im Mund, ungewöhnlichen Blutungen oder blauen Flecken, schwerem Hautausschlag oder Blasen, Atemnot, starkem Durchfall oder deutlich weniger Urin sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: Infectotrimet® 100 mg Tabletten (Stand 01/2026, abgerufen am 23.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/gi/19323/pdf2", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "permethrin", name: "Permethrin (Creme gegen Krätze)", examples: "Referenzpräparat: InfectoScab® 5 % Creme", category: "Mittel gegen Parasiten",
+    purpose: "Permethrin-Creme wird zur Behandlung von Krätze (Scabies) eingesetzt.",
+    does: "Es wirkt gegen die Krätzmilben auf der Haut.",
+    doesNot: "Es lindert nicht jedes Hautjucken sofort: Juckreiz oder Ausschlag können nach erfolgreicher Behandlung noch bis zu vier Wochen bestehen. Nicht jede juckende Hautveränderung ist Krätze.",
+    daily: "Nur genau nach dem ärztlichen Plan auftragen. Bei Krätze müssen oft enge Kontaktpersonen und Hygienemaßnahmen mit der Praxis oder Apotheke besprochen werden. Nicht eigenständig wiederholen, wenn die Beschwerden bleiben.",
+    sideEffects: "Brennen, Stechen, Juckreiz, Rötung, Kribbeln oder trockene Haut können auftreten.",
+    urgent: "Bei Atemnot, Schwellung von Gesicht oder Hals, starkem oder großflächigem Hautausschlag, Blasenbildung, Kreislaufproblemen oder wenn ein kleines Kind das Mittel verschluckt hat sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: InfectoScab® 5 % Creme (abgerufen am 23.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/i/infectoscabR-5--creme", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "mupirocin-nase", name: "Mupirocin (Nasensalbe)", examples: "Referenzpräparat: Mupirocin InfectoPharm® 20 mg/g Nasensalbe", category: "Antibiotikum",
+    purpose: "Mupirocin als Nasensalbe wird eingesetzt, um bestimmte Bakterien in der Nase zu beseitigen, insbesondere Staphylococcus aureus einschließlich MRSA.",
+    does: "Es hemmt Bakterien direkt an der Nasenschleimhaut.",
+    doesNot: "Es behandelt keine Erkältung, keinen Schnupfen und keine Virusinfektion. Diese Nasensalbe ist nicht dasselbe wie eine antibakterielle Salbe für die Haut.",
+    daily: "Nur nach dem verordneten Plan und nur in der Nase anwenden. Nicht in die Augen bringen und nicht mit anderen teilen. Vor allem bei Krankenhausaufenthalten oder vor einer Operation kann die genaue Durchführung wichtig sein.",
+    sideEffects: "Kopfschmerzen, Brennen oder Kribbeln in der Nase, Juckreiz, verstopfte oder laufende Nase sowie Geschmacksveränderungen können auftreten.",
+    urgent: "Bei Atemnot, Schwellung von Gesicht oder Hals, starkem Hautausschlag, anhaltendem Nasenbluten oder einer schweren Reizung der Nase sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: Mupirocin InfectoPharm® 20 mg/g Nasensalbe (abgerufen am 23.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/m/mupirocin-infectopharm-20-mgg-nasensalbe", reviewStatus: "Quellenbasierter Entwurf"
   }
 ];
 
@@ -3263,6 +3313,7 @@ const commonBrandAliases = {
   enoxaparin: ["Clexane", "Enoxaparin Inhixa"], tinzaparin: ["innohep"], dalteparin: ["Fragmin"], nadroparin: ["Fraxiparine"], fondaparinux: ["Arixtra"],
   clotrimazol: ["Canesten", "Clotrimazol acis"], "hydrocortison-haut": ["Hydrocutan", "Ebenol", "FeniHydrocort"], "mometason-haut": ["Ecural", "Momecutan"], xylometazolin: ["Otriven gegen Schnupfen", "Olynth"], ambroxol: ["Mucosolvan", "Ambroxol acis"], acetylcystein: ["ACC akut", "ACC Hustenlöser"], dimetinden: ["Fenistil Tropfen"], butylscopolamin: ["Buscopan", "Butylscopolamin PUREN"], simeticon: ["Lefax", "Espumisan", "sab simplex"], dextromethorphan: ["Hustenstiller-ratiopharm Dextromethorphan", "Silomat Hustenstiller Dextromethorphan"],
   oseltamivir: ["Tamiflu", "Ebilfumin"], "nirmatrelvir-ritonavir": ["Paxlovid"], clindamycin: ["Clindamycin 1 A Pharma", "Sobelin"], phenoxymethylpenicillin: ["PenHEXAL", "Infectocillin"], "amoxicillin-clavulansaeure": ["Amoxi-Clavulan", "AmoxiClav", "Augmentan"],
+  metronidazol: ["Metronidazol Aristo", "Flagyl", "Clont"], pivmecillinam: ["X-SYSTO", "Selexid"], trimethoprim: ["Infectotrimet"], permethrin: ["InfectoScab", "Infectoscab"], "mupirocin-nase": ["Mupirocin InfectoPharm", "Bactroban Nasensalbe"],
   abirateron: ["Zytiga"], apalutamid: ["Erleada"], enzalutamid: ["Xtandi"], darolutamid: ["Nubeqa"], degarelix: ["Firmagon"], relugolix: ["Orgovyx"], denosumab: ["Prolia", "Xgeva"], zoledronsaeure: ["Zometa", "Aclasta"],
   olaparib: ["Lynparza"], talazoparib: ["Talzenna"], docetaxel: ["Taxotere"], cabazitaxel: ["Jevtana"], "radium-223-dichlorid": ["Xofigo"], "lutetium-177-vipivotid-tetraxetan": ["Pluvicto"], pembrolizumab: ["Keytruda"], nivolumab: ["Opdivo"], abemaciclib: ["Verzenios"], palbociclib: ["Ibrance"], ribociclib: ["Kisqali"], goserelin: ["Zoladex"], triptorelin: ["Pamorelin", "Decapeptyl"], bicalutamid: ["Casodex"],
   hydrocortison: ["Plenadren", "Hydrocortison Jenapharm"], methylprednisolon: ["Urbason", "Medrol"], filgrastim: ["Neupogen", "Zarzio"], pegfilgrastim: ["Neulasta", "Ziextenzo"], "epoetin-alfa": ["Eprex"], "darbepoetin-alfa": ["Aranesp"],
