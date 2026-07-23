@@ -3244,6 +3244,56 @@ const reviewedDrafts = [
     sideEffects: "Kopfschmerzen, Brennen oder Kribbeln in der Nase, Juckreiz, verstopfte oder laufende Nase sowie Geschmacksveränderungen können auftreten.",
     urgent: "Bei Atemnot, Schwellung von Gesicht oder Hals, starkem Hautausschlag, anhaltendem Nasenbluten oder einer schweren Reizung der Nase sofort medizinische Hilfe holen.",
     source: "Gebrauchsinformation: Mupirocin InfectoPharm® 20 mg/g Nasensalbe (abgerufen am 23.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/m/mupirocin-infectopharm-20-mgg-nasensalbe", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "naproxen", name: "Naproxen", examples: "Referenzpräparat: Naproxen 500 mg HEXAL® Tabletten", category: "Entzündungshemmendes Schmerzmittel",
+    purpose: "Naproxen wird zur Behandlung von Schmerzen und Entzündungen eingesetzt, zum Beispiel bei Arthrose, Rheuma, Gicht, Rücken- und Gelenkbeschwerden oder nach Verletzungen.",
+    does: "Es hemmt Botenstoffe, die Schmerzen, Entzündung und Schwellung verstärken.",
+    doesNot: "Es beseitigt nicht die Ursache einer Gelenkerkrankung oder Verletzung und ist kein Mittel zur Selbstbehandlung von starkem Brustschmerz, Atemnot oder plötzlich starken Bauchschmerzen.",
+    daily: "Nur in der verordneten niedrigsten wirksamen Dosis und so kurz wie möglich einnehmen. Nicht zusätzlich mit Ibuprofen, Diclofenac, ASS als Schmerzmittel oder anderen entzündungshemmenden Schmerzmitteln kombinieren. Bei Blutverdünnern, Magenproblemen, Herz-, Leber- oder Nierenerkrankungen vorher Apotheke oder Praxis fragen.",
+    sideEffects: "Sodbrennen, Übelkeit, Bauchschmerzen, Durchfall, Schwindel, Kopfschmerzen, Wassereinlagerungen und ein Anstieg des Blutdrucks können auftreten.",
+    urgent: "Bei schwarzem Stuhl, Bluterbrechen, starken Bauchschmerzen, Atemnot, Brustschmerz, plötzlicher Lähmung oder Sprachstörung, deutlicher Schwellung, sehr wenig Urin oder schwerer allergischer Reaktion sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: Naproxen 500 mg HEXAL® Tabletten (abgerufen am 23.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/n/naproxen-500mg-hexal-tabletten", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "celecoxib", name: "Celecoxib", examples: "Referenzpräparat: CELEBREX® 100 mg oder 200 mg Hartkapseln", category: "Entzündungshemmendes Schmerzmittel",
+    purpose: "Celecoxib wird bei Erwachsenen zur Behandlung von Beschwerden bei Arthrose, rheumatoider Arthritis und Morbus Bechterew eingesetzt.",
+    does: "Es hemmt ein Enzym, das an der Bildung von Botenstoffen für Schmerz und Entzündung beteiligt ist. Dadurch können Schmerzen und Entzündungen abnehmen.",
+    doesNot: "Es heilt die Gelenkerkrankung nicht und ist kein Mittel zur Selbstbehandlung eines Herzinfarkts, Schlaganfalls oder einer akuten Notfallsituation.",
+    daily: "Genau nach dem verordneten Plan einnehmen, in der niedrigsten wirksamen Dosis und nicht länger als nötig. Nicht eigenständig mit Ibuprofen, Diclofenac, Naproxen oder anderen entzündungshemmenden Schmerzmitteln kombinieren. Blutdruck sowie Herz-, Magen- und Nierenrisiken sind besonders wichtig.",
+    sideEffects: "Bauchschmerzen, Durchfall, Übelkeit, Verdauungsbeschwerden, Kopfschmerzen, Schwindel, Wassereinlagerungen und Blutdruckanstieg können auftreten.",
+    urgent: "Bei schwarzem Stuhl, Bluterbrechen, starken Bauchschmerzen, Atemnot, Brustschmerz, plötzlicher Lähmung oder Sprachstörung, deutlicher Schwellung, sehr wenig Urin oder schwerer allergischer Reaktion sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: CELEBREX® 100 mg und 200 mg Hartkapseln (abgerufen am 23.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/c/celebrexR-100-mg-und-200-mg-hartkapseln/", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "etoricoxib", name: "Etoricoxib", examples: "Referenzpräparat: ARCOXIA® Filmtabletten", category: "Entzündungshemmendes Schmerzmittel",
+    purpose: "Etoricoxib wird bei Erwachsenen und Jugendlichen ab 16 Jahren je nach Stärke bei Arthrose, rheumatoider Arthritis, Morbus Bechterew, Gicht oder bestimmten Schmerzen eingesetzt.",
+    does: "Es hemmt ein Enzym, das an der Bildung von Botenstoffen für Schmerz und Entzündung beteiligt ist. Dadurch können Schmerzen und Entzündungen abnehmen.",
+    doesNot: "Es heilt keine Gelenkerkrankung und ist kein Mittel zur Selbstbehandlung von plötzlich auftretendem Brustschmerz, Atemnot oder Lähmungen.",
+    daily: "Genau nach dem verordneten Plan einnehmen und nicht höher oder länger dosieren als vorgesehen. Nicht zusätzlich mit Ibuprofen, Diclofenac, Naproxen oder anderen entzündungshemmenden Schmerzmitteln einnehmen. Blutdruckkontrollen sind wichtig; bei Herz-, Magen-, Leber- oder Nierenproblemen vorher Rücksprache halten.",
+    sideEffects: "Wassereinlagerungen, Blutdruckanstieg, Schwindel, Kopfschmerzen, Herzklopfen, Sodbrennen, Bauchschmerzen, Durchfall und Übelkeit können auftreten.",
+    urgent: "Bei schwarzem Stuhl, Bluterbrechen, starken Bauchschmerzen, Atemnot, Brustschmerz, plötzlicher Lähmung oder Sprachstörung, deutlicher Schwellung, sehr wenig Urin oder schwerer allergischer Reaktion sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: ARCOXIA® Filmtabletten (abgerufen am 23.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/a/arcoxiaR", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "meloxicam", name: "Meloxicam", examples: "Referenzpräparat: MOBEC® 15 mg Tabletten", category: "Entzündungshemmendes Schmerzmittel",
+    purpose: "Meloxicam wird bei Erwachsenen und Jugendlichen ab 16 Jahren zur kurzzeitigen Behandlung aktivierter Arthrose sowie zur Langzeitbehandlung von rheumatoider Arthritis oder Morbus Bechterew eingesetzt.",
+    does: "Es hemmt Botenstoffe, die Entzündung und Schmerzen in Gelenken und Muskeln verstärken.",
+    doesNot: "Es heilt keine Gelenkerkrankung und ist kein Mittel zur Selbstbehandlung von akutem Brustschmerz, Atemnot, Schlaganfallzeichen oder starken Bauchschmerzen.",
+    daily: "Nur wie verordnet und nicht zusammen mit Ibuprofen, Diclofenac, Naproxen oder anderen entzündungshemmenden Schmerzmitteln einnehmen. Bei Blutverdünnern, Magenproblemen, Herz-, Leber- oder Nierenerkrankungen sowie im höheren Alter den Plan mit Praxis oder Apotheke abgleichen.",
+    sideEffects: "Verdauungsbeschwerden, Übelkeit, Erbrechen, Bauchschmerzen, Durchfall, Kopfschmerzen, Schwindel, Hautausschlag, Wassereinlagerungen und Blutdruckanstieg können auftreten.",
+    urgent: "Bei schwarzem Stuhl, Bluterbrechen, starken Bauchschmerzen, Atemnot, Brustschmerz, plötzlicher Lähmung oder Sprachstörung, deutlicher Schwellung, sehr wenig Urin oder schwerer allergischer Reaktion sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: MOBEC® 15 mg Tabletten (abgerufen am 23.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/m/mobecR-15-mg-tabletten", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "methocarbamol", name: "Methocarbamol", examples: "Referenzpräparat: Methocarbamol Aristo® 750 mg Tabletten", category: "Muskelentspannendes Mittel",
+    purpose: "Methocarbamol wird bei Erwachsenen zur symptomatischen Behandlung schmerzhafter Muskelverspannungen eingesetzt, besonders im unteren Rückenbereich (Lumbago).",
+    does: "Es wirkt im zentralen Nervensystem und kann die Muskelspannung senken. Dadurch können Schmerzen durch Verspannung nachlassen.",
+    doesNot: "Es behandelt nicht die Ursache von Rücken- oder Muskelschmerzen und ist kein Ersatz für die Abklärung von Lähmungen, Blasen- oder Darmstörungen, Fieber oder einem Unfall.",
+    daily: "Nur genau nach dem verordneten Plan einnehmen. Es kann Reaktionsfähigkeit und Fahrtüchtigkeit beeinträchtigen. Alkohol sowie beruhigende Mittel, Schlafmittel oder Opioide können die dämpfende Wirkung verstärken – Kombination vorher mit Apotheke oder Praxis prüfen.",
+    sideEffects: "Müdigkeit, Benommenheit, Schwindel, Kopfschmerzen, Übelkeit, Erbrechen, Sehstörungen und niedriger Blutdruck können auftreten.",
+    urgent: "Bei Atemnot, Ohnmacht, starker Verwirrtheit oder Benommenheit, Gelbfärbung von Haut oder Augen, schwerem Hautausschlag oder einer möglichen Überdosierung sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: Methocarbamol Aristo® 750 mg Tabletten (aktualisiert 08/2025, abgerufen am 23.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/m/methocarbamol-aristo-750-mg-tabletten", reviewStatus: "Quellenbasierter Entwurf"
   }
 ];
 
@@ -3314,6 +3364,7 @@ const commonBrandAliases = {
   clotrimazol: ["Canesten", "Clotrimazol acis"], "hydrocortison-haut": ["Hydrocutan", "Ebenol", "FeniHydrocort"], "mometason-haut": ["Ecural", "Momecutan"], xylometazolin: ["Otriven gegen Schnupfen", "Olynth"], ambroxol: ["Mucosolvan", "Ambroxol acis"], acetylcystein: ["ACC akut", "ACC Hustenlöser"], dimetinden: ["Fenistil Tropfen"], butylscopolamin: ["Buscopan", "Butylscopolamin PUREN"], simeticon: ["Lefax", "Espumisan", "sab simplex"], dextromethorphan: ["Hustenstiller-ratiopharm Dextromethorphan", "Silomat Hustenstiller Dextromethorphan"],
   oseltamivir: ["Tamiflu", "Ebilfumin"], "nirmatrelvir-ritonavir": ["Paxlovid"], clindamycin: ["Clindamycin 1 A Pharma", "Sobelin"], phenoxymethylpenicillin: ["PenHEXAL", "Infectocillin"], "amoxicillin-clavulansaeure": ["Amoxi-Clavulan", "AmoxiClav", "Augmentan"],
   metronidazol: ["Metronidazol Aristo", "Flagyl", "Clont"], pivmecillinam: ["X-SYSTO", "Selexid"], trimethoprim: ["Infectotrimet"], permethrin: ["InfectoScab", "Infectoscab"], "mupirocin-nase": ["Mupirocin InfectoPharm", "Bactroban Nasensalbe"],
+  naproxen: ["Naproxen HEXAL", "Aleve", "Dolormin GS"], celecoxib: ["Celebrex", "Celecoxib TAD"], etoricoxib: ["Arcoxia", "Etoricox-HEXAL", "Etoriax"], meloxicam: ["Mobec", "Melosus"], methocarbamol: ["Methocarbamol Aristo", "Methocarbamol HEXAL", "MethocaPUREN"],
   abirateron: ["Zytiga"], apalutamid: ["Erleada"], enzalutamid: ["Xtandi"], darolutamid: ["Nubeqa"], degarelix: ["Firmagon"], relugolix: ["Orgovyx"], denosumab: ["Prolia", "Xgeva"], zoledronsaeure: ["Zometa", "Aclasta"],
   olaparib: ["Lynparza"], talazoparib: ["Talzenna"], docetaxel: ["Taxotere"], cabazitaxel: ["Jevtana"], "radium-223-dichlorid": ["Xofigo"], "lutetium-177-vipivotid-tetraxetan": ["Pluvicto"], pembrolizumab: ["Keytruda"], nivolumab: ["Opdivo"], abemaciclib: ["Verzenios"], palbociclib: ["Ibrance"], ribociclib: ["Kisqali"], goserelin: ["Zoladex"], triptorelin: ["Pamorelin", "Decapeptyl"], bicalutamid: ["Casodex"],
   hydrocortison: ["Plenadren", "Hydrocortison Jenapharm"], methylprednisolon: ["Urbason", "Medrol"], filgrastim: ["Neupogen", "Zarzio"], pegfilgrastim: ["Neulasta", "Ziextenzo"], "epoetin-alfa": ["Eprex"], "darbepoetin-alfa": ["Aranesp"],
