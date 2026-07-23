@@ -3515,7 +3515,7 @@ const defaultSource = {
 // Handelsname, Stärke und Darreichungsform unbemerkt miteinander vermischt werden.
 // "Produktinformation abgeglichen" bedeutet nur: Handelsname und Wirkstoff wurden
 // gegen die verlinkte Produktinformation geprüft; die Packung bleibt maßgeblich.
-const verifiedPreparations = [
+const verifiedPreparationsRaw = [
   { tradeName: "VomiSaft", medicationId: "dimenhydrinat", strength: "24 mg Dimenhydrinat pro Einzeldosisflasche", dosageForm: "Lösung zum Einnehmen", audience: "Kindervariante", safetyNote: "Laut Gebrauchsinformation für Kinder von 2 bis 12 Jahren. Alter, Körpergewicht und konkrete Packung vor jeder Anwendung prüfen; Überdosierung kann insbesondere bei kleinen Kindern lebensbedrohlich sein. Die App berechnet keine Dosis.", status: "Produktinformation abgeglichen", checkedOn: "22.07.2026", sourceLabel: "PatientenInfo-Service: VomiSaft 24 mg", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/uv/vomisaftR-24-mg-loesung-zum-einnehmen" },
   { tradeName: "Septanasal für Kinder", medicationId: "xylometazolin-dexpanthenol", strength: "0,5 mg/ml Xylometazolin + 50 mg/ml Dexpanthenol", dosageForm: "Nasenspray", audience: "Kindervariante", safetyNote: "Laut Gebrauchsinformation für Kinder von 2 bis 6 Jahren. Nicht länger oder häufiger als vorgesehen anwenden; bei fehlender Besserung nach 3 Tagen ärztlich abklären. Die App berechnet keine Dosis.", status: "Produktinformation abgeglichen", checkedOn: "22.07.2026", sourceLabel: "PatientenInfo-Service: Septanasal für Kinder", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/s/septanasalR-fuer-kinder-05-mgml--50-mgml-nasenspray-loesung" },
   { tradeName: "Cetirizin Aristo Allergiesaft", medicationId: "cetirizin", strength: "1 mg/ml Cetirizin", dosageForm: "Lösung zum Einnehmen", audience: "Kindervariante", safetyNote: "Laut Gebrauchsinformation für Kinder ab 2 Jahren und Erwachsene. Alter, Nierenfunktion, konkrete Packung und der ärztliche bzw. apothekerliche Plan sind maßgeblich; die App berechnet keine Dosis.", status: "Produktinformation abgeglichen", checkedOn: "22.07.2026", sourceLabel: "PatientenInfo-Service: Cetirizin Aristo Allergiesaft", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/c/cetirizin-aristo-allergiesaft-1-mgml-loesung-zum-einnehmen" },
@@ -3524,20 +3524,37 @@ const verifiedPreparations = [
   { tradeName: "Ibuflam Kindersaft 20 mg/ml", medicationId: "ibuprofen", strength: "20 mg/ml Ibuprofen", dosageForm: "Saft zum Einnehmen", audience: "Kindervariante", safetyNote: "Konzentration, Körpergewicht, Alter und die konkrete Packung sind vor jeder Anwendung zu prüfen. Bei Erbrechen, Durchfall oder geringer Trinkmenge ist wegen des Risikos für Nierenprobleme ärztlicher oder apothekerlicher Rat wichtig; die App berechnet keine Dosis.", status: "Produktinformation abgeglichen", checkedOn: "22.07.2026", sourceLabel: "PatientenInfo-Service: Ibuflam Kindersaft 20 mg/ml", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/i/ibuflam-kindersaft-20mgml-gegen-fieber-und-schmerzen" },
   { tradeName: "Ibuprofen Pädia 75 mg Zäpfchen", medicationId: "ibuprofen", strength: "75 mg Ibuprofen", dosageForm: "Zäpfchen", audience: "Kindervariante", safetyNote: "Laut Gebrauchsinformation für Kinder ab 8 Monaten. Nicht bei schwerer Austrocknung anwenden; Alter, Körpergewicht und konkrete Packung vor jeder Anwendung prüfen. Die App berechnet keine Dosis.", status: "Produktinformation abgeglichen", checkedOn: "22.07.2026", sourceLabel: "PatientenInfo-Service: Ibuprofen Pädia 75 mg Zäpfchen", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/i/ibuprofen-paedia-75-mg-zaepfchen" },
   { tradeName: "Sultanol Dosier-Aerosol", medicationId: "salbutamol", strength: "100 Mikrogramm pro Sprühstoß", dosageForm: "Dosieraerosol zur Inhalation", audience: "Kinder nur unter Aufsicht und nach ärztlicher Vorschrift", safetyNote: "Die Inhalationstechnik muss gezeigt und regelmäßig geprüft werden. Ein steigender Bedarf oder zunehmende Atemnot sind ein Warnzeichen; nicht selbst die Anwendung erhöhen.", status: "Produktinformation abgeglichen", checkedOn: "22.07.2026", sourceLabel: "PatientenInfo-Service: Sultanol Dosier-Aerosol", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/s/sultanol-dosier-aerosol-100-mikrogrammdosis-druckgasinhalation-suspension" },
-  { tradeName: "Laxbene", medicationId: "macrogol", strength: "Stärke auf der Packung prüfen", dosageForm: "Kinder- oder Erwachsenenvariante", audience: "Altersbereich und Darreichungsform prüfen", safetyNote: "Laxbene ist Macrogol 4000. Erst die konkrete Packung zuordnen; die App berechnet keine Dosis.", status: "Produktinformation abgeglichen", checkedOn: "22.07.2026", sourceLabel: "Laxbene: Gebrauchsinformationen", sourceUrl: "https://laxbene.de/service/downloads" },
+  { tradeName: "Laxbene", medicationId: "macrogol", strength: "Stärke auf der Packung prüfen", dosageForm: "Kinder- oder Erwachsenenvariante", audience: "Altersbereich und Darreichungsform prüfen", safetyNote: "Laxbene ist Macrogol 4000. Erst die konkrete Packung zuordnen; die App berechnet keine Dosis.", status: "Handelsname mehrdeutig – Packungsabgleich nötig", checkedOn: "22.07.2026", sourceLabel: "Laxbene: Gebrauchsinformationen", sourceUrl: "https://laxbene.de/service/downloads" },
   { tradeName: "Laxbene junior 4 g", medicationId: "macrogol", strength: "4 g Macrogol 4000", dosageForm: "Pulver zur Herstellung einer Lösung zum Einnehmen", audience: "Kindervariante", safetyNote: "Laut Gebrauchsinformation für Kinder von 6 Monaten bis 8 Jahren. Alter, konkrete Packung und Verordnung vor jeder Anwendung prüfen; die App berechnet keine Dosis.", status: "Produktinformation abgeglichen", checkedOn: "22.07.2026", sourceLabel: "Laxbene: Gebrauchsinformationen", sourceUrl: "https://laxbene.de/service/downloads" },
   { tradeName: "Laxbene 10 g", medicationId: "macrogol", strength: "10 g Macrogol 4000", dosageForm: "Pulver zur Herstellung einer Lösung zum Einnehmen", audience: "Für Kinder ab 8 Jahren und Erwachsene", safetyNote: "Laut Gebrauchsinformation für Kinder ab 8 Jahren und Erwachsene. Alter, konkrete Packung und Verordnung vor jeder Anwendung prüfen; die App berechnet keine Dosis.", status: "Produktinformation abgeglichen", checkedOn: "22.07.2026", sourceLabel: "Laxbene: Gebrauchsinformationen", sourceUrl: "https://laxbene.de/service/downloads" },
   { tradeName: "Novalgin Tropfen", medicationId: "metamizol", strength: "500 mg/ml", dosageForm: "Tropfen zum Einnehmen", status: "Produktinformation abgeglichen", checkedOn: "21.07.2026", sourceLabel: "PatientenInfo-Service: Novalgin Tropfen", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/n/novalginR-tropfen?schrift=0.9" },
-  { tradeName: "Eliquis", medicationId: "apixaban", strength: "2,5 mg oder 5 mg", dosageForm: "Filmtabletten", status: "Produktinformation abgeglichen", checkedOn: "21.07.2026", sourceLabel: "EMA: Eliquis – Produktinformation", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/eliquis" },
-  { tradeName: "Xarelto", medicationId: "rivaroxaban", strength: "Stärke abhängig von der Verordnung", dosageForm: "Tabletten oder Granulat zur Suspension", status: "Produktinformation abgeglichen", checkedOn: "21.07.2026", sourceLabel: "EMA: Xarelto – Produktinformation", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/xarelto" },
-  { tradeName: "Pradaxa", medicationId: "dabigatran", strength: "Stärke abhängig von der Verordnung", dosageForm: "Kapseln", status: "Produktinformation abgeglichen", checkedOn: "21.07.2026", sourceLabel: "EMA: Pradaxa – Produktinformation", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/pradaxa" },
-  { tradeName: "Zytiga", medicationId: "abirateron", strength: "Stärke abhängig von der Verordnung", dosageForm: "Tabletten", status: "Produktinformation abgeglichen", checkedOn: "21.07.2026", sourceLabel: "EMA: Zytiga – Produktinformation", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/zytiga" },
-  { tradeName: "Xtandi", medicationId: "enzalutamid", strength: "Stärke abhängig von der Verordnung", dosageForm: "Tabletten oder Kapseln", status: "Produktinformation abgeglichen", checkedOn: "21.07.2026", sourceLabel: "EMA: Xtandi – Produktinformation", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/xtandi" }
+  { tradeName: "Eliquis", medicationId: "apixaban", strength: "2,5 mg oder 5 mg", dosageForm: "Filmtabletten", status: "Präparatfamilie – Packungsabgleich nötig", checkedOn: "21.07.2026", sourceLabel: "EMA: Eliquis – Produktinformation", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/eliquis" },
+  { tradeName: "Xarelto", medicationId: "rivaroxaban", strength: "Stärke abhängig von der Verordnung", dosageForm: "Tabletten oder Granulat zur Suspension", status: "Präparatfamilie – Packungsabgleich nötig", checkedOn: "21.07.2026", sourceLabel: "EMA: Xarelto – Produktinformation", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/xarelto" },
+  { tradeName: "Pradaxa", medicationId: "dabigatran", strength: "Stärke abhängig von der Verordnung", dosageForm: "Kapseln", status: "Präparatfamilie – Packungsabgleich nötig", checkedOn: "21.07.2026", sourceLabel: "EMA: Pradaxa – Produktinformation", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/pradaxa" },
+  { tradeName: "Zytiga", medicationId: "abirateron", strength: "Stärke abhängig von der Verordnung", dosageForm: "Tabletten", status: "Präparatfamilie – Packungsabgleich nötig", checkedOn: "21.07.2026", sourceLabel: "EMA: Zytiga – Produktinformation", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/zytiga" },
+  { tradeName: "Xtandi", medicationId: "enzalutamid", strength: "Stärke abhängig von der Verordnung", dosageForm: "Tabletten oder Kapseln", status: "Präparatfamilie – Packungsabgleich nötig", checkedOn: "21.07.2026", sourceLabel: "EMA: Xtandi – Produktinformation", sourceUrl: "https://www.ema.europa.eu/en/medicines/human/EPAR/xtandi" }
 ];
+
+const medicationNameById = new Map(medications.map((medication) => [medication.id, medication.name]));
+
+// Das Datenmodell trennt bestätigt abgeglichene Präparate von reinen Suchhilfen.
+// medicationIds erlaubt auch später saubere Verknüpfungen von Kombinationspräparaten.
+const verifiedPreparations = verifiedPreparationsRaw.map((preparation, index) => {
+  const medicationIds = preparation.medicationIds ?? [preparation.medicationId];
+  return {
+    ...preparation,
+    id: preparation.id ?? `preparation-${index + 1}`,
+    medicationIds,
+    activeIngredients: preparation.activeIngredients ?? medicationIds.map((id) => medicationNameById.get(id) ?? id).join(" / "),
+    ageNote: preparation.ageNote ?? preparation.audience ?? "Altersbereich auf der Packung prüfen",
+    medicationId: medicationIds[0]
+  };
+});
 
 const aliasPreparations = Object.entries(commonBrandAliases).flatMap(([medicationId, aliases]) => aliases.map((tradeName) => ({
   tradeName,
-  medicationId,
+  medicationIds: [medicationId],
+  activeIngredients: medicationNameById.get(medicationId) ?? medicationId,
   strength: "Stärke auf der Packung prüfen",
   dosageForm: "Darreichungsform auf der Packung prüfen",
   status: "Handelsname zugeordnet – Packungsabgleich offen",
@@ -3549,7 +3566,11 @@ const preparations = [
   ...verifiedPreparations,
   ...aliasPreparations.filter((candidate) => !verifiedPreparations.some((verified) =>
     verified.tradeName.toLocaleLowerCase("de-DE") === candidate.tradeName.toLocaleLowerCase("de-DE")
-  ))
+  )).map((preparation, index) => ({
+    ...preparation,
+    id: `alias-${index + 1}`,
+    medicationId: preparation.medicationIds[0]
+  }))
 ];
 
 const editorialProfiles = {
@@ -3663,12 +3684,42 @@ const categoryFilter = document.querySelector("#category-filter");
 const categories = [...new Set(medications.map((medication) => medication.category))].sort((a, b) => a.localeCompare(b, "de"));
 categoryFilter.insertAdjacentHTML("beforeend", categories.map((category) => `<option value="${category}">${category}</option>`).join(""));
 
-function renderList(query = "") {
-  const normalizeForSearch = (value) => value
+function normalizeForSearch(value) {
+  return String(value)
     .toLocaleLowerCase("de-DE")
     .replace(/[^\p{L}\p{N}]+/gu, " ")
     .trim();
+}
+
+function isVerifiedPreparation(preparation) {
+  return preparation.status === "Produktinformation abgeglichen";
+}
+
+function preparationSearchText(preparation) {
+  return [preparation.tradeName, preparation.activeIngredients, preparation.strength, preparation.dosageForm, preparation.audience, preparation.ageNote].filter(Boolean).join(" ");
+}
+
+function validatePreparationModel() {
+  const knownMedicationIds = new Set(medications.map((medication) => medication.id));
+  const requiredFields = ["id", "tradeName", "activeIngredients", "strength", "dosageForm", "ageNote", "sourceLabel", "sourceUrl", "checkedOn"];
+  const errors = verifiedPreparations.filter(isVerifiedPreparation).flatMap((preparation) => {
+    const missing = requiredFields.filter((field) => !preparation[field]);
+    const unknownMedicationIds = preparation.medicationIds.filter((id) => !knownMedicationIds.has(id));
+    return missing.length || unknownMedicationIds.length
+      ? [`${preparation.tradeName}: ${[missing.length ? `fehlend: ${missing.join(", ")}` : "", unknownMedicationIds.length ? `unbekannte Wirkstoffkarte: ${unknownMedicationIds.join(", ")}` : ""].filter(Boolean).join("; ")}`]
+      : [];
+  });
+  if (errors.length) console.error("Ungültige Präparate-Daten:", errors);
+  return errors;
+}
+
+validatePreparationModel();
+
+function renderList(query = "") {
   const normalizedQuery = normalizeForSearch(query);
+  const productMatches = normalizedQuery
+    ? verifiedPreparations.filter((preparation) => normalizeForSearch(preparationSearchText(preparation)).includes(normalizedQuery))
+    : [];
   const matches = medications.filter((medication) =>
     normalizeForSearch([medication.name, medication.examples, medication.category, ...medication.aliases].join(" ")).includes(normalizedQuery)
     && (!categoryFilter.value || medication.category === categoryFilter.value)
@@ -3680,20 +3731,30 @@ function renderList(query = "") {
     matchedAlias: normalizedQuery
       ? medication.aliases.find((alias) => normalizeForSearch(alias).includes(normalizedQuery))
       : undefined
-  }));
+  })).filter((medication) => !productMatches.some((preparation) => preparation.medicationIds.includes(medication.id)));
+  const numberOfResults = productMatches.length + matches.length;
   status.textContent = normalizedQuery || categoryFilter.value
-    ? `${matches.length} Treffer`
+    ? `${numberOfResults} Treffer${productMatches.length ? ` · ${productMatches.length} Präparat${productMatches.length === 1 ? "" : "e"}` : ""}`
     : "";
   status.hidden = !(normalizedQuery || categoryFilter.value);
-  list.innerHTML = matches.length
-    ? matches.map((medication) => `
+  list.innerHTML = numberOfResults
+    ? `${productMatches.map((preparation) => preparationResultCard(preparation)).join("")}${matches.map((medication) => `
       <button class="medication-card" data-id="${medication.id}" type="button">
-        <div class="medication-card__top"><h3>${medication.name}</h3><span class="pill">${medication.category}</span></div>
+        <div class="medication-card__top"><h3>${medication.name}</h3><span class="pill">Wirkstoff</span></div>
         <p>${medication.examples}</p>
         ${preparationMatchText(medication.matchedPreparation, medication.matchedAlias, medication.name)}
         <p><span class="pill ${medication.reviewStatus.startsWith("Best Guess") ? "pill--pending" : ""}">${medication.reviewStatus}</span></p>
-      </button>`).join("")
+      </button>`).join("")}`
     : "<p>Kein passender Eintrag. Bitte Handelsname, Wirkstoff sowie Stärke und Darreichungsform auf der Packung prüfen.</p>";
+}
+
+function preparationResultCard(preparation) {
+  const isConfirmed = isVerifiedPreparation(preparation);
+  return `<button class="medication-card preparation-result" data-preparation-id="${preparation.id}" type="button">
+    <div class="medication-card__top"><h3>${preparation.tradeName}</h3><span class="pill ${isConfirmed ? "" : "pill--pending"}">${isConfirmed ? "Konkretes Präparat" : "Packung auswählen"}</span></div>
+    <p>${preparation.activeIngredients} · ${preparation.strength} · ${preparation.dosageForm}</p>
+    <p class="alias-match">${isConfirmed ? `Produktinformation abgeglichen am ${preparation.checkedOn}.` : "Mehrdeutiger Handelsname: Bitte passende Stärke und Darreichungsform auswählen."}</p>
+  </button>`;
 }
 
 function preparationMatchText(preparation, alias, medicationName) {
@@ -3707,16 +3768,55 @@ function preparationMatchText(preparation, alias, medicationName) {
 }
 
 function preparationPanel(medication) {
-  const linkedPreparations = preparations.filter((preparation) => preparation.medicationId === medication.id);
-  const verified = linkedPreparations.filter((preparation) => preparation.status === "Produktinformation abgeglichen");
+  const linkedPreparations = preparations.filter((preparation) => preparation.medicationIds.includes(medication.id));
+  const verified = linkedPreparations.filter(isVerifiedPreparation);
   const pendingCount = linkedPreparations.length - verified.length;
   if (!linkedPreparations.length) return "";
   return `<article class="info-card info-card--neutral preparation-panel">
     <h3>Präparate und Handelsnamen</h3>
-    ${verified.length ? `<ul class="preparation-list">${verified.map((preparation) => `<li><strong>${preparation.tradeName}</strong><br>${preparation.strength} · ${preparation.dosageForm}${preparation.audience ? `<br><strong>${preparation.audience}</strong>` : ""}${preparation.safetyNote ? `<br><span class="preparation-note">${preparation.safetyNote}</span>` : ""}<br><a href="${preparation.sourceUrl}" target="_blank" rel="noreferrer">${preparation.sourceLabel}</a> · abgeglichen am ${preparation.checkedOn}</li>`).join("")}</ul>` : ""}
+    ${verified.length ? `<ul class="preparation-list">${verified.map((preparation) => `<li><button class="preparation-link" data-preparation-id="${preparation.id}" type="button">${preparation.tradeName}</button><br>${preparation.strength} · ${preparation.dosageForm}${preparation.audience ? `<br><strong>${preparation.audience}</strong>` : ""}${preparation.safetyNote ? `<br><span class="preparation-note">${preparation.safetyNote}</span>` : ""}<br><a href="${preparation.sourceUrl}" target="_blank" rel="noreferrer">${preparation.sourceLabel}</a> · abgeglichen am ${preparation.checkedOn}</li>`).join("")}</ul>` : ""}
     ${pendingCount ? `<p>${pendingCount} weitere Handelsnamen sind als Suchhilfe hinterlegt. Ihre konkrete Packungsvariante muss noch in <a href="${defaultSource.url}" target="_blank" rel="noreferrer">PharmNet.Bund</a> abgeglichen werden.</p>` : ""}
     <p class="preparation-note">Auch bei abgeglichener Zuordnung gilt: Nicht selbst wechseln, absetzen oder dosieren. Entscheidend sind Wirkstoff(e), Stärke und Darreichungsform auf der tatsächlichen Packung.</p>
   </article>`;
+}
+
+function openPreparation(id) {
+  const preparation = verifiedPreparations.find((item) => item.id === id);
+  if (!preparation) return;
+  const medicationLinks = preparation.medicationIds.map((medicationId) => {
+    const medication = medications.find((item) => item.id === medicationId);
+    return medication ? `<button class="preparation-link" data-medication-id="${medication.id}" type="button">${medication.name}</button>` : "";
+  }).filter(Boolean).join(" · ");
+  const isConfirmed = isVerifiedPreparation(preparation);
+  detail.innerHTML = `
+    <button class="back-button" id="back-button" type="button">← Zurück zur Suche</button>
+    <div class="detail-header"><p class="eyebrow">${isConfirmed ? "Konkretes Präparat" : "Handelsname – Packungsabgleich nötig"}</p><h2>${preparation.tradeName}</h2><p class="detail-meta">${preparation.activeIngredients}</p></div>
+    <div class="cards">
+      <article class="info-card info-card--neutral preparation-detail">
+        <h3>Diese Packungsvariante</h3>
+        <dl class="preparation-facts">
+          <div><dt>Wirkstoff(e)</dt><dd>${preparation.activeIngredients}</dd></div>
+          <div><dt>Stärke</dt><dd>${preparation.strength}</dd></div>
+          <div><dt>Darreichungsform</dt><dd>${preparation.dosageForm}</dd></div>
+          <div><dt>Altersbereich</dt><dd>${preparation.ageNote}</dd></div>
+        </dl>
+        ${preparation.safetyNote ? `<p class="preparation-note">${preparation.safetyNote}</p>` : ""}
+      </article>
+      <article class="info-card info-card--positive">
+        <h3>Einfache Erklärung</h3>
+        <p>Wirkstoffkarte${preparation.medicationIds.length > 1 ? "n" : ""}: ${medicationLinks}</p>
+      </article>
+      <article class="info-card info-card--warning">
+        <h3>Packung prüfen</h3>
+        <p>Vergleichen Sie Handelsname, Wirkstoff(e), Stärke und Darreichungsform mit Ihrer tatsächlichen Packung. Nicht selbst wechseln, absetzen oder dosieren.</p>
+      </article>
+    </div>
+    <p class="source"><strong>Status: ${preparation.status}.</strong> Quelle: <a href="${preparation.sourceUrl}" target="_blank" rel="noreferrer">${preparation.sourceLabel}</a>${preparation.checkedOn ? ` · abgeglichen am ${preparation.checkedOn}` : ""}.</p>`;
+  list.hidden = true;
+  status.hidden = true;
+  detail.hidden = false;
+  detail.scrollIntoView({ behavior: "smooth", block: "start" });
+  document.querySelector("#back-button").focus();
 }
 
 function openDetail(id) {
@@ -3777,15 +3877,29 @@ function card(title, text, style) {
 search.addEventListener("input", (event) => renderList(event.target.value));
 categoryFilter.addEventListener("change", () => renderList(search.value));
 list.addEventListener("click", (event) => {
-  const button = event.target.closest("[data-id]");
-  if (button) openDetail(button.dataset.id);
+  const preparationButton = event.target.closest("[data-preparation-id]");
+  if (preparationButton) {
+    openPreparation(preparationButton.dataset.preparationId);
+    return;
+  }
+  const medicationButton = event.target.closest("[data-id]");
+  if (medicationButton) openDetail(medicationButton.dataset.id);
 });
 detail.addEventListener("click", (event) => {
-  if (event.target.id !== "back-button") return;
-  detail.hidden = true;
-  list.hidden = false;
-  renderList(search.value);
-  search.focus();
+  if (event.target.id === "back-button") {
+    detail.hidden = true;
+    list.hidden = false;
+    renderList(search.value);
+    search.focus();
+    return;
+  }
+  const preparationButton = event.target.closest("[data-preparation-id]");
+  if (preparationButton) {
+    openPreparation(preparationButton.dataset.preparationId);
+    return;
+  }
+  const medicationButton = event.target.closest("[data-medication-id]");
+  if (medicationButton) openDetail(medicationButton.dataset.medicationId);
 });
 
 renderList();

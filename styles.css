@@ -57,6 +57,13 @@ h2 { font-size: 1.35rem; letter-spacing: -.025em; margin-bottom: .85rem; }
 .preparation-list li + li { margin-top: .7rem; }
 .preparation-list a { color: #175ea8; }
 .preparation-note { color: #536174; font-size: .88rem; }
+.preparation-result { border-left: .3rem solid #5978b8; }
+.preparation-link { background: transparent; border: 0; color: #175ea8; font: inherit; font-weight: 700; padding: 0; text-align: left; text-decoration: underline; }
+.preparation-link:focus-visible { border-radius: .2rem; box-shadow: 0 0 0 3px #cfe4fa; outline: 0; }
+.preparation-facts { display: grid; gap: .65rem; margin: .65rem 0 0; }
+.preparation-facts div { border-top: 1px solid #e0e5eb; padding-top: .55rem; }
+.preparation-facts dt { color: #536174; font-size: .78rem; font-weight: 700; text-transform: uppercase; }
+.preparation-facts dd { margin: .1rem 0 0; }
 .source { color: #536174; font-size: .86rem; margin-top: 1.2rem; }
 .source a { color: #175ea8; }
 
