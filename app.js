@@ -3294,6 +3294,56 @@ const reviewedDrafts = [
     sideEffects: "Müdigkeit, Benommenheit, Schwindel, Kopfschmerzen, Übelkeit, Erbrechen, Sehstörungen und niedriger Blutdruck können auftreten.",
     urgent: "Bei Atemnot, Ohnmacht, starker Verwirrtheit oder Benommenheit, Gelbfärbung von Haut oder Augen, schwerem Hautausschlag oder einer möglichen Überdosierung sofort medizinische Hilfe holen.",
     source: "Gebrauchsinformation: Methocarbamol Aristo® 750 mg Tabletten (aktualisiert 08/2025, abgerufen am 23.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/m/methocarbamol-aristo-750-mg-tabletten", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "fusidinsaeure-creme", name: "Fusidinsäure (Creme)", examples: "Referenzpräparat: Fucidine® 20 mg/g Creme", category: "Hautantibiotikum",
+    purpose: "Fusidinsäure-Creme wird zur örtlichen Behandlung bestimmter bakteriell infizierter Hauterkrankungen eingesetzt.",
+    does: "Sie hemmt oder tötet empfindliche Bakterien direkt an der behandelten Hautstelle.",
+    doesNot: "Sie hilft nicht gegen Pilzinfektionen, Virusinfektionen, Akne oder jede Form von geröteter und juckender Haut. Sie ersetzt keine Abklärung, wenn sich eine Hautinfektion ausbreitet.",
+    daily: "Nur dünn und genau so lange wie verordnet auftragen. Nicht mit anderen teilen und nicht länger oder wiederholt auf eigene Entscheidung anwenden: Dadurch können Bakterien unempfindlich gegen das Antibiotikum werden. Augen- und Schleimhautkontakt vermeiden.",
+    sideEffects: "Juckreiz, Hautausschlag, Reizung, Brennen, Stechen, Rötung oder trockene Haut an der behandelten Stelle können auftreten.",
+    urgent: "Bei Schwellung von Gesicht oder Hals, Atemnot, großflächigem oder blasenbildendem Hautausschlag, Fieber oder einer rasch zunehmenden Rötung, Schwellung oder Schmerzen sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: Fucidine® 20 mg/g Creme (aktualisiert 09/2025, abgerufen am 23.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/f/fucidine-20-mgg-creme", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "tacrolimus-salbe", name: "Tacrolimus (Salbe)", examples: "Referenzpräparat: Tacrolimus Dermapharm® 1 mg/g Salbe", category: "Hautmittel bei Neurodermitis",
+    purpose: "Tacrolimus-Salbe wird bei mittelschwerem bis schwerem atopischem Ekzem (Neurodermitis) eingesetzt, wenn andere örtliche Behandlungen nicht ausreichend helfen oder nicht geeignet sind.",
+    does: "Sie bremst die übermäßige Abwehrreaktion in der Haut und kann Entzündung, Rötung und Juckreiz verringern.",
+    doesNot: "Sie ist kein Kortison, behandelt aber auch keine bakterielle, virale oder Pilzinfektion der Haut. Infizierte Hautstellen müssen vorher ärztlich beurteilt werden.",
+    daily: "Nur nach dem persönlichen Plan dünn auf die betroffenen Stellen auftragen. Sonnenlicht und UV-Behandlung auf den behandelten Stellen meiden bzw. gut schützen. Nicht eigenständig auf Schleimhäute, unter luftdichte Verbände oder auf neu auftretende unklare Hautveränderungen auftragen.",
+    sideEffects: "Brennen, Wärmegefühl, Juckreiz, Rötung, Kribbeln oder Hautschmerz an der behandelten Stelle können besonders zu Beginn auftreten. Hautinfektionen sind möglich.",
+    urgent: "Bei Schwellung von Gesicht oder Hals, Atemnot, Fieber mit schmerzhaften Bläschen oder Krusten, rasch zunehmender Rötung oder Schmerzen oder schwerem Hautausschlag sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: Tacrolimus Dermapharm® 1 mg/g Salbe (aktualisiert 03/2024, abgerufen am 23.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/t/tacrolimus-dermapharm-1-mgg-salbe", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "calcipotriol-betamethason", name: "Calcipotriol / Betamethason (Salbe)", examples: "Referenzpräparat: Calcipotriderm comp.® Salbe", category: "Schuppenflechte-Mittel",
+    purpose: "Die Salbe wird bei Erwachsenen zur Behandlung einer Plaque-Psoriasis (Psoriasis vulgaris) auf der Haut eingesetzt.",
+    does: "Calcipotriol normalisiert das zu schnelle Wachstum der Hautzellen. Betamethason ist ein Kortison und hemmt die Entzündung.",
+    doesNot: "Sie heilt die Schuppenflechte nicht dauerhaft und ist nicht zur Behandlung von Akne, Rosazea, Pilz- oder anderen Hautinfektionen geeignet. Nicht auf unklare oder infizierte Hautstellen auftragen.",
+    daily: "Nur auf die vom Arzt genannten Psoriasis-Stellen und genau nach Plan auftragen. Hände danach waschen, Kontakt mit Gesicht, Augen und Schleimhäuten vermeiden. Menge, Dauer und mögliche weitere Kortison- oder Calcipotriol-Präparate unbedingt mit der Praxis abgleichen.",
+    sideEffects: "Juckreiz, Brennen, Hautreizung, Ausschlag, trockene Haut und eine Verschlechterung der Schuppenflechte können auftreten. Bei längerer oder großflächiger Anwendung können Kortisonwirkungen zunehmen.",
+    urgent: "Bei Schwellung von Gesicht oder Hals, Atemnot, Blasenbildung, rasch zunehmender Hautrötung oder Schmerzen, starken Sehstörungen oder Zeichen einer schweren Infektion sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: Calcipotriderm comp.® 50 Mikrogramm/g + 0,5 mg/g Salbe (abgerufen am 23.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/c/calcipotriderm-comp-50-mikrogrammg--05-mgg-salbe", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "benzoylperoxid", name: "Benzoylperoxid (Gel)", examples: "Referenzpräparat: Benzaknen® 5 % Gel", category: "Aknemittel",
+    purpose: "Benzoylperoxid-Gel wird bei leichter bis mittelschwerer Akne eingesetzt.",
+    does: "Es wirkt gegen Akne-Bakterien und unterstützt die Ablösung oberflächlicher Hautschichten. Dadurch können Pickel und entzündete Stellen abnehmen.",
+    doesNot: "Es ist kein Mittel gegen jede Rötung oder jeden Ausschlag und ersetzt keine Abklärung schwerer, schmerzhafter oder narbenbildender Akne. Es wirkt nicht als allgemeines Hautantibiotikum.",
+    daily: "Nur auf die betroffenen Hautstellen nach Packungsbeilage oder ärztlichem Plan auftragen. Augen, Lippen und Schleimhäute aussparen. Das Gel kann Textilien und Haare bleichen; Sonne und UV-Licht möglichst meiden oder Sonnenschutz verwenden.",
+    sideEffects: "Rötung, Brennen, Juckreiz, trockene Haut, Spannungsgefühl und Schuppung können auftreten, besonders zu Beginn.",
+    urgent: "Bei Schwellung von Gesicht oder Hals, Atemnot, starkem oder großflächigem Hautausschlag, Blasenbildung oder heftiger Reizung sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: Benzaknen® 5 % Gel (abgerufen am 23.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/b/benzaknen-5--gel", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "azelainsaeure", name: "Azelainsäure (Creme)", examples: "Referenzpräparat: Skinoren® 20 % Creme", category: "Aknemittel",
+    purpose: "Azelainsäure-Creme wird zur Behandlung von Akne eingesetzt.",
+    does: "Sie wirkt entzündungshemmend, beeinflusst Akne-Bakterien und kann die Verstopfung von Poren verringern.",
+    doesNot: "Sie ist kein Mittel gegen jede Hautrötung oder Hautinfektion und ersetzt keine ärztliche Abklärung schwerer, schmerzhafter oder narbenbildender Akne.",
+    daily: "Nur nach Packungsbeilage oder ärztlichem Plan dünn auf die betroffenen Hautstellen auftragen. Augen, Mund und andere Schleimhäute aussparen; nach Kontakt sofort mit Wasser spülen. Die Wirkung entwickelt sich schrittweise, nicht sofort.",
+    sideEffects: "Brennen, Juckreiz, Rötung, trockene oder schuppige Haut und Reizung an der behandelten Stelle können auftreten.",
+    urgent: "Bei Schwellung von Gesicht oder Hals, Atemnot, starkem oder großflächigem Hautausschlag, Blasenbildung oder heftiger Reizung sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: Skinoren® 20 % Creme (abgerufen am 23.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/s/skinoren-20--creme", reviewStatus: "Quellenbasierter Entwurf"
   }
 ];
 
@@ -3365,6 +3415,7 @@ const commonBrandAliases = {
   oseltamivir: ["Tamiflu", "Ebilfumin"], "nirmatrelvir-ritonavir": ["Paxlovid"], clindamycin: ["Clindamycin 1 A Pharma", "Sobelin"], phenoxymethylpenicillin: ["PenHEXAL", "Infectocillin"], "amoxicillin-clavulansaeure": ["Amoxi-Clavulan", "AmoxiClav", "Augmentan"],
   metronidazol: ["Metronidazol Aristo", "Flagyl", "Clont"], pivmecillinam: ["X-SYSTO", "Selexid"], trimethoprim: ["Infectotrimet"], permethrin: ["InfectoScab", "Infectoscab"], "mupirocin-nase": ["Mupirocin InfectoPharm", "Bactroban Nasensalbe"],
   naproxen: ["Naproxen HEXAL", "Aleve", "Dolormin GS"], celecoxib: ["Celebrex", "Celecoxib TAD"], etoricoxib: ["Arcoxia", "Etoricox-HEXAL", "Etoriax"], meloxicam: ["Mobec", "Melosus"], methocarbamol: ["Methocarbamol Aristo", "Methocarbamol HEXAL", "MethocaPUREN"],
+  "fusidinsaeure-creme": ["Fucidine", "Fusicutan"], "tacrolimus-salbe": ["Protopic", "Takrozem", "Tacrolimus Dermapharm"], "calcipotriol-betamethason": ["Daivobet", "Calcipotriderm comp."], benzoylperoxid: ["Benzaknen", "Benzaknen Wash"], azelainsaeure: ["Skinoren"],
   abirateron: ["Zytiga"], apalutamid: ["Erleada"], enzalutamid: ["Xtandi"], darolutamid: ["Nubeqa"], degarelix: ["Firmagon"], relugolix: ["Orgovyx"], denosumab: ["Prolia", "Xgeva"], zoledronsaeure: ["Zometa", "Aclasta"],
   olaparib: ["Lynparza"], talazoparib: ["Talzenna"], docetaxel: ["Taxotere"], cabazitaxel: ["Jevtana"], "radium-223-dichlorid": ["Xofigo"], "lutetium-177-vipivotid-tetraxetan": ["Pluvicto"], pembrolizumab: ["Keytruda"], nivolumab: ["Opdivo"], abemaciclib: ["Verzenios"], palbociclib: ["Ibrance"], ribociclib: ["Kisqali"], goserelin: ["Zoladex"], triptorelin: ["Pamorelin", "Decapeptyl"], bicalutamid: ["Casodex"],
   hydrocortison: ["Plenadren", "Hydrocortison Jenapharm"], methylprednisolon: ["Urbason", "Medrol"], filgrastim: ["Neupogen", "Zarzio"], pegfilgrastim: ["Neulasta", "Ziextenzo"], "epoetin-alfa": ["Eprex"], "darbepoetin-alfa": ["Aranesp"],
