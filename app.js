@@ -3344,6 +3344,56 @@ const reviewedDrafts = [
     sideEffects: "Brennen, Juckreiz, Rötung, trockene oder schuppige Haut und Reizung an der behandelten Stelle können auftreten.",
     urgent: "Bei Schwellung von Gesicht oder Hals, Atemnot, starkem oder großflächigem Hautausschlag, Blasenbildung oder heftiger Reizung sofort medizinische Hilfe holen.",
     source: "Gebrauchsinformation: Skinoren® 20 % Creme (abgerufen am 23.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/s/skinoren-20--creme", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "thiamazol", name: "Thiamazol", examples: "Referenzpräparat: Thiamazol 20 mg Henning® Filmtabletten", category: "Mittel gegen Schilddrüsenüberfunktion",
+    purpose: "Thiamazol wird eingesetzt, um eine Schilddrüsenüberfunktion zu behandeln oder vor einer Operation beziehungsweise Radioiodtherapie zu kontrollieren.",
+    does: "Es bremst die Bildung von Schilddrüsenhormonen. Dadurch können Beschwerden einer Überfunktion wie Herzrasen, Zittern, Schwitzen und Gewichtsverlust abnehmen.",
+    doesNot: "Es entfernt die Ursache der Überfunktion nicht unmittelbar und ist kein Mittel gegen eine Schilddrüsenunterfunktion. Es darf weder eigenständig abgesetzt noch in der Dosis verändert werden.",
+    daily: "Genau nach dem persönlichen Plan einnehmen und die Blutwerte regelmäßig kontrollieren lassen. Bei Fieber, Halsschmerzen, wunden Stellen im Mund oder Furunkeln die Einnahme sofort beenden und umgehend ärztlich abklären lassen – dies kann auf einen gefährlichen Mangel bestimmter weißer Blutkörperchen hinweisen.",
+    sideEffects: "Hautausschlag, Juckreiz, Nesselsucht, Übelkeit, Erbrechen, Gelenkschmerzen und Geschmacksstörungen können auftreten. Selten sind schwere Blutbild-, Leber- oder Bauchspeicheldrüsenprobleme möglich.",
+    urgent: "Bei Fieber, Halsschmerzen, Entzündung im Mund, Furunkeln, starken Bauchschmerzen, Gelbfärbung von Haut oder Augen, dunklem Urin, Atemnot oder schwerem Hautausschlag Thiamazol nicht weiter einnehmen und sofort ärztliche Hilfe holen.",
+    source: "Gebrauchsinformation: Thiamazol 20 mg Henning® Filmtabletten (abgerufen am 23.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/t/thiamazol-20-mg-henning", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "carbimazol", name: "Carbimazol", examples: "Referenzpräparat: Carbimazol 10 mg Henning® Filmtabletten", category: "Mittel gegen Schilddrüsenüberfunktion",
+    purpose: "Carbimazol wird zur Behandlung einer Schilddrüsenüberfunktion eingesetzt, auch zur Vorbereitung einer Operation oder Radioiodtherapie.",
+    does: "Es wird im Körper zu Thiamazol umgewandelt und bremst die Bildung von Schilddrüsenhormonen.",
+    doesNot: "Es entfernt die Ursache der Überfunktion nicht unmittelbar und ist kein Mittel gegen eine Schilddrüsenunterfunktion. Es darf weder eigenständig abgesetzt noch in der Dosis verändert werden.",
+    daily: "Genau nach dem persönlichen Plan einnehmen und die Blutwerte regelmäßig kontrollieren lassen. Bei Fieber, Halsschmerzen, wunden Stellen im Mund oder Furunkeln die Einnahme sofort beenden und umgehend ärztlich abklären lassen. Bei Frauen, die schwanger werden können, ist eine sichere Verhütung und eine sofortige Rücksprache bei Schwangerschaft wichtig.",
+    sideEffects: "Hautausschlag, Juckreiz, Nesselsucht, Übelkeit, Erbrechen, Gelenkschmerzen und Geschmacksstörungen können auftreten. Selten sind schwere Blutbild-, Leber- oder Bauchspeicheldrüsenprobleme möglich.",
+    urgent: "Bei Fieber, Halsschmerzen, Entzündung im Mund, Furunkeln, starken Bauchschmerzen, Gelbfärbung von Haut oder Augen, dunklem Urin, Atemnot oder schwerem Hautausschlag Carbimazol nicht weiter einnehmen und sofort ärztliche Hilfe holen.",
+    source: "Gebrauchsinformation: Carbimazol 10 mg Henning® Filmtabletten (abgerufen am 23.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/c/carbimazol-10-mg-henning", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "propylthiouracil", name: "Propylthiouracil", examples: "Referenzpräparat: Propycil® 50 mg Tabletten", category: "Mittel gegen Schilddrüsenüberfunktion",
+    purpose: "Propylthiouracil wird zur Behandlung einer Schilddrüsenüberfunktion, etwa bei Morbus Basedow oder Schilddrüsenautonomie, und zur Vorbereitung einer Operation oder Radioiodtherapie eingesetzt.",
+    does: "Es bremst die Bildung von Schilddrüsenhormonen und vermindert zudem teilweise die Umwandlung in die stärker wirksame Hormonform.",
+    doesNot: "Es entfernt die Ursache der Überfunktion nicht unmittelbar und ist kein Mittel gegen eine Schilddrüsenunterfunktion. Es darf weder eigenständig abgesetzt noch in der Dosis verändert werden.",
+    daily: "Nur genau nach dem persönlichen Plan einnehmen; vor und während der Behandlung sind Blutbild-, Leber- und Nierenkontrollen wichtig. Bei Fieber, Halsschmerzen, wunden Stellen im Mund oder starker Abgeschlagenheit die Einnahme sofort beenden und unverzüglich ärztlich abklären lassen.",
+    sideEffects: "Übelkeit, Erbrechen, Hautausschlag, Juckreiz, Gelenkschmerzen und Geschmacksstörungen können auftreten. Selten sind schwere Blutbildveränderungen, schwere Leberschäden oder Gefäßentzündungen möglich.",
+    urgent: "Bei Fieber, Halsschmerzen, Entzündung im Mund, Gelbfärbung von Haut oder Augen, dunklem Urin, starkem Juckreiz, Bauchschmerzen, Atemnot, Blut im Urin, punktförmigen Hautblutungen oder schwerem Hautausschlag Propylthiouracil nicht weiter einnehmen und sofort ärztliche Hilfe holen.",
+    source: "Fachinformation: Propycil® 50 mg Tabletten (Stand 01/2026, abgerufen am 23.07.2026)", sourceUrl: "https://www.fachinfo.de/fi/pdf/000239", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "liothyronin", name: "Liothyronin", examples: "Referenzpräparat: Thybon® 100 Henning Tabletten", category: "Schilddrüsenhormon",
+    purpose: "Liothyronin ist ein Schilddrüsenhormon. Es wird in besonderen Situationen eingesetzt, um fehlendes Hormon zu ersetzen oder die Schilddrüse zu entlasten, meist zusätzlich zu Levothyroxin.",
+    does: "Es entspricht der stärker wirksamen Form des natürlichen Schilddrüsenhormons und wirkt schneller als Levothyroxin.",
+    doesNot: "Es ist nicht zur selbstständigen Behandlung von Müdigkeit oder zur Gewichtsabnahme geeignet und nicht das übliche Standardmittel bei jeder Schilddrüsenunterfunktion.",
+    daily: "Nur nach streng persönlichem Plan einnehmen und Schilddrüsenwerte kontrollieren lassen. Bei Herzproblemen, hohem Blutdruck, Diabetes, Blutverdünnern oder einer geplanten Therapieumstellung immer Praxis oder Apotheke einbeziehen. Nicht selbst die Marke oder Dosis wechseln.",
+    sideEffects: "Bei zu hoher Wirkung können Herzklopfen, schneller oder unregelmäßiger Puls, Zittern, Schwitzen, Nervosität, Schlafstörungen, Kopfschmerzen, Durchfall oder Gewichtsverlust auftreten.",
+    urgent: "Bei Brustschmerz, Atemnot, Ohnmacht, starkem oder unregelmäßigem Herzschlag, ausgeprägter Unruhe oder Verwirrtheit sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: Thybon® 100 Henning Tabletten (aktualisiert 04/2025, abgerufen am 23.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/t/thybon-100-henning/", reviewStatus: "Quellenbasierter Entwurf"
+  },
+  {
+    id: "levothyroxin-jodid", name: "Levothyroxin / Jodid", examples: "Referenzpräparat: Eferox Jod® Tabletten", category: "Schilddrüsenhormon mit Jod",
+    purpose: "Die Kombination wird bei einem einfachen Kropf ohne gleichzeitige Funktionsstörung eingesetzt, wenn zusätzliches Jod angezeigt ist, oder um nach Operation beziehungsweise Radioiodtherapie erneutem Kropfwachstum vorzubeugen.",
+    does: "Levothyroxin ersetzt Schilddrüsenhormon. Jodid liefert Jod als Baustein für die Hormonbildung. Zusammen können sie das Wachstum der Schilddrüse beeinflussen.",
+    doesNot: "Sie ist nicht für jede Schilddrüsenunterfunktion und nicht bei einer Schilddrüsenüberfunktion geeignet. Sie sollte nicht ohne ärztliche Prüfung mit weiteren Jodpräparaten kombiniert werden.",
+    daily: "Genau nach dem persönlichen Plan einnehmen und die Schilddrüsenwerte kontrollieren lassen. Eisen-, Calcium- und aluminiumhaltige Magenmittel können die Aufnahme von Levothyroxin vermindern; Einnahmeabstand mit Apotheke oder Praxis klären. Vor Kontrastmitteln oder dem Start von Amiodaron immer die behandelnde Praxis informieren.",
+    sideEffects: "Bei zu hoher Hormonwirkung können Herzklopfen, schneller oder unregelmäßiger Puls, Zittern, Schwitzen, Nervosität, Schlafstörungen, Durchfall oder Gewichtsverlust auftreten. Jod kann bei Veranlagung die Schilddrüsenfunktion beeinflussen.",
+    urgent: "Bei Brustschmerz, Atemnot, Ohnmacht, starkem oder unregelmäßigem Herzschlag, Schwellung von Gesicht oder Hals, schwerem Hautausschlag oder deutlichen Zeichen einer Überfunktion sofort medizinische Hilfe holen.",
+    source: "Gebrauchsinformation: Eferox Jod® Tabletten (abgerufen am 23.07.2026)", sourceUrl: "https://www.patienteninfo-service.de/a-z-liste/e/eferox-jod-tabletten", reviewStatus: "Quellenbasierter Entwurf"
   }
 ];
 
@@ -3416,6 +3466,7 @@ const commonBrandAliases = {
   metronidazol: ["Metronidazol Aristo", "Flagyl", "Clont"], pivmecillinam: ["X-SYSTO", "Selexid"], trimethoprim: ["Infectotrimet"], permethrin: ["InfectoScab", "Infectoscab"], "mupirocin-nase": ["Mupirocin InfectoPharm", "Bactroban Nasensalbe"],
   naproxen: ["Naproxen HEXAL", "Aleve", "Dolormin GS"], celecoxib: ["Celebrex", "Celecoxib TAD"], etoricoxib: ["Arcoxia", "Etoricox-HEXAL", "Etoriax"], meloxicam: ["Mobec", "Melosus"], methocarbamol: ["Methocarbamol Aristo", "Methocarbamol HEXAL", "MethocaPUREN"],
   "fusidinsaeure-creme": ["Fucidine", "Fusicutan"], "tacrolimus-salbe": ["Protopic", "Takrozem", "Tacrolimus Dermapharm"], "calcipotriol-betamethason": ["Daivobet", "Calcipotriderm comp."], benzoylperoxid: ["Benzaknen", "Benzaknen Wash"], azelainsaeure: ["Skinoren"],
+  thiamazol: ["Thiamazol Henning", "Thiamazol Aristo", "Methizol"], carbimazol: ["Carbimazol Henning", "Carbimazol Aristo"], propylthiouracil: ["Propycil"], liothyronin: ["Thybon"], "levothyroxin-jodid": ["Eferox Jod", "Jodthyrox", "L-Thyroxin Jod Aristo", "Thyronajod"],
   abirateron: ["Zytiga"], apalutamid: ["Erleada"], enzalutamid: ["Xtandi"], darolutamid: ["Nubeqa"], degarelix: ["Firmagon"], relugolix: ["Orgovyx"], denosumab: ["Prolia", "Xgeva"], zoledronsaeure: ["Zometa", "Aclasta"],
   olaparib: ["Lynparza"], talazoparib: ["Talzenna"], docetaxel: ["Taxotere"], cabazitaxel: ["Jevtana"], "radium-223-dichlorid": ["Xofigo"], "lutetium-177-vipivotid-tetraxetan": ["Pluvicto"], pembrolizumab: ["Keytruda"], nivolumab: ["Opdivo"], abemaciclib: ["Verzenios"], palbociclib: ["Ibrance"], ribociclib: ["Kisqali"], goserelin: ["Zoladex"], triptorelin: ["Pamorelin", "Decapeptyl"], bicalutamid: ["Casodex"],
   hydrocortison: ["Plenadren", "Hydrocortison Jenapharm"], methylprednisolon: ["Urbason", "Medrol"], filgrastim: ["Neupogen", "Zarzio"], pegfilgrastim: ["Neulasta", "Ziextenzo"], "epoetin-alfa": ["Eprex"], "darbepoetin-alfa": ["Aranesp"],
